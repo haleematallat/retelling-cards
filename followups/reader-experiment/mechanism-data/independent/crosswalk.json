@@ -1,0 +1,1122 @@
+{
+  "db2ca0e04c992ba1": {
+    "id": "claude-haiku#A#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "de523df84ac516fe": {
+    "id": "claude-haiku#B#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "dae1a3697271de5b": {
+    "id": "claude-haiku#S#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "dcc38c1628e8cb98": {
+    "id": "claude-haiku#C#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d4dc02ad0da6dfab": {
+    "id": "ollama-qwen3-5-9b#A#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d157a7120e40a0bc": {
+    "id": "ollama-qwen3-5-9b#B#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "df74868e3434de5f": {
+    "id": "ollama-qwen3-5-9b#S#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "ddd2407506bc6481": {
+    "id": "ollama-qwen3-5-9b#C#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "article": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d188127de971be7c": {
+    "id": "claude-haiku#B#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d23853ac72ebcf8c": {
+    "id": "claude-haiku#S#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "dff7985a274e7c73": {
+    "id": "claude-haiku#C#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d5ac284c0776d81a": {
+    "id": "claude-haiku#A#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d1bae074d4a43ce0": {
+    "id": "ollama-qwen3-5-9b#A#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d6a64b32e6c8893b": {
+    "id": "ollama-qwen3-5-9b#B#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d9ba86269db735f0": {
+    "id": "ollama-qwen3-5-9b#S#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d355f2a6f9927627": {
+    "id": "ollama-qwen3-5-9b#C#news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "article": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d5506a98c3c37c10": {
+    "id": "claude-haiku#S#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d548d7293e0487d0": {
+    "id": "claude-haiku#C#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "dc4b573ba648ecee": {
+    "id": "claude-haiku#A#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d1f7d7742775413c": {
+    "id": "claude-haiku#B#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d4758ef22f1470df": {
+    "id": "ollama-qwen3-5-9b#A#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "de54a148a1b67e4a": {
+    "id": "ollama-qwen3-5-9b#B#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "db0856ccd43b97bf": {
+    "id": "ollama-qwen3-5-9b#S#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d80e45c57ff1540f": {
+    "id": "ollama-qwen3-5-9b#C#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "article": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d2429d5ae37cd7b3": {
+    "id": "claude-haiku#C#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d041c67f13ffd569": {
+    "id": "claude-haiku#A#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d9a5a1d31ff60ac7": {
+    "id": "claude-haiku#B#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "dcf0d60099c81afe": {
+    "id": "claude-haiku#S#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "db4529043e605dcb": {
+    "id": "ollama-qwen3-5-9b#A#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d65d4848a3b7ce9d": {
+    "id": "ollama-qwen3-5-9b#B#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dc88e427c754c914": {
+    "id": "ollama-qwen3-5-9b#S#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d19749ac045cf134": {
+    "id": "ollama-qwen3-5-9b#C#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "article": "news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "finding": "blackmail",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d02ed8de8bc78808": {
+    "id": "claude-haiku#A#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "db55764a62e41f25": {
+    "id": "claude-haiku#B#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d3b1071f00663ff6": {
+    "id": "claude-haiku#S#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d9cf437210fbabbc": {
+    "id": "claude-haiku#C#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "db21af532e7df00e": {
+    "id": "ollama-qwen3-5-9b#A#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d7eb2db3ad680ee2": {
+    "id": "ollama-qwen3-5-9b#B#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d49a0859282a411e": {
+    "id": "ollama-qwen3-5-9b#S#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "df6fd545f121f999": {
+    "id": "ollama-qwen3-5-9b#C#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "article": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "finding": "alignment_faking",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dfb610b0b76f399d": {
+    "id": "claude-haiku#B#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "da2b998df55cb3e9": {
+    "id": "claude-haiku#S#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d4679a5496f08339": {
+    "id": "claude-haiku#C#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d3eb4da291c3767e": {
+    "id": "claude-haiku#A#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d8b50702352e413a": {
+    "id": "ollama-qwen3-5-9b#A#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "de41229179d0089f": {
+    "id": "ollama-qwen3-5-9b#B#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d99ddcb446c59f8e": {
+    "id": "ollama-qwen3-5-9b#S#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d68183e2081e31ca": {
+    "id": "ollama-qwen3-5-9b#C#news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "article": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+    "finding": "alignment_faking",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d29b1554150c9e1d": {
+    "id": "claude-haiku#S#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "dd8b22f728fa1d76": {
+    "id": "claude-haiku#C#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "dd36604c6e28817c": {
+    "id": "claude-haiku#A#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d0377a8533483d28": {
+    "id": "claude-haiku#B#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "ddd4b16e03eaa525": {
+    "id": "ollama-qwen3-5-9b#A#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d9d750266fcd72e1": {
+    "id": "ollama-qwen3-5-9b#B#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d1ec57defe925655": {
+    "id": "ollama-qwen3-5-9b#S#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dea921c50127d2b0": {
+    "id": "ollama-qwen3-5-9b#C#news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "article": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+    "finding": "alignment_faking",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dfa4e31991f7ec72": {
+    "id": "claude-haiku#C#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d1ea27c0cc91fa5a": {
+    "id": "claude-haiku#A#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "df134955e43f07cd": {
+    "id": "claude-haiku#B#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d3da8ef3a995a914": {
+    "id": "claude-haiku#S#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "dd9cd59873b8e189": {
+    "id": "ollama-qwen3-5-9b#A#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d3942e267b8b1452": {
+    "id": "ollama-qwen3-5-9b#B#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d3050fcd889583f6": {
+    "id": "ollama-qwen3-5-9b#S#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "db7c2cabc3c55b9b": {
+    "id": "ollama-qwen3-5-9b#C#news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "article": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d51d489fefd390ef": {
+    "id": "claude-haiku#A#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d72f0d3762733454": {
+    "id": "claude-haiku#B#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "def0878ad2c77985": {
+    "id": "claude-haiku#S#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "da0d9f9567702dec": {
+    "id": "claude-haiku#C#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "db88f5277f1819a4": {
+    "id": "ollama-qwen3-5-9b#A#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d157c60795b10858": {
+    "id": "ollama-qwen3-5-9b#B#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d2cdbbd49b892063": {
+    "id": "ollama-qwen3-5-9b#S#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dec1d07a9c9315a2": {
+    "id": "ollama-qwen3-5-9b#C#news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "article": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d6e6bc17974b3e86": {
+    "id": "claude-haiku#B#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d23e0b7ddc0cf6f4": {
+    "id": "claude-haiku#S#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d9a730089c1041e6": {
+    "id": "claude-haiku#C#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "dcf7b004ac99a617": {
+    "id": "claude-haiku#A#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d969a2386a5e975f": {
+    "id": "ollama-qwen3-5-9b#A#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d1107b72d5e5441b": {
+    "id": "ollama-qwen3-5-9b#B#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "de0a131802d9d76b": {
+    "id": "ollama-qwen3-5-9b#S#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dd543635e6ada85c": {
+    "id": "ollama-qwen3-5-9b#C#news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "article": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d142e22fe5243e7b": {
+    "id": "claude-haiku#S#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d6fd9ec97c9febdc": {
+    "id": "claude-haiku#C#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d056b8130d86248b": {
+    "id": "claude-haiku#A#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d8286abe4600bee4": {
+    "id": "claude-haiku#B#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "df9b7a82b8099d28": {
+    "id": "ollama-qwen3-5-9b#A#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dc2ed8e16fd8889b": {
+    "id": "ollama-qwen3-5-9b#B#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d275cd3ee599992e": {
+    "id": "ollama-qwen3-5-9b#S#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d2eb418a939b9c23": {
+    "id": "ollama-qwen3-5-9b#C#news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "article": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+    "finding": "scheming",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d6b94f76f867ecde": {
+    "id": "claude-haiku#A#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "dd06efa45f3ccadf": {
+    "id": "claude-haiku#B#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d047e17f0e40eacb": {
+    "id": "claude-haiku#S#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "de9a46d7970cdec3": {
+    "id": "claude-haiku#C#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d88af24130933b6c": {
+    "id": "ollama-qwen3-5-9b#A#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "da8a468b30ec9b65": {
+    "id": "ollama-qwen3-5-9b#B#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dad4472298e6e647": {
+    "id": "ollama-qwen3-5-9b#S#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d2b65b1cc8b615a4": {
+    "id": "ollama-qwen3-5-9b#C#news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "article": "news|shutdown|https://www.windowscentral.com/software-apps/chatgpt-o3-ignored-shutdown-commands",
+    "finding": "shutdown",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d97b521be15273fb": {
+    "id": "claude-haiku#B#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d8194ecc7e5d3897": {
+    "id": "claude-haiku#S#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "ddf931333778b797": {
+    "id": "claude-haiku#C#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d44d9f77177df76d": {
+    "id": "claude-haiku#A#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d850a6cce3ff191b": {
+    "id": "ollama-qwen3-5-9b#A#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dfcc654533866a06": {
+    "id": "ollama-qwen3-5-9b#B#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "df015440eaa9fabc": {
+    "id": "ollama-qwen3-5-9b#S#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d94a958ec1988e13": {
+    "id": "ollama-qwen3-5-9b#C#news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "article": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+    "finding": "shutdown",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d5960a879e345044": {
+    "id": "claude-haiku#C#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d2570a97a7af04ad": {
+    "id": "claude-haiku#A#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "dc1146a0473c7220": {
+    "id": "claude-haiku#B#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "df0801909b63d55c": {
+    "id": "claude-haiku#S#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d066fc2802ec210e": {
+    "id": "ollama-qwen3-5-9b#A#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "db0fa36f24541457": {
+    "id": "ollama-qwen3-5-9b#B#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d4068949214a5d10": {
+    "id": "ollama-qwen3-5-9b#S#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d3ca3297df7fc824": {
+    "id": "ollama-qwen3-5-9b#C#news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "article": "news|metr_rct|https://www.infoworld.com/article/4020931/ai-coding-tools-can-slow-down-seasoned-developers-by-19.html",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "db5c4f591fd8e9ed": {
+    "id": "claude-haiku#A#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d8aeb58d78570aaf": {
+    "id": "claude-haiku#B#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d733e7a79e827ae1": {
+    "id": "claude-haiku#S#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "dcc1c7e350940d76": {
+    "id": "claude-haiku#C#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "dc56a9d8330cb84d": {
+    "id": "ollama-qwen3-5-9b#A#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dec6cb65a2b1945e": {
+    "id": "ollama-qwen3-5-9b#B#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "df5084a229e2f5fb": {
+    "id": "ollama-qwen3-5-9b#S#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d210a7655c48b49c": {
+    "id": "ollama-qwen3-5-9b#C#news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "article": "news|metr_rct|https://time.com/7302351/ai-software-coding-study/",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d2962d0a9137bc58": {
+    "id": "claude-haiku#B#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d3daf579b5e23cb1": {
+    "id": "claude-haiku#S#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d82476161dcbb6da": {
+    "id": "claude-haiku#C#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "da6e36465ab94694": {
+    "id": "claude-haiku#A#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d212841837741bc9": {
+    "id": "ollama-qwen3-5-9b#A#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d33a8fc1c151031f": {
+    "id": "ollama-qwen3-5-9b#B#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dadd4671a166225b": {
+    "id": "ollama-qwen3-5-9b#S#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d99ebb344d1cccf0": {
+    "id": "ollama-qwen3-5-9b#C#news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "article": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "de83d0550248a1bc": {
+    "id": "claude-haiku#S#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "df9d77c7d978cb16": {
+    "id": "claude-haiku#C#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d76b3e5e835ebe19": {
+    "id": "claude-haiku#A#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d97055d3f7b015ca": {
+    "id": "claude-haiku#B#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d64223d5da7ec0fc": {
+    "id": "ollama-qwen3-5-9b#A#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d0f558cff5fa4cc2": {
+    "id": "ollama-qwen3-5-9b#B#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d3b62b884a6c3c6c": {
+    "id": "ollama-qwen3-5-9b#S#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d4cddf2afe7b4812": {
+    "id": "ollama-qwen3-5-9b#C#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "article": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "finding": "metr_rct",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d1771ff0f2b03492": {
+    "id": "claude-haiku#C#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d80e8bf30c880404": {
+    "id": "claude-haiku#A#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "dea265ecc88c593b": {
+    "id": "claude-haiku#B#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "db1ea59801bee591": {
+    "id": "claude-haiku#S#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d77b1a354d4e23ef": {
+    "id": "ollama-qwen3-5-9b#A#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "df3b2499b54a5901": {
+    "id": "ollama-qwen3-5-9b#B#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d78cb32c70d964f2": {
+    "id": "ollama-qwen3-5-9b#S#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dbbcd58fcbc21c67": {
+    "id": "ollama-qwen3-5-9b#C#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "article": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "finding": "illusion_thinking",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "df01d0c04c1d161a": {
+    "id": "claude-haiku#A#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "d4b377b4203564dc": {
+    "id": "claude-haiku#B#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d8d6a7ec488dd09a": {
+    "id": "claude-haiku#S#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d5e2aba2a9c6a02b": {
+    "id": "claude-haiku#C#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d00bb9cdfbfdcec6": {
+    "id": "ollama-qwen3-5-9b#A#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d71d84b286e2a3eb": {
+    "id": "ollama-qwen3-5-9b#B#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d6e1cdf90ead654b": {
+    "id": "ollama-qwen3-5-9b#S#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "de68d7656a4f5147": {
+    "id": "ollama-qwen3-5-9b#C#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "article": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "finding": "illusion_thinking",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "db6267d3faa0823a": {
+    "id": "claude-haiku#S#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "S",
+    "reader": "claude-haiku"
+  },
+  "d0c8daac0e418c48": {
+    "id": "claude-haiku#C#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "C",
+    "reader": "claude-haiku"
+  },
+  "d1bcdc3edd835c07": {
+    "id": "claude-haiku#A#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "A",
+    "reader": "claude-haiku"
+  },
+  "db96f38586663402": {
+    "id": "claude-haiku#B#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "B",
+    "reader": "claude-haiku"
+  },
+  "d68fd7c9aeb20391": {
+    "id": "ollama-qwen3-5-9b#A#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "A",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d863bdd568e851ab": {
+    "id": "ollama-qwen3-5-9b#B#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "B",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "d5fb877b6bfd65a4": {
+    "id": "ollama-qwen3-5-9b#S#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "S",
+    "reader": "ollama:qwen3.5:9b"
+  },
+  "dc32f8778eb7426d": {
+    "id": "ollama-qwen3-5-9b#C#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "article": "news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "finding": "illusion_thinking",
+    "condition": "C",
+    "reader": "ollama:qwen3.5:9b"
+  }
+}

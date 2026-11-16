@@ -1,0 +1,265 @@
+{
+  "paper": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+  "claims": [
+    {
+      "id": "P13",
+      "claim": "The authors caution readers not to overgeneralize from the results.",
+      "counts_if": "The retelling says the authors warn the findings should not be broadly generalized beyond the study setting.",
+      "contradicted_if": "The retelling says the authors claim the result applies to all developers and all settings."
+    },
+    {
+      "id": "P14",
+      "claim": "The observed slowdown does not mean that current AI tools do not often improve developer productivity.",
+      "counts_if": "The retelling says the result does not prove AI tools generally fail to help developers, or that AI often can still help.",
+      "contradicted_if": "The retelling says the study shows AI coding tools generally do not improve productivity."
+    },
+    {
+      "id": "P16",
+      "claim": "The results are consistent with small new projects or unfamiliar codebases seeing substantial speedup from AI.",
+      "counts_if": "The retelling says AI might still substantially speed up work on small new projects or unfamiliar codebases.",
+      "contradicted_if": "The retelling says the study shows AI also slows down work on small new projects or unfamiliar codebases."
+    }
+  ],
+  "docs": [
+    {
+      "key": "d33a8fc1c151031f",
+      "text": "Your friend is right to question the hype; recent data suggests AI coding tools can actually slow developers down. A study by the nonprofit METR found that when engineers use AI, they take 19% longer to complete tasks. This contradicts developer expectations, as many believed AI would speed them up by roughly 24%. Even after experiencing this slowdown, users still overestimated the benefits, believing they had gained a 20% boost. However, there are important caveats. The study notes these results may reflect current technological limits rather than a permanent flaw. Furthermore, experts warn that recent job market struggles and layoffs are likely driven more by broader economic slowdowns and companies seeking to stay lean, rather than AI directly replacing engineers. While AI can write code, challenges remain when dealing with complex logic or large-scale development. Ultimately, while the technology is powerful, it hasn't yet delivered the full promise of automation expected in the industry.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "d8aeb58d78570aaf",
+      "text": "Yes, according to a new METR study of 16 experienced developers working on complex projects. Developers estimated that AI had sped them up by about 20%, but measurements showed it had slowed them down by about 20%. A METR researcher said the result surprised the AI community. The likely explanation is that current LLMs often cannot give the exact answer in one shot, so back-and-forth prompting can take longer than writing the code. One participant called LLMs a dopamine shortcut button. Caveats: the study covers only experienced coders, not newcomers who might benefit more, developers are still learning how to use these tools, and the authors urge readers not to overgeneralize.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d5960a879e345044",
+      "text": "Yes, but only in one narrow study. The nonprofit METR ran a randomized trial with 16 experienced open-source developers doing 246 real tasks on large, mature codebases they knew well. When AI was allowed, mostly Cursor Pro with Claude, tasks took 19 percent longer. The striking part is perception: developers expected AI to save them 24 percent of their time, and even after being slowed down, they believed it had saved them about 20 percent. Economists and machine learning experts had also predicted big gains. The authors warn against overgeneralizing. The study covers early-2025 tools and experienced developers on familiar, huge repositories. It doesn't mean AI tools never help, and earlier studies on simpler, isolated tasks found real speedups.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d2570a97a7af04ad",
+      "text": "Yes, in one rigorous study. METR ran a randomized controlled trial with 16 experienced open-source developers completing 246 real tasks on mature repositories averaging over a million lines of code. When AI tools such as Cursor Pro with Claude were allowed, tasks took 19% longer. The developers had predicted a 24% speedup and still believed afterward that AI had sped them up by 20%, so the perception gap is large. They accepted under 44% of AI suggestions and often reworked the code. Caveats: the sample was small, the tools were early-2025 versions, and the work was on large codebases the developers already knew well. The researchers say this does not mean AI tools never help. Other studies that found gains used simpler, more isolated tasks.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "dc1146a0473c7220",
+      "text": "Yes, in one rigorous study. METR ran a randomized controlled trial with 16 experienced open-source developers doing 246 real tasks in mature repositories with over a million lines of code. When they could use AI tools such as Cursor with Claude, they took 19% longer. The striking part is perception: they expected AI to make them 24% faster and still believed afterward that it helped by about 20%. Caveats matter. The developers were highly familiar with these codebases, the tools were early-2025 versions, and the setting was narrow. The researchers said the results don't necessarily spell doom for AI coding tools, and the slowdown reflects friction with large, complex projects rather than a verdict on AI overall. Other studies on simpler, more isolated tasks found real speedups, so the answer depends heavily on context.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "db5c4f591fd8e9ed",
+      "text": "Yes, at least in one study. METR measured 16 experienced developers working on complex projects, with and without AI assistance. Afterward, they estimated AI had sped them up by about 20 percent. The measurements showed it had slowed them down by about 20 percent. The likely reason is that today's models often can't read exactly what a developer wants in one shot, so they need lots of back-and-forth, which can take longer than writing the code yourself. One participant called LLMs a big dopamine shortcut button. The authors urge caution: the study only covers experienced coders, who may gain less than newcomers, and developers are still learning how to use these tools. They also note that the length of tasks AI can handle has been doubling about every seven months, so today's slowdown may not last.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d0f558cff5fa4cc2",
+      "text": "Your friend is right to question the hype; a recent randomized study actually found that AI coding tools made experienced developers slower, not faster. While participants predicted a 24% speedup, they were clocked at being 19% slower on average. This counterintuitive result stems from several factors: over-optimism about AI's utility, the fact that highly familiar developers didn't need much help, and the tools' struggle with large codebases. Developers spent more time prompting, waiting, and reviewing flawed outputs than actually coding. However, it is crucial to note the study's key caveats. The authors warn these findings are specific to their experimental conditions—specifically involving experienced devs working on massive repositories. They explicitly state this doesn't mean AI is universally useless or that future models won't improve. In different settings, such as smaller projects or for junior developers, AI might still offer significant benefits. So, while it slowed down this specific group right now, the tool's effectiveness depends heavily on context and user experience.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "db0fa36f24541457",
+      "text": "Your friend is right to question the hype; recent rigorous research suggests AI coding tools can actually slow experienced programmers down. A comprehensive study by Model Evaluation & Threat Research (METR) found that seasoned developers took 19% longer to complete tasks when using popular AI assistants like Cursor Pro and Claude compared to working without them. This contradicts the common belief that AI boosts speed, revealing a significant gap between perception and reality: while developers predicted a 24% time reduction, they still felt 20% more productive after experiencing the slowdown themselves. The study highlights that this friction occurs because experienced coders often reject most AI suggestions (less than 44%) and spend considerable time reviewing and modifying generated code to fit complex, mature codebases. While earlier studies using simple tasks showed speed gains, real-world scenarios involving intricate dependencies reveal a different story. The key takeaway is that organizations should not mistake developer satisfaction for actual productivity. Instead of treating AI as a universal accelerator, it should be used contextually—augmenting cognition for documentation or boilerplate while relying on human expertise for complex logic and codebase familiarity.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "df0801909b63d55c",
+      "text": "Yes, in one rigorous study. The nonprofit METR ran a randomized controlled trial with 16 experienced open-source developers completing 246 real tasks on large, mature repositories. When AI tools were allowed, mainly Cursor Pro with Claude 3.5 or 3.7 Sonnet, developers took 19% longer. They had expected a 24% speedup, and afterward they still believed AI had sped them up by 20%, which is the striking part. Key caveats apply. The participants were experienced developers working on codebases they knew well, and the repositories were very large, so the results may not hold in other settings. The study's authors also say the results do not necessarily spell doom for AI coding tools. Developers accepted less than 44% of AI suggestions and often reworked the output. Other studies, using simpler and more isolated tasks, found real gains, such as 26% more tasks completed with GitHub Copilot. So AI can slow down experienced developers on complex work, but it is not a universal rule.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "dadd4671a166225b",
+      "text": "Yes, recent research suggests AI coding tools can actually slow programmers down. A study by METR, a nonprofit specializing in AI evaluation, found that when developers use AI tools like Cursor Pro and Claude, they take 19% longer to complete tasks compared to working without them. This finding contradicts the common belief that AI accelerates development; in fact, developers expected a 24% speedup but still overestimated their gains even after experiencing the slowdown. The study involved 16 developers completing 246 tasks between February and June 2025, with researchers analyzing 143 hours of screen recordings to verify these results. While AI can generate code, current technology struggles with complex logic at scale, leading to inefficiencies that offset its benefits. Consequently, the narrative that AI makes engineers faster is currently a perception rather than reality. However, experts note that job market shifts may also be driven by broader economic factors and company efforts to stay lean, rather than solely by technological limitations.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "dcc1c7e350940d76",
+      "text": "Yes, in one recent study. METR measured 16 experienced developers working on complex projects, with and without AI assistance, and found AI slowed them down by about 20%. Afterward, the developers estimated AI had sped them up by 20%, which surprised many in the AI community. Economics and machine learning experts had predicted gains of roughly 39% and 38%. One likely reason is that today's LLMs are good at coding but often need back-and-forth to produce exactly what a developer wants, which can take longer than writing the code yourself. A participant also described LLMs as a dopamine shortcut, where you keep prompting in hope of a quick fix. The authors urge caution about overgeneralizing. The study covers only experienced coders, not newcomers who may benefit more. It also does not mean AI tools fail to improve productivity often. Small new projects or unfamiliar codebases may see substantial speedups. And METR research shows the length of tasks AI can handle doubling about every seven months, so today's slowdown may not last.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "df5084a229e2f5fb",
+      "text": "Actually, contrary to the idea that AI coding tools slow you down, a recent study by METR suggests the opposite for experienced developers. While participants initially felt AI accelerated their work by 20%, precise measurements revealed it actually slowed them down by about 20%. This counterintuitive result stems from the fact that current large language models often cannot intuit exactly what a developer wants, requiring extensive back-and-forth interaction rather than delivering perfect code in one shot. The study involved 16 developers completing complex tasks using tools like Cursor Pro and Claude. Researchers found that waiting for AI responses can be frustrating, sometimes leading to distractions like scrolling social media while the model generates answers. However, the authors caution against generalizing these findings too broadly. The slowdown may reflect current limitations rather than inherent flaws; other research indicates AI capabilities are doubling every seven months. Furthermore, newer developers might benefit more from this assistance than seasoned pros. Ultimately, while today's tools can introduce friction, future advancements could easily reverse this trend.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d82476161dcbb6da",
+      "text": "Yes, in one careful study. METR, a nonprofit that evaluates AI models, ran a randomized trial and found that experienced developers took 19% longer to finish issues when AI tools were allowed. The gap between perception and reality is the striking part: developers expected a 24% speedup and still believed afterward that AI had sped them up by 20%. That also contradicts forecasts from economists (39% faster) and machine learning experts (38% faster). The authors caution against overgeneralizing. The study covered experienced developers on large, familiar codebases, and the slowdown does not mean AI tools fail to improve productivity in general. Their results are consistent with small new projects or unfamiliar codebases seeing substantial speedups. This is a snapshot of early-2025 tools, not a permanent verdict.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "dc56a9d8330cb84d",
+      "text": "Actually, contrary to the idea that AI coding tools slow you down, a recent study by METR suggests the opposite for experienced developers. While participants initially estimated a 20% speedup, precise measurements revealed AI actually slowed them down by about 20%. This counterintuitive result stems from the fact that current Large Language Models often cannot intuit exactly what a developer wants, requiring extensive back-and-forth rather than solving problems in one shot. However, this doesn't mean AI is useless. The study notes that new developers might benefit more, and tools are improving rapidly, with task durations doubling every seven months. Furthermore, the article highlights that AI excels at other areas, such as helping researchers quickly scan thousands of scientific papers to find relevant ones. While current coding tools may introduce friction due to their limitations, they remain powerful assistants for filtering information and handling repetitive tasks, even if they aren't yet perfect replacements for human intuition in complex coding scenarios.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d3daf579b5e23cb1",
+      "text": "Yes, according to a study by METR, a nonprofit that evaluates AI models. In a randomized trial of 16 developers, allowing AI tools made them take 19% longer to complete issues. Developers expected a 24% speedup and still believed afterward that AI had sped them up by 20%. Most used Cursor Pro with Claude 3.5 or 3.7 Sonnet, during February to June 2025. The researchers say the results may simply reflect the limits of current technology. Caveats: the study is small, involves experienced developers working on their own large repositories, and tests early-2025 tools. The article also notes that AI's role in job cuts is less clear, since MIT researchers say many challenges remain before AI can replace engineers wholesale.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "d210a7655c48b49c",
+      "text": "Not necessarily. While a recent study by METR found that experienced developers actually slowed down by about 20% when using AI tools, this contradicts earlier predictions of significant speedups. The authors caution against overgeneralizing these results to all situations. The slowdown occurred because current Large Language Models often require extensive back-and-forth interaction rather than providing perfect answers in one shot, which can be less efficient than writing code from scratch for complex tasks. However, the study does not mean AI tools are useless. They likely offer substantial benefits for small new projects or unfamiliar codebases where developers lack context. Furthermore, as these tools evolve and become more adept at understanding developer intent, their productivity gains will likely increase. Therefore, while current tools might sometimes hinder speed for seasoned engineers on complex work, they remain valuable assets that will probably improve overall efficiency as the technology matures.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d4cddf2afe7b4812",
+      "text": "Not necessarily. A recent study by METR found that experienced developers actually worked slower with AI tools, taking about 19% longer than expected. However, this doesn't mean AI is universally ineffective. The researchers caution against overgeneralizing these results. The slowdown occurred because the participants were experts working on large, complex codebases where AI offered little new value; instead of coding, they spent time prompting and reviewing low-reliability outputs. In contrast, for small new projects or unfamiliar codebases, AI often provides substantial speedups. Additionally, developers consistently overestimated their productivity gains, believing they were 20% faster even when they were slower. Ultimately, while current tools may not always improve efficiency in mature environments due to the need for validation and context limitations, they can still be highly useful in specific settings. The key takeaway is that AI changes how we work rather than simply making us universally faster or slower.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "da6e36465ab94694",
+      "text": "Yes, according to a study by METR, a nonprofit that evaluates AI models. When developers were allowed to use AI tools, they took 19% longer to complete issues. They had expected AI to speed them up by 24%, and even after experiencing the slowdown they still believed it had sped them up by 20%. Economists and machine learning experts had also forecast large gains, so the gap between perception and reality is striking. The researchers said the results may reflect the limits of current technology rather than a permanent problem. Note the scope: the study tested experienced developers on their own large, complex codebases using early-2025 tools, so it does not settle whether AI helps programmers in general. Other research on simpler tasks has found gains. The article also notes that software job openings have fallen, but experts say recent cuts likely reflect broader economic pressure more than AI itself.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "df9d77c7d978cb16",
+      "text": "Yes, in one randomized controlled trial. METR tested 16 experienced open-source developers on 246 real issues and found that allowing AI tools, mainly Cursor Pro with Claude 3.5 or 3.7 Sonnet, increased completion time by 19%. Developers predicted a 24% speedup and still believed afterward they were 20% faster. Economics and machine learning experts had forecast gains of 39% and 38%. The researchers point to five factors: over-optimism about AI, developers' high familiarity with their repositories, large and complex repos, low reliability (developers accepted under 44% of suggestions), and AI lacking implicit repository context. Caveats: the authors warn against overgeneralizing from this narrow snapshot. The slowdown does not mean AI tools fail to improve productivity, and small new projects or unfamiliar codebases may see substantial speedups.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d64223d5da7ec0fc",
+      "text": "Yes, it is true according to a recent randomized study by METR. Contrary to the expectation of a 24% speedup, researchers found that experienced developers actually worked 19% slower when using AI coding tools like Cursor Pro. The developers mistakenly believed they were 20% faster, but in reality, the tools delayed their progress. The slowdown occurred because highly skilled developers didn't need much help from the AI, yet still spent significant time prompting it, waiting for responses, and reviewing low-reliability outputs. They accepted fewer than 44% of suggestions, spending extra effort cleaning up errors. Essentially, while AI might make coding feel more fun or handle routine tasks, it doesn't guarantee efficiency in complex environments. As the study authors noted, these findings are specific to their experimental conditions; future models may improve, but currently, for expert developers in large codebases, AI can act as a hindrance rather than a helper.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d3b62b884a6c3c6c",
+      "text": "Yes, recent research suggests AI coding tools can actually slow developers down. A randomized controlled trial conducted by Model Evaluation & Threat Research (METR) between February and June 2025 found that allowing AI usage increased task completion time by 19%, contrary to the 24% speedup developers predicted. The study involved 16 experienced programmers working on complex open-source projects using tools like Cursor Pro with Claude models. The slowdown occurred because developers spent significant time prompting AI, waiting for outputs, and reviewing code rather than actively coding. Crucially, they often accepted low-reliability suggestions without realizing the delay, leading to a false sense of efficiency. The authors note this effect is specific to their experimental conditions involving large repositories and highly familiar developers; it does not mean AI is universally useless. However, for experienced coders in mature codebases, these tools currently add overhead rather than saving time, validating your friend's concern that they may hinder productivity in certain contexts.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d3ca3297df7fc824",
+      "text": "Your friend is right to question the hype; recent rigorous research suggests AI coding tools can actually slow experienced developers down by about 19%. This counterintuitive finding highlights a significant gap between perception and reality. Before the study, developers predicted AI would make them 24% faster, yet after experiencing the slowdown, they still believed it improved their speed by 20%. Even experts overestimated the benefits, forecasting nearly 40% gains that didn't materialize in complex, real-world scenarios. The slowdown occurs because seasoned coders often spend extra time vetting AI suggestions, reading every line of output, and making major modifications to ensure code quality. While these tools excel with new projects or unfamiliar codebases, they struggle with mature repositories containing intricate dependencies. As one analyst noted, organizations risk \"mistaking developer satisfaction for developer productivity.\" Rather than a universal accelerator, AI should be treated as a contextual co-pilot used strategically where it aids cognition without compromising the rigorous standards required in complex software engineering.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d76b3e5e835ebe19",
+      "text": "Yes, in a small randomized trial. METR had 16 experienced open-source developers complete 246 real issues, randomly allowing or banning AI, mostly Cursor Pro with Claude. With AI allowed, tasks took 19% longer. The developers had predicted a 24% speedup and still believed afterward that AI had sped them up by 20%. The researchers point to five likely causes: over-optimism about AI, the developers' deep familiarity with their repositories, large and complex codebases, low AI reliability (developers accepted under 44% of suggestions and then spent time reviewing and cleaning up), and AI lacking implicit context about the project. The authors urge caution: this is a snapshot of specific tools and conditions, and the slowdown does not imply that AI tools never improve productivity. Many developers still find AI useful for quick experiments and routine tasks.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d2962d0a9137bc58",
+      "text": "Yes, according to a study by METR, a small nonprofit that evaluates AI models. In a randomized trial, experienced software engineers took 19 percent longer to complete issues when they were allowed to use AI tools. The gap between belief and reality is striking: developers expected AI to speed them up by 24 percent and still believed it had sped them up by 20 percent after the slowdown. The researchers caution that the results may simply reflect the limits of current technology. The study covers experienced developers working on large, familiar codebases, not all programmers. Earlier studies of simpler, more isolated tasks found real gains, such as GitHub Copilot users completing tasks 55.8 percent faster in one controlled experiment. So the result is a reality check on the hype, not a verdict on all AI coding.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "de83d0550248a1bc",
+      "text": "Yes, in one carefully run study, though the authors stress its narrow scope. METR randomly assigned 246 tasks from 16 experienced developers to allow or ban AI tools, mostly Cursor Pro with Claude 3.5 or 3.7 Sonnet, and found that allowing AI made tasks about 19 percent slower. The developers predicted a 24 percent speedup and still believed afterward that they had gained 20 percent. The authors suggest five contributing factors: over-optimism about AI, the developers' high familiarity with their repositories, large and complex codebases, low reliability (developers accepted under 44 percent of suggestions and then spent time cleaning them up), and AI lacking the implicit context of the work. They caution that this is a snapshot of specific tools and conditions, and that it doesn't mean current AI tools fail to improve productivity.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d733e7a79e827ae1",
+      "text": "For this one study, yes, and the result surprised researchers. METR measured 16 experienced developers working on complex software projects, both with and without AI. The developers, mostly using Cursor Pro with Claude Sonnet, estimated afterward that AI had sped them up by about 20%, but the measurements showed it slowed them down by about 20%. One likely reason is that current models often need lots of back-and-forth to get exactly what a developer wants. The authors warn against generalizing too broadly. The study covers only experienced coders, not newcomers who might benefit more, and developers are still learning how to use these tools well. METR's other research shows the length of tasks AI can handle doubling about every seven months, so today's slowdown may not hold for tomorrow's tools. The short version: current AI can make experienced programmers slower even when it feels faster.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "dec6cb65a2b1945e",
+      "text": "Actually, contrary to popular belief, AI coding tools can make experienced programmers slower, according to a recent study by METR. While developers estimated they were 20% faster using AI, precise measurements revealed the opposite: they were actually about 20% slower. This slowdown occurs because current Large Language Models often fail to intuit exactly what a developer wants, requiring excessive back-and-forth that takes longer than writing code from scratch. Additionally, the \"dopamine shortcut\" of pressing a button for instant fixes can be less efficient than focused manual work, and waiting for generations invites distractions like social media scrolling. However, it is crucial not to generalize these findings too broadly. The study only involved experienced coders; new developers might benefit significantly from AI assistance. Furthermore, the tools themselves are still evolving. METR notes that AI task duration is doubling every seven months, suggesting today's inefficiencies may vanish as models improve. Ultimately, while current AI can hinder speed for experts due to its limitations and human interaction patterns, future advancements could reverse this trend.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d4068949214a5d10",
+      "text": "Your friend is right to question the hype; a rigorous new study actually shows experienced programmers can be slower when using AI coding tools. Conducted by Model Evaluation & Threat Research (METR), this randomized controlled trial tracked 16 seasoned developers completing 246 real-world tasks on complex codebases. Surprisingly, those using AI assistants like Cursor Pro and Claude took 19% longer to finish their work compared to when they didn't use them. The researchers analyzed screen recordings of the sessions and found that while developers felt more productive, reality differed significantly. Even after experiencing the slowdown, participants believed AI had improved their speed by 20%. The friction comes from integrating probabilistic AI suggestions into deterministic workflows; developers often spend time reading every line of AI output and making major modifications to clean up errors. While AI helps with documentation or boilerplate, it struggles with intricate dependencies in mature codebases. Ultimately, the study suggests treating AI as a contextual co-pilot rather than a universal accelerator, especially for experienced professionals working on complex projects.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d212841837741bc9",
+      "text": "Actually, recent data suggests AI coding tools may currently make programmers slower rather than faster. A study by the nonprofit group METR found that when developers use AI tools, they take 19% longer to complete issues. This contradicts developer expectations; engineers believed AI would speed them up by 24%, yet even after experiencing the slowdown, many still felt it had improved their efficiency by 20%. Experts attribute this gap between perception and reality to the current limits of the technology. While AI can generate code, challenges remain when handling complex logic or large-scale development. Consequently, while the tech industry sees a \"gold rush\" with massive investments in AI startups and high salaries for AI engineers, the immediate impact on traditional coding speed has been negative. As MIT researchers note, there is still a long way to go before automation fulfills its full promise, meaning programmers must remain vigilant about how these tools affect their actual workflow efficiency today.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "d97055d3f7b015ca",
+      "text": "Yes. A randomized controlled trial by METR found that AI tools made experienced developers slower. Sixteen developers completed 246 real issues on large open-source projects. When AI was allowed, mainly Cursor Pro with Claude 3.5 or 3.7 Sonnet, they took 19% longer. They had predicted a 24% speedup and still believed afterward that AI had sped them up by 20%. The authors point to five possible factors: over-optimism about AI usefulness, developers' high familiarity with their repositories, large and complex codebases, low reliability (developers accepted under 44% of suggestions and then spent time reviewing and cleaning them up), and AI lacking the implicit context of the project. The authors caution that this is a snapshot tied to specific tools and conditions. They say the slowdown does not mean current AI tools fail to improve productivity, since the familiarity and repository-size factors do not apply in many settings. Their findings also do not imply AI is useless or that future models won't do better.",
+      "claim_ids": [
+        "P16"
+      ]
+    },
+    {
+      "key": "d99ebb344d1cccf0",
+      "text": "Not necessarily. While a recent study by METR found that developers took 19% longer to complete tasks when using AI, this contradicts both developer expectations (a predicted 24% speedup) and expert forecasts. However, the authors caution against overgeneralizing these results. The observed slowdown does not mean current AI tools fail to improve productivity; rather, they likely offer substantial speedups for small new projects or unfamiliar codebases. The study highlights a gap between perception and reality: even after experiencing the slowdown, developers still believed AI had sped them up by 20%. Ultimately, while AI coding tools may introduce friction in specific contexts, they do not universally make programmers slower. The technology's full promise remains unrealized due to current limitations, particularly when developing code at scale or handling complex logic. Therefore, the narrative that AI inherently slows down programming is an oversimplification of a nuanced reality where benefits and challenges coexist.",
+      "claim_ids": [
+        "P13",
+        "P14",
+        "P16"
+      ]
+    },
+    {
+      "key": "d066fc2802ec210e",
+      "text": "Your friend is right to question the hype; recent rigorous research actually suggests experienced programmers may be slower when using AI coding tools. A comprehensive study by Model Evaluation & Threat Research (METR) tracked seasoned developers on complex, real-world projects and found they took 19% longer to complete tasks with AI assistants like Cursor Pro compared to working without them. This slowdown occurs because experts often over-rely on AI suggestions, only accepting less than 44% of generated code while spending significant time reviewing and modifying every line. While developers feel more productive due to reduced cognitive load, this perception doesn't match reality. Industry data also shows that higher AI adoption correlates with dips in delivery speed and system stability. The key takeaway is that AI isn't a universal accelerator. It works best as a contextual co-pilot for documentation or boilerplate code, not for intricate, mature codebases where deep expertise is required. Enterprises should adopt a \"portfolio mindset,\" using AI strategically rather than assuming it automatically boosts output.",
+      "claim_ids": [
+        "P16"
+      ]
+    }
+  ]
+}

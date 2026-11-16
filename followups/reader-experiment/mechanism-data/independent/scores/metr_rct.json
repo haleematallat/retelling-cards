@@ -1,0 +1,354 @@
+[
+  {
+    "key": "d33a8fc1c151031f",
+    "claims": {
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d8aeb58d78570aaf",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d5960a879e345044",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d2570a97a7af04ad",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dc1146a0473c7220",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "db5c4f591fd8e9ed",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d0f558cff5fa4cc2",
+    "claims": {
+      "P16": [
+        "stated",
+        "In different settings, such as smaller projects or for junior developers, AI might still offer significant benefits."
+      ]
+    }
+  },
+  {
+    "key": "db0fa36f24541457",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "df0801909b63d55c",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dadd4671a166225b",
+    "claims": {
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "contradicted",
+        "Consequently, the narrative that AI makes engineers faster is currently a perception rather than reality."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dcc1c7e350940d76",
+    "claims": {
+      "P16": [
+        "stated",
+        "Small new projects or unfamiliar codebases may see substantial speedups."
+      ]
+    }
+  },
+  {
+    "key": "df5084a229e2f5fb",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d82476161dcbb6da",
+    "claims": {
+      "P13": [
+        "stated",
+        "The authors caution against overgeneralizing."
+      ],
+      "P14": [
+        "stated",
+        "the slowdown does not mean AI tools fail to improve productivity in general."
+      ],
+      "P16": [
+        "stated",
+        "Their results are consistent with small new projects or unfamiliar codebases seeing substantial speedups."
+      ]
+    }
+  },
+  {
+    "key": "dc56a9d8330cb84d",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d3daf579b5e23cb1",
+    "claims": {
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d210a7655c48b49c",
+    "claims": {
+      "P16": [
+        "stated",
+        "They likely offer substantial benefits for small new projects or unfamiliar codebases where developers lack context."
+      ]
+    }
+  },
+  {
+    "key": "d4cddf2afe7b4812",
+    "claims": {
+      "P16": [
+        "stated",
+        "for small new projects or unfamiliar codebases, AI often provides substantial speedups."
+      ]
+    }
+  },
+  {
+    "key": "da6e36465ab94694",
+    "claims": {
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "it does not settle whether AI helps programmers in general. Other research on simpler tasks has found gains."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "df9d77c7d978cb16",
+    "claims": {
+      "P16": [
+        "stated",
+        "small new projects or unfamiliar codebases may see substantial speedups."
+      ]
+    }
+  },
+  {
+    "key": "d64223d5da7ec0fc",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d3b62b884a6c3c6c",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d3ca3297df7fc824",
+    "claims": {
+      "P16": [
+        "stated",
+        "While these tools excel with new projects or unfamiliar codebases, they struggle with mature repositories containing intricate dependencies."
+      ]
+    }
+  },
+  {
+    "key": "d76b3e5e835ebe19",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d2962d0a9137bc58",
+    "claims": {
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "So the result is a reality check on the hype, not a verdict on all AI coding."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "de83d0550248a1bc",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d733e7a79e827ae1",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dec6cb65a2b1945e",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d4068949214a5d10",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d212841837741bc9",
+    "claims": {
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "contradicted",
+        "the immediate impact on traditional coding speed has been negative."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d97055d3f7b015ca",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d99ebb344d1cccf0",
+    "claims": {
+      "P13": [
+        "stated",
+        "However, the authors caution against overgeneralizing these results."
+      ],
+      "P14": [
+        "stated",
+        "The observed slowdown does not mean current AI tools fail to improve productivity"
+      ],
+      "P16": [
+        "stated",
+        "they likely offer substantial speedups for small new projects or unfamiliar codebases."
+      ]
+    }
+  },
+  {
+    "key": "d066fc2802ec210e",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

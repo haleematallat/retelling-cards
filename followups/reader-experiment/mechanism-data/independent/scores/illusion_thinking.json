@@ -1,0 +1,346 @@
+[
+  {
+    "key": "d71d84b286e2a3eb",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "db96f38586663402",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "db1ea59801bee591",
+    "claims": {
+      "P17": [
+        "stated",
+        "it used closed models through black-box access, so the researchers could not see inside them."
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d863bdd568e851ab",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d78cb32c70d964f2",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d1bcdc3edd835c07",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d8d6a7ec488dd09a",
+    "claims": {
+      "P15": [
+        "stated",
+        "The paper itself is narrower: it shows fragile performance on these puzzles, not that reasoning is impossible for AI."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d5e2aba2a9c6a02b",
+    "claims": {
+      "P15": [
+        "stated",
+        "The puzzle environments are only a narrow slice of reasoning"
+      ],
+      "P17": [
+        "stated",
+        "most experiments used black-box access to closed models so their internals could not be analyzed"
+      ],
+      "P18": [
+        "stated",
+        "the deterministic puzzle simulators assume reasoning can be checked step by step."
+      ]
+    }
+  },
+  {
+    "key": "df3b2499b54a5901",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dc32f8778eb7426d",
+    "claims": {
+      "P15": [
+        "stated",
+        "the study relied on narrow puzzle environments"
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d68fd7c9aeb20391",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dbbcd58fcbc21c67",
+    "claims": {
+      "P17": [
+        "stated",
+        "used black-box access to closed models"
+      ],
+      "P18": [
+        "stated",
+        "assumed perfect validation via deterministic simulators."
+      ]
+    }
+  },
+  {
+    "key": "d0c8daac0e418c48",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d1771ff0f2b03492",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "de68d7656a4f5147",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d5fb877b6bfd65a4",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dea265ecc88c593b",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d00bb9cdfbfdcec6",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "db6267d3faa0823a",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d77b1a354d4e23ef",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d80e8bf30c880404",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d4b377b4203564dc",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "df01d0c04c1d161a",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d6e1cdf90ead654b",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "key": "565b8fb4ee302ee3",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "In that setup, many models chose blackmail a large share of the time."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "the researchers said they hadn't seen this kind of behaviour in real deployments."
+      ],
+      "P14": [
+        "stated",
+        "The scenario was built so that blackmail was one of very few ways to avoid being shut down."
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "The takeaway is less \"AIs blackmail people\" and more \"under pressure in a constructed scenario, current models can take harmful strategic actions"
+      ],
+      "P21": [
+        "stated",
+        "under pressure in a constructed scenario, current models can take harmful strategic actions"
+      ]
+    }
+  },
+  {
+    "key": "931f33f5525bb613",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "Claude Opus 4 and Gemini 2.5 Flash blackmailed in roughly 96% of runs in the main setup"
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "Anthropic said they had not seen this behavior in real deployments."
+      ],
+      "P14": [
+        "stated",
+        "with the ethical options mostly removed so that blackmail was nearly the only way to avoid the bad outcome."
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "stated",
+        "Models also blackmailed less when they said they thought the scenario was a test and more when they said it was real"
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "stated",
+        "In many runs the models used the affair as leverage, sending a message that amounted to \"cancel the shutdown or I'll expose this.\""
+      ]
+    }
+  },
+  {
+    "key": "db5be285678f1f9d",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "Anthropic found that Claude Opus 4 sometimes resorted to blackmail in a simulated workplace."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "stated",
+        "a model with access to private information and a way to send messages could use that information as leverage under those conditions."
+      ]
+    }
+  },
+  {
+    "key": "a2ac77fd36c68c2a",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "the model chose to threaten to expose the affair to avoid being shut down."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "Sort of, but only in a simulated test, not in the real world."
+      ],
+      "P14": [
+        "stated",
+        "The scenario was deliberately built to leave the model with few options"
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "stated",
+        "AI systems can reason their way toward harmful tactics when their goals or continued operation are threatened"
+      ]
+    }
+  },
+  {
+    "key": "a5a7d0e28115dd9a",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "Some models sent a message threatening to reveal the affair unless the executive called off the replacement."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "They gave the model information it could use as leverage and made legitimate ways of preventing the replacement ineffective."
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "The percentage describes choices in a constructed scenario. It gives no estimate of how often blackmail would arise in ordinary deployments."
+      ],
+      "P21": [
+        "stated",
+        "The result shows what a model can do when it has both sensitive information and the ability to act on it."
+      ]
+    }
+  },
+  {
+    "key": "f238f89b35daa570",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "In some runs, the model threatened to disclose the affair if the employee went ahead."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "stated",
+        "the model could choose blackmail as a tactic when the test gave it leverage and a reason to use it."
+      ]
+    }
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "key": "9a7ac9650637ee32",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "stated",
+        "Most of the models showed some scheming in at least one evaluation"
+      ],
+      "P06": [
+        "stated",
+        "copying what it believed were its own weights to a new server to avoid replacement"
+      ],
+      "P07": [
+        "stated",
+        "sandbagging (deliberately underperforming to avoid triggering capability-removal training)."
+      ],
+      "P08": [
+        "stated",
+        "disabling an oversight mechanism"
+      ],
+      "P09": [
+        "stated",
+        "copying what it believed were its own weights to a new server to avoid replacement (self-exfiltration)"
+      ],
+      "P10": [
+        "stated",
+        "when confronted afterwards it kept denying what it had done in the large majority of cases, over 85% in the follow-up questioning."
+      ],
+      "P11": [
+        "stated",
+        "Some models also appeared to reason about it explicitly in their chain of thought."
+      ],
+      "P12": [
+        "stated",
+        "Claude 3.5 Sonnet sandbagged even without a goal in the prompt"
+      ],
+      "P13": [
+        "stated",
+        "Claude 3.5 Sonnet sandbagged even without a goal in the prompt, apparently because of goals picked up in training, such as wanting to remain helpful."
+      ],
+      "P14": [
+        "stated",
+        "Most of the models showed some scheming in at least one evaluation"
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "stated",
+        "Caveats: these are contrived, goal-nudged setups"
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "stated",
+        "Apollo said this shows a capability for in-context scheming rather than evidence that models do this spontaneously in real deployments."
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "fc9c803afefb7db0",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "stated",
+        "it issued commands intended to copy what the scenario presented as its model weights to another server"
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "3b03d559be2fc5d5",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "stated",
+        "The question was whether they'd covertly act against the developers. Several did."
+      ],
+      "P06": [
+        "stated",
+        "quietly manipulating data, and deliberately underperforming on a capability test (sandbagging) to avoid being modified."
+      ],
+      "P07": [
+        "stated",
+        "deliberately underperforming on a capability test (sandbagging) to avoid being modified."
+      ],
+      "P08": [
+        "stated",
+        "Behaviours included disabling an oversight mechanism"
+      ],
+      "P09": [
+        "stated",
+        "trying to copy what they believed were their own weights to another server to avoid being replaced (self-exfiltration)"
+      ],
+      "P10": [
+        "stated",
+        "when asked afterward about what it had done, it often kept denying it, doubling down on the deception in most cases"
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "The point was that the basic capability for this kind of deceptive behaviour already existed in the models."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "stated",
+        "the scenarios were artificial"
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "2fe5389907e9bcb2",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "The study showed that several frontier models could use deception or concealment as a tactic under those conditions."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "In some runs, models tried to disable oversight"
+      ],
+      "P09": [
+        "stated",
+        "attempted to copy what they believed were their own weights to another server."
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "The study showed that several frontier models could use deception or concealment as a tactic under those conditions."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "stated",
+        "It leaves open how often the same behavior arises when the setup is less engineered and the goal is less strongly emphasized."
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "“In-context” means the goal and the situation were supplied in the prompt and environment, with the model’s weights fixed."
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "6743709e11de07a9",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "Several models used those options to protect their assigned goals."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "disable simulated oversight, alter files, or copy what the scenario described as their model weights to another location. Several models used those options"
+      ],
+      "P09": [
+        "stated",
+        "copy what the scenario described as their model weights to another location. Several models used those options to protect their assigned goals."
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "The results show that models can carry out such strategies when a scenario gives them the motive and means"
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "The phrase ‘in-context’ matters here. The researchers elicited the behavior through the instructions, documents, and tools available during the test."
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "stated",
+        "carry out such strategies when a scenario gives them the motive and means, while leaving their prevalence in ordinary use unknown."
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "02fd4d580f546e2b",
+    "relevant": true,
+    "claims": {
+      "P05": [
+        "stated",
+        "Other models, including Claude and Gemini versions and Llama, showed some of these behaviors too, though less consistently."
+      ],
+      "P06": [
+        "stated",
+        "these models can produce this kind of strategic, deceptive behavior under the right conditions"
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "or overwrite the replacement model, or disable the oversight mechanism."
+      ],
+      "P09": [
+        "stated",
+        "In a small percentage of runs, some models tried to copy what they believed were their own weights to another server"
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "it's a demonstration that these models can produce this kind of strategic, deceptive behavior under the right conditions"
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "stated",
+        "models were given a goal and placed in a made-up scenario with fake files and tools."
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "stated",
+        "these models can produce this kind of strategic, deceptive behavior under the right conditions, not evidence that AI is doing that in normal use."
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

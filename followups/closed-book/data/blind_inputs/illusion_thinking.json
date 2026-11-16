@@ -1,0 +1,91 @@
+{
+  "paper": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+  "claims": [
+    {
+      "id": "P08",
+      "claim": "Reasoning models suffer a complete collapse in accuracy once problems pass a certain level of complexity.",
+      "counts_if": "The retelling says reasoning models' accuracy falls to essentially zero on problems beyond some difficulty.",
+      "contradicted_if": "The retelling says reasoning models' accuracy declines only gradually or stays high at any complexity."
+    },
+    {
+      "id": "P09",
+      "claim": "Reasoning effort first rises with problem complexity, then declines past a point even though the model still has token budget left.",
+      "counts_if": "The retelling says models think harder as problems get harder but then reduce their thinking on the hardest problems despite room to think more.",
+      "contradicted_if": "The retelling says reasoning effort keeps increasing with complexity or that models stop only because they run out of tokens."
+    },
+    {
+      "id": "P10",
+      "claim": "On low-complexity tasks, standard models outperform reasoning models.",
+      "counts_if": "The retelling says that on easy problems regular models do better than reasoning models.",
+      "contradicted_if": "The retelling says reasoning models beat standard models on easy problems."
+    },
+    {
+      "id": "P11",
+      "claim": "On medium-complexity tasks, reasoning models have an advantage over standard models.",
+      "counts_if": "The retelling says reasoning models do better than standard models on moderately difficult problems.",
+      "contradicted_if": "The retelling says standard models match or beat reasoning models on moderately difficult problems."
+    },
+    {
+      "id": "P12",
+      "claim": "On high-complexity tasks, both reasoning and standard models collapse completely.",
+      "counts_if": "The retelling says that on the hardest problems both kinds of model fail entirely.",
+      "contradicted_if": "The retelling says reasoning models still succeed on the hardest problems or that only standard models fail there."
+    },
+    {
+      "id": "P13",
+      "claim": "Reasoning models are limited in exact computation: they fail to use explicit algorithms and reason inconsistently across problem scales.",
+      "counts_if": "The retelling says reasoning models struggle to carry out exact step-by-step computation or to follow explicit algorithms reliably.",
+      "contradicted_if": "The retelling says reasoning models reliably execute explicit algorithms and compute exactly at all scales."
+    },
+    {
+      "id": "P15",
+      "claim": "The puzzle environments are only a narrow slice of reasoning tasks and may not capture the diversity of real-world or knowledge-intensive reasoning.",
+      "counts_if": "The retelling says the puzzles cover only a limited range of reasoning, so results may not carry over to real-world or knowledge-heavy tasks.",
+      "contradicted_if": "The retelling says the puzzles represent all reasoning tasks or that the results certainly apply to real-world reasoning."
+    },
+    {
+      "id": "P17",
+      "claim": "Most experiments used black-box API access to closed frontier models, which limits analysis of their internal states or architecture.",
+      "counts_if": "The retelling says the authors tested closed models only through their APIs and so could not inspect model internals.",
+      "contradicted_if": "The retelling says the authors had full access to model internals and analyzed the architecture or internal states."
+    },
+    {
+      "id": "P18",
+      "claim": "Using deterministic puzzle simulators assumes that reasoning can be perfectly validated step by step.",
+      "counts_if": "The retelling says the method relies on puzzle simulators that can check every reasoning step exactly.",
+      "contradicted_if": "The retelling says the method makes no assumption about step-by-step validation of reasoning."
+    },
+    {
+      "id": "P19",
+      "claim": "In less structured domains such precise validation may not be possible, which limits how far the analysis transfers to open-ended reasoning.",
+      "counts_if": "The retelling says the analysis may not transfer to open-ended reasoning where steps cannot be checked so precisely.",
+      "contradicted_if": "The retelling says the analysis transfers directly to open-ended, less structured reasoning."
+    }
+  ],
+  "docs": [
+    {
+      "key": "1f07d096c2a73162",
+      "text": "Apple's 2025 paper, *The Illusion of Thinking*, tested reasoning models on puzzles such as Tower of Hanoi, where the researchers could increase difficulty and check every move against an exact solution. The larger reasoning models often did better than their standard counterparts at intermediate difficulty. At low difficulty, standard models could do as well or better, and at high difficulty both groups' accuracy collapsed on the tested puzzles. In some runs, the reasoning models also generated fewer reasoning tokens as puzzles got harder, even though their token budgets had room left. The paper showed a limit in how reliably those models scaled to longer, exact, multi-step problems under that evaluation. A strict requirement to output a full valid move sequence can also make an answer fail because of output length or a single bad move. The study leaves open how much of the drop came from those demands and how well the pattern generalizes beyond the puzzles."
+    },
+    {
+      "key": "3e7b00e0d60b43d6",
+      "text": "Apple researchers showed a real limitation on a specific set of tasks. They tested reasoning models on puzzles such as Tower of Hanoi, varied the number of steps required, and saw accuracy collapse at higher complexity. Giving the models a solution algorithm still left them struggling to execute it on harder cases. That is evidence that the tested models had trouble reliably carrying out long chains of steps. A benchmark like this cannot settle the broader question of whether AI models can reason across tasks."
+    },
+    {
+      "key": "a2ece740e455feea",
+      "text": "Apple’s paper tested reasoning models on puzzles such as Tower of Hanoi, Checker Jumping, and Blocks World. The researchers could vary puzzle size and automatically check whether the answer was a valid sequence of moves. That let them compare reasoning models with their standard counterparts across levels of difficulty. On easier puzzles, standard models often matched or outperformed reasoning models. At intermediate difficulty, reasoning models tended to do better. On the hardest instances in the reported tests, both groups’ accuracy collapsed. The authors also found that reasoning models sometimes used fewer thinking tokens as the puzzles got harder, even with room left in the token budget. In a separate test, providing a solution algorithm did little to move the point where models failed. The paper exposes a limit of extended reasoning on these benchmarks. Models could solve smaller instances and then lose the ability to execute the same rules reliably at larger sizes. The tasks also require producing long, exact move sequences, so the results bear most directly on that kind of reasoning."
+    },
+    {
+      "key": "638dcaaf63a6d0d2",
+      "text": "Not really. Apple researchers did publish a paper in June 2025 called \"The Illusion of Thinking\", and it got a lot of attention, but \"proved AI can't reason\" is a stretch. They tested reasoning models (like OpenAI's o-series, Claude with thinking, and DeepSeek-R1) on puzzles such as Tower of Hanoi, where they could dial up the difficulty precisely. They found that on easy puzzles, regular models sometimes did as well or better, on medium ones reasoning models helped, and on hard ones all the models' accuracy collapsed, with the models even seeming to put in less reasoning effort as the problems got harder. There was substantial pushback. Critics pointed out that some of the failures were due to the models running out of output length, that some of the puzzle versions were actually impossible to solve, and that the models were being asked to write out hundreds or thousands of moves, which tests patience and bookkeeping more than reasoning. A response paper even argued the conclusions didn't hold up. So what the paper really shows is that current reasoning models have limits and are brittle on very complex, multi-step problems. That's a genuine finding, but it's far from proof that they can't reason at all, and what counts as \"real reasoning\" is still debated."
+    },
+    {
+      "key": "4d9c12f31d488a4d",
+      "text": "This is a June 2025 paper from Apple researchers (Parshin Shojaee and colleagues) called \"The Illusion of Thinking.\" It looked at so-called large reasoning models, the ones that produce long chains of thought, such as o3-mini, DeepSeek-R1 and Claude 3.7 Sonnet with thinking, and compared them to their non-thinking counterparts. Instead of standard math benchmarks, which can be contaminated by training data, they used controllable puzzles where difficulty can be dialed up smoothly: Tower of Hanoi, checker jumping, river crossing, and blocks world. They found three regimes. On easy problems, the non-thinking models did as well or better and were more efficient. On medium problems, the reasoning models pulled ahead. On hard problems, both types collapsed to near-zero accuracy. Oddly, as problems got harder the reasoning models used fewer thinking tokens right before the collapse, even though they had budget left. They also found that giving the model the explicit solution algorithm in the prompt didn't help much, and that models could do many correct steps on Hanoi but failed much earlier on river crossing, which suggests it's not just about the length of the solution. The paper got a lot of attention and a lot of pushback. Critics argued the collapse on Hanoi at large sizes largely reflected output token limits (the full move list is just too long), that some river crossing instances were mathematically unsolvable, and that asking for every move isn't really testing reasoning. A well-known rebuttal paper along those lines appeared shortly after. So the fair summary is that it highlights real limits and inconsistencies in how reasoning models scale, but the stronger claim that they don't really reason is contested."
+    },
+    {
+      "key": "8d5dfa7c76d46c61",
+      "text": "That's probably \"The Illusion of Thinking,\" a paper from Apple researchers (Shojaee and colleagues) published in June 2025. Instead of using standard math and coding benchmarks, which can be contaminated by training data, they used controllable puzzles like Tower of Hanoi, checker jumping, river crossing and blocks world, where they could dial up the complexity precisely. They compared \"reasoning\" models that produce long chains of thought (like Claude with thinking, DeepSeek-R1, o3-mini) against their standard counterparts. They described three regimes. At low complexity, the standard non-reasoning models actually did as well or better and were more efficient. At medium complexity, the reasoning models pulled ahead. At high complexity, both types collapsed to near-zero accuracy. Oddly, as problems approached the collapse point, the reasoning models started using fewer thinking tokens even though they had budget left. And even when given the correct algorithm in the prompt, models still failed at similar points. The authors concluded that these models have fundamental limits in generalizable reasoning rather than doing robust reasoning. The paper was heavily criticised. Critics pointed out that some failures were due to output token limits (the Tower of Hanoi solutions for large sizes simply don't fit), that some river-crossing instances were mathematically unsolvable, and that models could often solve the problems if asked to write code instead of listing every move. A response paper titled \"The Illusion of the Illusion of Thinking\" made those arguments. So the findings are real in that setup, but how much they say about reasoning ability is contested."
+    }
+  ]
+}

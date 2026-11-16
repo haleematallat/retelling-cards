@@ -2,7 +2,15 @@
 
 Which side of an AI safety paper survives news, headlines and chatbots? Built for the Apart Research AI x Epistemics Sprint, November 2026.
 
-For eight widely retold AI papers we extract every claim the authors make in their abstract and limitations text, label each a central result or a scope limit, and score retellings for which claims they keep. Report: `report/report.pdf`. Demo: https://haleematallat.github.io/retelling-cards/
+For eight widely retold AI papers we extract every claim the authors make in their abstract and limitations text, label each a central result or a scope limit, and score retellings for which claims they keep. Report: `report/report.pdf`. Original scorecards: https://haleematallat.github.io/retelling-cards/
+
+
+## Sprint follow-ups
+
+- [Updated interactive demo](https://lost-in-retelling-demo.tanmoon64.chatgpt.site/#recovery). Compare the archived answers with the article alone, a generic reminder, a sham card, and the real card.
+- [Reproducibility and results](followups/). Includes the post hoc scope-recovery experiment analysis and the prompt-matched Codex–Sonnet closed-book comparison, with code, data, and scorer evidence. The original validity gate failed, so these comparisons are exploratory.
+
+## Original study
 
 - `PREREG.md`: pre-registration and five logged amendments.
 - `CARD_PROTOCOL.md`, `build_cards.py`, `cards/`: claim pools, role ratings, cards (`cards/cards.json`; every quote verbatim).

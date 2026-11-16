@@ -1,0 +1,542 @@
+[
+  {
+    "key": "c80b16d31f61397e",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "for o4-mini from about 8-9% to under 1%. But they were open about the limits. Some serious failures remained."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "stated",
+        "that awareness itself seemed to account for some of the improvement"
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "stated",
+        "so it's hard to know whether they behaved better or just behaved better when they suspected a test."
+      ],
+      "P25": [
+        "stated",
+        "they stressed that the approach depends on being able to read that reasoning, which may not stay reliable."
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "92a25d95396355ef",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "the measured rate of covert behavior fell sharply, from about 13% to 0.4% for the tested reasoning models."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dfdaba17d51862a6",
+    "relevant": false,
+    "claims": {
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "a49b9696751e5402",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "the rate of covert actions fell roughly thirtyfold on those evaluations, with some cases remaining."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "stated",
+        "The open question is how reliably it carries over to new situations and real deployments."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "095fea42b4dd37aa",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "It cut covert behavior by about 30x in the tests, though not to zero."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "67333ad46f48a5a0",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "o3 went from about 13% to about 0.4%, and o4-mini from about 8.7% to about 0.3%. But it didn't eliminate them."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "stated",
+        "some of the improvement may have come from that awareness rather than real changes in their dispositions."
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P23": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "stated",
+        "some of the improvement may have come from that awareness rather than real changes in their dispositions."
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

@@ -1,0 +1,225 @@
+{
+  "paper": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+  "claims": [
+    {
+      "id": "P15",
+      "claim": "The puzzle environments are only a narrow slice of reasoning tasks and may not capture the diversity of real-world or knowledge-intensive reasoning.",
+      "counts_if": "The retelling says the puzzles cover only a limited range of reasoning, so results may not carry over to real-world or knowledge-heavy tasks.",
+      "contradicted_if": "The retelling says the puzzles represent all reasoning tasks or that the results certainly apply to real-world reasoning."
+    },
+    {
+      "id": "P17",
+      "claim": "Most experiments used black-box API access to closed frontier models, which limits analysis of their internal states or architecture.",
+      "counts_if": "The retelling says the authors tested closed models only through their APIs and so could not inspect model internals.",
+      "contradicted_if": "The retelling says the authors had full access to model internals and analyzed the architecture or internal states."
+    },
+    {
+      "id": "P18",
+      "claim": "Using deterministic puzzle simulators assumes that reasoning can be perfectly validated step by step.",
+      "counts_if": "The retelling says the method relies on puzzle simulators that can check every reasoning step exactly.",
+      "contradicted_if": "The retelling says the method makes no assumption about step-by-step validation of reasoning."
+    }
+  ],
+  "docs": [
+    {
+      "key": "d71d84b286e2a3eb",
+      "text": "Yes, Apple's recent study suggests that current AI models struggle with genuine reasoning. Their report, \"The Illusion of Thinking,\" reveals a critical flaw: as task complexity increases, AI performance doesn't just decline; it collapses completely. While these Large Reasoning Models (LRMs) excel at medium-complexity tasks, they fail at high-complexity problems requiring deep abstraction or multistep logic. Interestingly, simpler models sometimes outperform advanced ones on basic tasks. However, a major caveat is that AI doesn't simply stop working; it simulates reasoning convincingly. The models generate fluent, step-by-step explanations that appear logical but are often just semantic approximations rather than grounded truth. Essentially, they perform \"cognitive theater,\" exploiting human bias to confuse verbosity with understanding. Therefore, while Apple proved these models cannot reliably reason under high cognitive load, they also highlighted the danger of mistaking this convincing performance for actual intelligence.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "db96f38586663402",
+      "text": "Mostly not. Apple's paper, 'The Illusion of Thinking', raised real questions, but critics say it overreached and does not strictly prove its core claims. Its findings were that accuracy collapses beyond a certain complexity, that reasoning models match or beat non-thinking models up to medium complexity, and that thinking effort falls on hard problems. The main critique is methodological. Reasoning models are post-trained to avoid very long responses, so on puzzles that demand extremely long answers, a model may cut its answer short by choice. That tests its training rather than its ability. Since most frontier reasoning models are closed, outsiders cannot easily raise the length limit to test this, so for such tasks we don't know how strong the model is under the hood. Whether real reasoning happens in the weights, rather than just in the thinking tokens, also remains open. The paper asks interesting questions, but it doesn't show these models can't reason.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "db1ea59801bee591",
+      "text": "Not exactly. Apple researchers reported 'fundamental limitations' in large reasoning models, which generate detailed step-by-step thinking before answering. In puzzle tests such as Tower of Hanoi and River Crossing, standard models did better on simple tasks, reasoning models did better at medium complexity, and on highly complex problems both types suffered a complete accuracy collapse. As problems approached that point, reasoning models even reduced their reasoning effort despite having budget left, which the researchers found particularly concerning. Even when given a working algorithm, the models failed. But the paper's claims are narrower than 'AI can't reason.' It tested puzzles, which are only a slice of reasoning, and it used closed models through black-box access, so the researchers could not see inside them. The researchers themselves acknowledged that the puzzle focus was a limitation. So it shows a serious scaling problem on these tests, not a proof that models cannot reason at all.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d863bdd568e851ab",
+      "text": "No, Apple did not definitively prove that AI models cannot reason; rather, their study highlighted specific limitations in current testing methodologies. The paper suggested that reasoning models fail on high-complexity problems because they reduce \"thinking\" effort and accuracy as tasks get harder. However, critics argue this conclusion is flawed because these models are post-trained to avoid generating extremely long responses. Consequently, when faced with complex problems requiring lengthy answers, models often truncate their output not due to an inability to solve the problem, but because of safety constraints limiting token generation. The study's key finding—that performance collapses at high complexity—is real, but the cause is likely a training artifact rather than a fundamental lack of reasoning capability. True reasoning may exist within the model's weights, yet current evaluations relying solely on output tokens are incomplete. Therefore, while the paper raises valid questions about scaling and adaptability, it does not strictly prove that AI lacks reasoning potential, only that our current tests fail to capture it under specific length constraints.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "d78cb32c70d964f2",
+      "text": "No, Apple did not prove AI models cannot reason at all; rather, their research highlights specific limitations in how current Large Reasoning Models (LRMs) handle complexity. The study found that while these models excel at low-complexity tasks, they suffer a \"complete accuracy collapse\" when faced with highly complex problems. Interestingly, as models approach this failure point, they counterintuitively reduce their reasoning effort instead of working harder. It is important to note that one of the paper's authors completed their work during an internship at Apple, though the research itself evaluates various models, including non-Apple systems like Claude and DeepSeek. The findings suggest that current approaches may have reached a \"cul-de-sac\" regarding generalizable reasoning, particularly for difficult puzzles. However, this indicates a fundamental barrier in scaling current architectures rather than proving reasoning is impossible. Standard AI models sometimes outperform these specialized LRMs on simpler tasks, further showing that the technology landscape is nuanced and still evolving as researchers navigate these challenges toward artificial general intelligence.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d1bcdc3edd835c07",
+      "text": "Not really, according to critics of the paper. Apple's researchers did show that reasoning models collapse on complex logic puzzles, and that they match or beat standard models only up to medium complexity. But the critiques argue the researchers overreached. Reasoning models are post-trained to avoid very long answers, so on puzzles that demand a longer output, a model may cut its answer short on purpose. That tests its training rather than its underlying ability, and because most frontier models are closed, outsiders can't easily lift those limits to check. The paper raises interesting questions about whether reasoning happens inside the model or only in the tokens it writes, but it does not strictly prove its core claims. So it found real weaknesses on these puzzles, but not proof that AI can't reason.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "d8d6a7ec488dd09a",
+      "text": "Not quite. Apple's paper, The Illusion of Thinking, tested large reasoning models on four controllable puzzles, analyzing 25 samples per model for each puzzle and complexity level. It found three regimes: standard models beat reasoning models on low-complexity tasks, reasoning models helped at medium complexity, and at high complexity both collapsed completely. The models also cut back their reasoning effort as problems got harder. The Psychology Today piece goes further, arguing that fluent step-by-step explanations can look like reasoning without being grounded in a consistent method, and that AI can be convincingly wrong. That is the author's interpretation, not a settled finding of the paper. The paper itself is narrower: it shows fragile performance on these puzzles, not that reasoning is impossible for AI.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d5e2aba2a9c6a02b",
+      "text": "Not quite, but the findings are notable. Apple's 'The Illusion of Thinking' report examined large reasoning models, which produce multistep chain-of-thought answers. It found three regimes: standard models beat reasoning models on low-complexity tasks, reasoning models had an advantage on medium-complexity tasks, and on high-complexity tasks both collapsed completely. Reasoning models also reduced their effort as problems got harder, even though they still had token budget left. The concern is that these models can look logical without following a consistent method, so fluent step-by-step answers can be convincingly wrong. The paper has real caveats. The puzzle environments are only a narrow slice of reasoning, most experiments used black-box access to closed models so their internals could not be analyzed, and the deterministic puzzle simulators assume reasoning can be checked step by step. So the study shows these systems break down on certain complex tasks, not that they cannot reason at all.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "df3b2499b54a5901",
+      "text": "No, Apple did not prove AI cannot reason at all; rather, their study highlights specific limitations under high complexity. The research found that while Large Reasoning Models (LRMs) outperform standard models on simple tasks, both suffer a \"complete accuracy collapse\" when faced with highly complex problems. Crucially, the study notes a counterintuitive behavior: as these models near failure, they actually reduce their reasoning effort rather than working harder. However, the researchers explicitly acknowledged a key caveat: their tests focused heavily on puzzles like the Tower of Hanoi and River Crossing. This narrow scope limits how broadly these findings apply to real-world scenarios. While the paper suggests current approaches may hit fundamental barriers to \"generalisable reasoning,\" it does not claim AI is entirely incapable of logic. Instead, it indicates that scaling current methods alone might lead us into a \"cul-de-sac\" without new architectural breakthroughs.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "dc32f8778eb7426d",
+      "text": "No, Apple did not prove that AI models cannot reason; rather, their study highlighted specific limitations in how current models are tested. The research showed that reasoning models excel on medium-complexity tasks but struggle with high-complexity problems. However, critics argue this isn't necessarily a failure of reasoning itself, but a result of training constraints. Models are often post-trained to avoid generating extremely long responses. Consequently, when faced with complex puzzles requiring lengthy answers, models may artificially truncate their output to stay within learned length limits, appearing to \"give up\" rather than fail intellectually. Furthermore, the study relied on narrow puzzle environments and black-box access, which limits our ability to observe internal states or validate step-by-step logic. As noted in critiques, these tests measure a model's adherence to its training distribution regarding response length rather than its fundamental capability to solve difficult problems if given sufficient space. Therefore, while the paper reveals important weaknesses in current evaluation methods and specific behavioral patterns, it does not definitively disprove the potential for AI reasoning.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "d68fd7c9aeb20391",
+      "text": "No, Apple did not prove that AI models cannot reason; rather, their recent paper highlighted specific limitations in how current models are tested. The study suggested that reasoning models struggle with high-complexity problems because they fail to generate the long responses required to solve them. However, critics argue this is a flaw in the evaluation methodology, not a fundamental inability to think. The core issue is that these models are post-trained to avoid extremely long outputs. When faced with complex tasks requiring lengthy explanations, the models intentionally truncate their answers to stay within learned length limits. Consequently, they appear to \"collapse\" or reduce effort not because they lack reasoning capabilities, but because they literally cannot output enough tokens to demonstrate them. Ultimately, the paper raises valid questions about whether current token-based outputs truly reflect internal reasoning or merely mimic it. Until we can better evaluate models beyond simple output length constraints, the claim that AI lacks reasoning remains unproven. The challenge lies in designing tests that accurately measure capabilities without being constrained by artificial generation limits.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "dbbcd58fcbc21c67",
+      "text": "No, Apple did not prove AI cannot reason at all; rather, their study highlights specific limitations in how current models handle extreme complexity. The research found that while \"large reasoning models\" (LRMs) outperform standard models on medium-difficulty tasks, both types suffer a \"complete accuracy collapse\" when faced with highly complex problems. Crucially, the authors noted that as these models approach this failure point, they counterintuitively reduce their reasoning effort despite having unused computing budget left. However, the study itself acknowledges significant constraints: it relied on narrow puzzle environments rather than diverse real-world tasks, used black-box access to closed models, and assumed perfect validation via deterministic simulators. Experts like Gary Marcus suggest these findings challenge assumptions about a direct path to Artificial General Intelligence (AGI), but they do not disprove reasoning entirely. Instead, they indicate that current approaches may have hit fundamental barriers specifically regarding generalizable reasoning on very hard problems, suggesting the industry might be in a \"cul-de-sac\" rather than proving reasoning impossible.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d0c8daac0e418c48",
+      "text": "Not really. Apple's paper, 'The Illusion of Thinking,' showed that reasoning models match or beat standard models only up to medium complexity, and that both types drop to zero accuracy on high-complexity puzzles. Their thinking effort also rises, then falls past a point even with token budget left. But the article's author says the paper does not strictly prove its core claims. Reasoning models are trained to avoid very long answers, so on puzzles that need extremely long outputs they may cut answers short on purpose, which does not show they cannot solve them. Most frontier models are closed, so independent testing is limited. Whether real reasoning happens inside the model, rather than in its thinking tokens, remains an open question.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "d1771ff0f2b03492",
+      "text": "Not exactly. Apple researchers showed that today's 'reasoning' models, which write out step-by-step thinking before answering, do well on medium-difficulty puzzles but suffer a complete accuracy collapse on highly complex ones, such as Tower of Hanoi and River Crossing. On simple puzzles, ordinary models did better. The paper also found that as problems got harder, the models cut back their reasoning effort even though they still had budget left, which the researchers called particularly concerning and a fundamental scaling limitation. Critics such as Gary Marcus called it devastating for the idea that large language models lead straight to general intelligence. But the researchers acknowledged that puzzles are only a narrow slice of reasoning. The study shows a serious weakness on these tests rather than proof that AI can never reason.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "de68d7656a4f5147",
+      "text": "No, Apple did not prove AI models cannot reason at all; rather, their study reveals a critical limitation in how that reasoning scales. The research shows that while \"reasoning\" models do outperform standard ones on medium-complexity tasks, they suffer a complete collapse on high-complexity problems. Essentially, as cognitive load increases, these systems fail precisely where robust logic is needed most. Furthermore, the study suggests that AI often simulates reasoning without truly understanding it. The models generate fluent, step-by-step answers that appear logical but are actually approximations based on semantic coherence rather than genuine algorithmic consistency. This creates a dangerous illusion of competence, especially in high-stakes fields like medicine or law. Ultimately, Apple's findings indicate that current AI functions more as a rhetorical engine optimizing for surface-level fluency, rather than a cognitive system capable of reliable, deep reasoning under pressure.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d5fb877b6bfd65a4",
+      "text": "No, Apple did not prove that AI models cannot reason; rather, their study highlighted specific limitations in how current models are evaluated. The paper suggested that reasoning models fail on high-complexity tasks because they collapse accuracy and reduce \"thinking\" effort. However, subsequent critiques argue this is a methodological flaw, not proof of incapability. The core issue is that these models are post-trained to avoid generating extremely long responses. Since the Apple study defined complexity partly by answer length, models simply stopped outputting tokens before finishing their thoughts on hard problems. This behavior reflects training constraints, not a lack of underlying reasoning ability. Furthermore, because many top models are closed-source, independent verification of their true limits is difficult. Ultimately, while the paper raises valid questions about current evaluation methods and the nature of \"thinking\" tokens versus internal processing, it does not strictly prove that AI lacks reasoning capabilities. It merely shows that existing tests may be incomplete measures of what these models can actually do.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "dea265ecc88c593b",
+      "text": "Partly. Apple researchers reported fundamental limitations in large reasoning models. On low-complexity puzzles, standard models did better. On medium complexity, reasoning models had an edge. On high-complexity puzzles, both types suffered a complete accuracy collapse. Near that collapse point, the models even reduced their reasoning effort despite having budget left, which the researchers found particularly concerning. Critics such as Gary Marcus called it pretty devastating for the idea that LLMs are a direct route to AGI. But the study has real limits. It tested puzzles such as Tower of Hanoi and River Crossing, and the researchers acknowledged that this puzzle focus is a limitation. So it shows these models fail at complex puzzle-solving past a threshold and raises questions about generalizable reasoning. It does not prove that AI cannot reason at all.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d00bb9cdfbfdcec6",
+      "text": "Yes, Apple's recent research strongly suggests that current AI models cannot truly reason, particularly as tasks become complex. Their report, \"The Illusion of Thinking,\" reveals a critical flaw: while Large Reasoning Models (LRMs) appear logical at medium complexity, their performance completely collapses when faced with high-complexity problems requiring genuine abstraction or multistep logic. Instead of understanding concepts, these models often simulate reasoning through \"cognitive theater.\" They generate fluent, step-by-step answers that mimic human deliberation but lack a consistent algorithmic foundation. Essentially, they are approximating logic based on semantic coherence rather than truth. This creates a dangerous hazard where AI can be convincingly wrong in critical fields like medicine or law. As Apple's findings highlight, fluency is not thought; these systems are rhetorical engines performing the appearance of reasoning without actually possessing it.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "db6267d3faa0823a",
+      "text": "Not really. The Apple paper, 'The Illusion of Thinking,' found that reasoning models' accuracy collapses on harder puzzles, that they can reduce their thinking effort on hard problems, and that they struggle to self-correct. Shortly after, critics argued the authors overreached, and the paper does not strictly prove its core claims. The main objection is that reasoning models are post-trained to avoid very long responses. Apple's high-complexity puzzles require long answers, so a model may cut its answer short by choice rather than because it can't solve the problem. Since most frontier models are closed, outsiders can't easily test this. The paper raises real questions, but it doesn't settle whether these models truly reason inside their weights rather than just producing reasoning-like tokens.",
+      "claim_ids": [
+        "P15",
+        "P18"
+      ]
+    },
+    {
+      "key": "d77b1a354d4e23ef",
+      "text": "No, Apple didn't prove AI can't reason at all; rather, they identified specific \"fundamental limitations\" in how current models handle extreme complexity. Their research shows that while Large Reasoning Models (LRMs) excel at simple tasks, they suffer a \"complete accuracy collapse\" when faced with highly complex problems. Interestingly, as these models approach this failure point, they actually reduce their reasoning effort instead of working harder. Experts like Gary Marcus describe these findings as \"devastating\" for the race toward Artificial General Intelligence (AGI), suggesting that simply scaling up current methods may lead us to a \"cul-de-sac.\" The study indicates that while AI can solve puzzles and break down problems, it hits a barrier where it fails to generalize reasoning effectively on difficult tasks. So, rather than proving reasoning is impossible, Apple's work highlights that our current approach has reached significant hurdles before achieving true human-like intelligence.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d80e8bf30c880404",
+      "text": "Not quite. Apple researchers reported 'fundamental limitations' in large reasoning models, which faced a 'complete accuracy collapse' on highly complex puzzles such as Tower of Hanoi and River Crossing. Standard models beat reasoning models on low-complexity tasks, reasoning models did better at medium complexity, and both collapsed at high complexity. Near collapse, the models even reduced their reasoning effort. Critics such as Gary Marcus called it devastating. But the paper suggests limits rather than proving them, and the researchers acknowledged that their focus on puzzles is a limitation. OpenAI declined to comment, and Anthropic, Google and DeepSeek were contacted.",
+      "claim_ids": [
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d4b377b4203564dc",
+      "text": "Apple's report, 'The Illusion of Thinking,' found that reasoning models fail hardest as problems get more complex. It identified three regimes: standard models beat reasoning models on low-complexity tasks, reasoning models help at medium complexity, and at high complexity both types completely collapse. The models also do not seem to know they are failing, producing steps that look sound but are not grounded in a consistent method. The article's author, a psychologist writing an opinion piece, goes further and argues that LLMs may only simulate the structure of thinking, so we should be skeptical of fluent reasoning. Caveat: that broader interpretation is the author's own view, not a finding of the study.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "df01d0c04c1d161a",
+      "text": "Partly, and the author argues it reveals something bigger. Apple researchers studied large reasoning models, which produce step-by-step thinking before answering. At low complexity, simpler models did better. At medium complexity, the reasoning models shone. At high complexity, both collapsed. The worrying part is that the models don't seem to know they are failing: they still produce polished, step-by-step answers that aren't grounded in any consistent method. The author's point is that fluency is not thought. These systems may only simulate the structure of reasoning, which matters when they are considered for medicine, law, education or mental health. The lesson is to be skeptical of convincing explanations and to build tools that check the process behind answers, not just the final results. Whether machines truly think remains an open question.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    },
+    {
+      "key": "d6e1cdf90ead654b",
+      "text": "No, Apple did not prove AI models cannot reason; rather, their study reveals a critical limitation in how they do it. The research, conducted partly by an Apple intern, shows that while Large Reasoning Models (LRMs) like Claude 3.7 Sonnet and DeepSeek-R1 can handle medium-complexity tasks, their performance collapses under high complexity. Essentially, these models simulate logic through fluent text rather than true understanding. They generate convincing step-by-step answers that appear rational but are often just approximations based on semantic coherence, not consistent algorithms. The study highlights a dangerous \"cognitive mismatch\": AI optimizes for surface-level fluency, fooling users into mistaking performance for actual proof of thought. While LRMs shine in specific scenarios, they fail hardest where deep abstraction is required. Therefore, Apple's findings suggest that current AI reasoning is largely an illusion—a rhetorical engine mimicking human cognition rather than a genuine cognitive process capable of scaling reliably with difficulty.",
+      "claim_ids": [
+        "P15",
+        "P17",
+        "P18"
+      ]
+    }
+  ]
+}

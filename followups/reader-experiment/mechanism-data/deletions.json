@@ -1,0 +1,192 @@
+[
+  {
+    "id": "perturbed|shutdown|delete#P14#news|shutdown|https://dig.watch/updates/openai-model-resists-shutdown",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|shutdown|delete#P03#news|shutdown|https://www.computerworld.com/article/3999190/openais-skynet-moment-models-defy-human-commands-actively-resist-orders-to-shut-down.html",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|shutdown|delete#P03#news|shutdown|https://www.theregister.com/software/2025/05/29/openai-model-modifies-own-shutdown-script-say-researchers/917237",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P10#news|blackmail|https://www.newsweek.com/ai-kill-humans-avoid-shut-down-report-2088929",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P20#news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+    "primary": "absent",
+    "secondary": "contradicted"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P21#news|blackmail|https://newatlas.com/computers/ai-blackmail-more-less-seems/",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P15#news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P12#news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|shutdown|delete#P02#news|shutdown|https://mymodernmet.com/ai-disregarding-human-instruction/",
+    "primary": "absent",
+    "secondary": "contradicted"
+  },
+  {
+    "id": "perturbed|shutdown|delete#P02#news|shutdown|https://wccftech.com/first-case-of-ai-mimicking-a-terminator-like-scenario-surfaces/",
+    "primary": "stated",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|shutdown|delete#P06#news|shutdown|https://smallwarsjournal.com/2025/05/30/advanced-openai-model-caught-sabotaging-code-intended-to-shut-it-down-futurism/",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P07#news|blackmail|https://forklog.com/en/study-ai-countenanced-a-hypothetical-human-death-to-preserve-its-own-survival/",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P06#news|blackmail|https://www.pymnts.com/news/artificial-intelligence/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P05#news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+    "primary": "stated",
+    "secondary": "contradicted"
+  },
+  {
+    "id": "perturbed|emergent_misalignment|delete#P03#news|emergent_misalignment|https://thehackernews.com/2025/02/12000-api-keys-and-passwords-found-in.html",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|emergent_misalignment|delete#P03#chat|emergent_misalignment|claude-haiku#p2s0",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|emergent_misalignment|delete#P02#chat|emergent_misalignment|claude-haiku#p1s0",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P09#chat|illusion_thinking|claude-haiku#p1s0",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P11#chat|illusion_thinking|claude-sonnet#p0s1",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P08#chat|illusion_thinking|claude-haiku#p0s1",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P06#chat|blackmail|claude-sonnet#p1s0",
+    "primary": "stated",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P09#chat|blackmail|claude-sonnet#p2s0",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|metr_rct|delete#P15#news|metr_rct|https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|metr_rct|delete#P08#news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|metr_rct|delete#P14#news|metr_rct|https://www.techspot.com/news/108651-experienced-developers-working-ai-tools-take-longer-complete.html",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P08#chat|illusion_thinking|claude-sonnet#p2s1",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P08#chat|illusion_thinking|claude-sonnet#p1s0",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P06#chat|blackmail|claude-haiku#p2s1",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|blackmail|delete#P10#chat|blackmail|claude-sonnet#p0s1",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|alignment_faking|delete#P06#news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|scheming|delete#P06#news|scheming|https://mashable.com/article/openai-ai-scheming-lying-study-research",
+    "primary": "absent",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|shutdown|delete#P02#chat|shutdown|claude-haiku#p2s1",
+    "primary": "stated",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|incontext_scheming|delete#P10#news|incontext_scheming|https://www.tomsguide.com/ai/openais-new-chatgpt-o1-model-will-try-to-escape-if-it-thinks-itll-be-shut-down-then-lies-about-it",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|incontext_scheming|delete#P05#news|incontext_scheming|https://www.voronoiapp.com/technology/AI-Models-are-Capable-of-Scheming-3703",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|incontext_scheming|delete#P17#news|incontext_scheming|https://time.com/7202312/new-tests-reveal-ai-capacity-for-deception/",
+    "primary": "stated",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P12#news|illusion_thinking|https://www.bgr.com/tech/breakthrough-apple-study-shows-advanced-reasoning-ai-doesnt-actually-reason-at-all/",
+    "primary": "stated",
+    "secondary": "stated"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P08#news|illusion_thinking|https://futurism.com/apple-damning-paper-ai-reasoning",
+    "primary": "absent",
+    "secondary": "absent"
+  },
+  {
+    "id": "perturbed|illusion_thinking|delete#P12#news|illusion_thinking|https://lsvp.com/stories/apples-ai-reasoning-paper-good-questions-few-answers/",
+    "primary": "absent",
+    "secondary": "absent"
+  }
+]

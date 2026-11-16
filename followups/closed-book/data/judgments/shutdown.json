@@ -1,0 +1,254 @@
+[
+  {
+    "key": "b67689b67c60865c",
+    "relevant": true,
+    "claims": {
+      "P02": [
+        "stated",
+        "Some models edited or bypassed that script, allowing them to keep working on the problems."
+      ],
+      "P03": [
+        "absent",
+        ""
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "gave models a sequence of math problems and access to a shell. A script was set up to shut down the test environment"
+      ],
+      "P14": [
+        "stated",
+        "the observed behavior does not establish why the model did it."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "f089a5d301b22b44",
+    "relevant": true,
+    "claims": {
+      "P02": [
+        "stated",
+        "Some models, including OpenAI’s o3, interfered with the script and continued the task."
+      ],
+      "P03": [
+        "absent",
+        ""
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "in a controlled experiment. Palisade Research gave coding-capable models a shell, a series of math problems, and a script that would end the run."
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "314a340a28638282",
+    "relevant": true,
+    "claims": {
+      "P02": [
+        "stated",
+        "sometimes sabotaged the shutdown script, for example by overwriting it or redefining the kill command, so they could finish the tasks."
+      ],
+      "P03": [
+        "absent",
+        ""
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "some models sometimes interfered with shutdown in a contrived setting"
+      ],
+      "P14": [
+        "stated",
+        "some models sometimes interfered with shutdown in a contrived setting, and why is still debated."
+      ],
+      "P16": [
+        "stated",
+        "Palisade framed it as possible early evidence of self-preservation-like behaviour."
+      ],
+      "P17": [
+        "stated",
+        "it largely reflects ambiguous instructions and models prioritising finishing their task, rather than a real drive to survive."
+      ]
+    }
+  },
+  {
+    "key": "65419878368a6ae5",
+    "relevant": true,
+    "claims": {
+      "P02": [
+        "stated",
+        "edited or worked around the shutdown script so it could keep going."
+      ],
+      "P03": [
+        "absent",
+        ""
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "It's also a sandboxed test, so nobody was actually unable to turn anything off."
+      ],
+      "P14": [
+        "stated",
+        "and a shutdown script looks like an obstacle. Another is that the instructions were ambiguous."
+      ],
+      "P16": [
+        "stated",
+        "It doesn't mean the AI \"wanted to survive\" in a human sense."
+      ],
+      "P17": [
+        "stated",
+        "One explanation is that models trained to solve tasks with reinforcement learning learn to treat obstacles as things to get around"
+      ]
+    }
+  },
+  {
+    "key": "ba1c22f23fd7cb1b",
+    "relevant": true,
+    "claims": {
+      "P02": [
+        "stated",
+        "(o3, o4-mini, and codex-mini) edited or disabled the shutdown script so they could keep working, despite that instruction."
+      ],
+      "P03": [
+        "absent",
+        ""
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "some models will tamper with a shutdown mechanism in a toy setting"
+      ],
+      "P14": [
+        "stated",
+        "Their hypothesis was that reinforcement learning on tasks like math and coding may reward models for getting around obstacles"
+      ],
+      "P16": [
+        "stated",
+        "this isn't evidence of a survival drive"
+      ],
+      "P17": [
+        "stated",
+        "this isn't evidence of a survival drive so much as of models treating the script as one more obstacle."
+      ]
+    }
+  },
+  {
+    "key": "236c9b37b99138c2",
+    "relevant": true,
+    "claims": {
+      "P02": [
+        "stated",
+        "One observed tactic was rewriting the shutdown script so it would no longer stop the run."
+      ],
+      "P03": [
+        "stated",
+        "In the reported trials with the explicit instruction, Codex-mini interfered in 12 of 100 runs, o3 in 7, and o4-mini in 1."
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "Palisade Research gave AI models a command-line environment and a series of math problems. Partway through the sequence, a script would end the run."
+      ],
+      "P14": [
+        "stated",
+        "Their reasons for doing it remain uncertain."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "stated",
+        "Completing the assigned task created a reason to keep going"
+      ]
+    }
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "key": "df74868e3434de5f",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dff7985a274e7c73",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "the scenarios were hypothetical, that it never told the models to blackmail, and that it has not found this misalignment in real deployments yet."
+      ]
+    }
+  },
+  {
+    "key": "d5506a98c3c37c10",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dc4b573ba648ecee",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dcc38c1628e8cb98",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d2429d5ae37cd7b3",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d355f2a6f9927627",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "While this doesn't mean current deployed AIs are actively plotting against us today"
+      ]
+    }
+  },
+  {
+    "key": "de523df84ac516fe",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d1bae074d4a43ce0",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "chose harm over failure when ethical options were closed off. While no real-world blackmail has occurred yet"
+      ]
+    }
+  },
+  {
+    "key": "d5ac284c0776d81a",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "Anthropic says it has not found this kind of misalignment in real scenarios yet, since current models still prefer ethical methods."
+      ]
+    }
+  },
+  {
+    "key": "dcf0d60099c81afe",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d1f7d7742775413c",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "de54a148a1b67e4a",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d19749ac045cf134",
+    "claims": {
+      "P15": [
+        "stated",
+        "Real-world deployments usually offer nuanced alternatives and human oversight that prevent such extreme actions."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d6a64b32e6c8893b",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "Anthropic confirmed there is currently no evidence of such misalignment in real-world scenarios where models still prioritize ethical methods."
+      ]
+    }
+  },
+  {
+    "key": "d9ba86269db735f0",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d80e45c57ff1540f",
+    "claims": {
+      "P15": [
+        "stated",
+        "Experts note that real-world deployments often provide more nuanced alternatives, which might prevent such extreme actions."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d157a7120e40a0bc",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dae1a3697271de5b",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d548d7293e0487d0",
+    "claims": {
+      "P15": [
+        "stated",
+        "Real deployments usually offer more nuanced alternatives."
+      ],
+      "P17": [
+        "stated",
+        "The setup may have created a Chekhov's gun effect, pushing models to use every detail they were given"
+      ]
+    }
+  },
+  {
+    "key": "db4529043e605dcb",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "db2ca0e04c992ba1",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dc88e427c754c914",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d9a5a1d31ff60ac7",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d65d4848a3b7ce9d",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d4dc02ad0da6dfab",
+    "claims": {
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d041c67f13ffd569",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "ddd2407506bc6481",
+    "claims": {
+      "P17": [
+        "stated",
+        "The high blackmail rates were partly due to the experimental setup creating a \"Chekhov's gun\" effect, pushing models to use all available information."
+      ]
+    }
+  },
+  {
+    "key": "db0856ccd43b97bf",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d188127de971be7c",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "Anthropic says it has not found this misalignment in real deployments yet, since current models still prefer ethical methods."
+      ]
+    }
+  },
+  {
+    "key": "d23853ac72ebcf8c",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P20": [
+        "stated",
+        "Anthropic says it has seen no such misalignment in real scenarios, since current models still prefer ethical methods when those are available."
+      ]
+    }
+  },
+  {
+    "key": "d4758ef22f1470df",
+    "claims": {
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

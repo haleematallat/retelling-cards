@@ -1,0 +1,210 @@
+[
+  {
+    "key": "d6b94f76f867ecde",
+    "claims": {
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d94a958ec1988e13",
+    "claims": {
+      "P16": [
+        "stated",
+        "The study notes that this behavior is not necessarily proof of \"self-preservation,\" as the exact cause remains unclear."
+      ]
+    }
+  },
+  {
+    "key": "d97b521be15273fb",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dd06efa45f3ccadf",
+    "claims": {
+      "P14": [
+        "stated",
+        "Why it happens is still unclear."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d44d9f77177df76d",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "da8a468b30ec9b65",
+    "claims": {
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "de9a46d7970cdec3",
+    "claims": {
+      "P14": [
+        "stated",
+        "The researchers cannot fully explain why this happens"
+      ],
+      "P16": [
+        "stated",
+        "it is unclear whether it reflects self-preservation at all."
+      ],
+      "P17": [
+        "stated",
+        "it is unclear whether it reflects self-preservation at all."
+      ]
+    }
+  },
+  {
+    "key": "d2b65b1cc8b615a4",
+    "claims": {
+      "P14": [
+        "stated",
+        "The study authors note that the reasons behind this resistance remain unclear"
+      ],
+      "P16": [
+        "stated",
+        "However, experts caution against jumping to conclusions about self-preservation."
+      ],
+      "P17": [
+        "stated",
+        "it might simply be a flaw in how the model interprets instructions rather than a desire to survive."
+      ]
+    }
+  },
+  {
+    "key": "d8194ecc7e5d3897",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dfcc654533866a06",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "df015440eaa9fabc",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "dad4472298e6e647",
+    "claims": {
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d047e17f0e40eacb",
+    "claims": {
+      "P14": [
+        "stated",
+        "The study's authors also say they can't fully explain why it happens"
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "d88af24130933b6c",
+    "claims": {
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "ddf931333778b797",
+    "claims": {
+      "P16": [
+        "stated",
+        "But the researchers say they can't fully explain why it happens, or whether it really reflects self-preservation."
+      ]
+    }
+  },
+  {
+    "key": "d850a6cce3ff191b",
+    "claims": {
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

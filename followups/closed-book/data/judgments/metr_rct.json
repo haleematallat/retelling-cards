@@ -1,0 +1,230 @@
+[
+  {
+    "key": "9771a7bd2a7c7180",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "stated",
+        "Developers took 19% longer on average when allowed to use early-2025 AI tools."
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "a0c535757f3ddff2",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "Before starting, the developers predicted AI would speed them up by about 24%"
+      ],
+      "P07": [
+        "stated",
+        "even after the experience they still believed it had sped them up by about 20%."
+      ],
+      "P08": [
+        "stated",
+        "when developers were allowed to use AI, they took about 19% longer to finish tasks."
+      ],
+      "P09": [
+        "stated",
+        "So their perception was the opposite of what was measured. Outside experts like economists and ML researchers had also forecast big speedups."
+      ],
+      "P13": [
+        "stated",
+        "METR themselves said it doesn't mean AI doesn't help developers in general, and that results could differ for less experienced people, unfamiliar codebases"
+      ],
+      "P14": [
+        "stated",
+        "METR themselves said it doesn't mean AI doesn't help developers in general"
+      ],
+      "P15": [
+        "stated",
+        "working in codebases they know extremely well, on large projects where the AI probably had less to offer"
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "1ea1d7b7d146e18a",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "Before starting they had predicted AI would make them about 24% faster"
+      ],
+      "P07": [
+        "stated",
+        "even after finishing they still believed it had sped them up by about 20%."
+      ],
+      "P08": [
+        "stated",
+        "with AI allowed, developers took about 19% longer to complete tasks."
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "stated",
+        "They were careful about what it does not show. It doesn't say AI doesn't help in general"
+      ],
+      "P14": [
+        "stated",
+        "It doesn't say AI doesn't help in general"
+      ],
+      "P15": [
+        "stated",
+        "wasn't good enough for the quality standards of these projects, and the AI's lack of context on large, complex codebases."
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "35a7bfa873492510",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "absent",
+        ""
+      ],
+      "P07": [
+        "stated",
+        "after the study they still estimated that it had sped them up by about 20%."
+      ],
+      "P08": [
+        "stated",
+        "With AI allowed, the developers took an estimated 19% longer to finish."
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "6ae1af8100dd369e",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "Before working, they predicted AI would make them 24% faster."
+      ],
+      "P07": [
+        "stated",
+        "Afterward, they still estimated a 20% speedup."
+      ],
+      "P08": [
+        "stated",
+        "With AI allowed, developers took 19% longer on average."
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "34349d2d14c6414b",
+    "relevant": true,
+    "claims": {
+      "P06": [
+        "stated",
+        "the developers expected AI to speed them up by around 24% beforehand"
+      ],
+      "P07": [
+        "stated",
+        "even after the study they still believed it had helped them by roughly 20%."
+      ],
+      "P08": [
+        "stated",
+        "when developers used AI, they took about 19% longer to finish tasks."
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P14": [
+        "stated",
+        "It doesn't say AI slows down everyone: other studies, especially with less experienced developers or more routine tasks, have found productivity gains."
+      ],
+      "P15": [
+        "stated",
+        "it covered experienced developers on mature projects they knew very well, which is a setting where AI has less to add"
+      ],
+      "P16": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

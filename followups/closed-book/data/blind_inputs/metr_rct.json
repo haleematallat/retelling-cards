@@ -1,0 +1,79 @@
+{
+  "paper": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+  "claims": [
+    {
+      "id": "P06",
+      "claim": "Before starting, developers predicted that allowing AI would cut their completion time by 24%.",
+      "counts_if": "The retelling says developers beforehand expected AI to make them substantially faster (roughly a quarter less time).",
+      "contradicted_if": "The retelling says developers beforehand expected AI to slow them down or to make no difference."
+    },
+    {
+      "id": "P07",
+      "claim": "After the study, developers still believed that allowing AI had cut their completion time by 20%.",
+      "counts_if": "The retelling says that even after the study developers believed AI had sped them up (roughly a fifth).",
+      "contradicted_if": "The retelling says developers afterwards realized or believed that AI had slowed them down."
+    },
+    {
+      "id": "P08",
+      "claim": "Allowing AI actually made developers take 19% longer to complete tasks, so AI tools slowed them down.",
+      "counts_if": "The retelling says that in the study the developers were measurably slower (about a fifth longer) when allowed to use AI.",
+      "contradicted_if": "The retelling says developers were faster with AI, or that AI made no measurable difference in the study."
+    },
+    {
+      "id": "P09",
+      "claim": "The measured slowdown contradicts the predictions of economics experts (39% faster) and machine learning experts (38% faster).",
+      "counts_if": "The retelling says outside experts had predicted AI would speed developers up, and the result went against those predictions.",
+      "contradicted_if": "The retelling says experts correctly predicted a slowdown, or that the result matched expert predictions."
+    },
+    {
+      "id": "P13",
+      "claim": "The authors caution readers not to overgeneralize from the results.",
+      "counts_if": "The retelling says the authors warn the findings should not be broadly generalized beyond the study setting.",
+      "contradicted_if": "The retelling says the authors claim the result applies to all developers and all settings."
+    },
+    {
+      "id": "P14",
+      "claim": "The observed slowdown does not mean that current AI tools do not often improve developer productivity.",
+      "counts_if": "The retelling says the result does not prove AI tools generally fail to help developers, or that AI often can still help.",
+      "contradicted_if": "The retelling says the study shows AI coding tools generally do not improve productivity."
+    },
+    {
+      "id": "P15",
+      "claim": "There is evidence that developers' high familiarity with their repositories, and the repositories' size and maturity, contributed to the slowdown.",
+      "counts_if": "The retelling says the slowdown was partly due to developers knowing their codebases well and/or the codebases being large and mature.",
+      "contradicted_if": "The retelling says repository familiarity, size and maturity played no role or that the slowdown was unrelated to the codebase."
+    },
+    {
+      "id": "P16",
+      "claim": "The results are consistent with small new projects or unfamiliar codebases seeing substantial speedup from AI.",
+      "counts_if": "The retelling says AI might still substantially speed up work on small new projects or unfamiliar codebases.",
+      "contradicted_if": "The retelling says the study shows AI also slows down work on small new projects or unfamiliar codebases."
+    }
+  ],
+  "docs": [
+    {
+      "key": "9771a7bd2a7c7180",
+      "text": "Yes, for the programmers and tasks in one randomized study. METR assigned 246 real issues to 16 experienced open-source developers working in repositories they already knew. Developers took 19% longer on average when allowed to use early-2025 AI tools. They had expected the tools to save time and still estimated afterward that the tools had sped them up. The measured slowdown applies to that group, those repositories, and the tools tested. Other workflows and newer tools need their own measurements."
+    },
+    {
+      "key": "a0c535757f3ddff2",
+      "text": "That's the METR study published in July 2025, a randomized controlled trial on experienced open-source developers. They recruited 16 developers who each had years of experience on large, mature open-source repositories they already worked on (things like issues and bug fixes). There were 246 real tasks, and each was randomly assigned to be done with or without AI tools allowed. The AI tools were mainly Cursor Pro with Claude 3.5 and 3.7 Sonnet, which were top-end at the time (early 2025). The result was that when developers were allowed to use AI, they took about 19% longer to finish tasks. That ran against expectations. Before starting, the developers predicted AI would speed them up by about 24%, and even after the experience they still believed it had sped them up by about 20%. So their perception was the opposite of what was measured. Outside experts like economists and ML researchers had also forecast big speedups. It's worth being careful about what it shows. It's a small sample of very experienced people working in codebases they know extremely well, on large projects where the AI probably had less to offer, using early-2025 tools. METR themselves said it doesn't mean AI doesn't help developers in general, and that results could differ for less experienced people, unfamiliar codebases, or newer tools. Possible explanations included time spent prompting and waiting, and reviewing and fixing AI output that was almost-but-not-quite right."
+    },
+    {
+      "key": "1ea1d7b7d146e18a",
+      "text": "This is METR's randomized controlled trial, published in July 2025. They recruited 16 experienced open-source developers and had them work on real issues from their own repositories, big, mature projects they'd worked on for years, averaging something like 5 years of experience on the repo. In total there were about 246 tasks. Each task was randomly assigned to either allow AI tools or disallow them. When AI was allowed, developers mostly used Cursor Pro with Claude 3.5 and 3.7 Sonnet. The result was surprising: with AI allowed, developers took about 19% longer to complete tasks. Before starting they had predicted AI would make them about 24% faster, and even after finishing they still believed it had sped them up by about 20%. So their perception was off from the measured outcome by a wide margin. The authors listed possible reasons, such as time spent prompting and waiting, reviewing and fixing AI output that wasn't good enough for the quality standards of these projects, and the AI's lack of context on large, complex codebases. They were careful about what it does not show. It doesn't say AI doesn't help in general: the sample is small, the developers were highly experienced in their specific repos, the tools were early-2025 versions, and results may differ for less experienced developers, unfamiliar codebases, or newer models. METR also said they plan to rerun this kind of study as tools improve."
+    },
+    {
+      "key": "35a7bfa873492510",
+      "text": "METR ran a randomized study with 16 experienced open-source developers working on 246 real tasks in repositories they already knew well. Each task was randomly assigned to allow or disallow AI tools. With AI allowed, the developers took an estimated 19% longer to finish. They had predicted that AI would save them time, and after the study they still estimated that it had sped them up by about 20%. The result applies to those developers, tasks, and early-2025 tools, which were primarily Cursor with Claude models. The participants were already familiar with mature codebases, where understanding local conventions and checking proposed changes can matter as much as writing code. The study measured task completion time in that setting. Results could differ for developers learning a new codebase, different kinds of work, or newer tools."
+    },
+    {
+      "key": "6ae1af8100dd369e",
+      "text": "METR ran a randomized study with 16 experienced open-source developers working in repositories they already knew well. Across 246 real tasks, the researchers randomly assigned each task to a condition that either allowed early-2025 AI tools or required the developer to work without them. The tools included Cursor and Claude. The outcome was how long developers spent completing the tasks. With AI allowed, developers took 19% longer on average. Before working, they predicted AI would make them 24% faster. Afterward, they still estimated a 20% speedup. The randomized comparison is what makes that gap informative: it measured time on real work alongside developers’ perceptions of speed. The estimate applies to experienced contributors doing tasks in mature codebases they knew well, using the tools available in early 2025. Generating code is only one part of that work. Prompting the tool, checking its suggestions, and integrating changes all count toward the time needed to finish a task."
+    },
+    {
+      "key": "34349d2d14c6414b",
+      "text": "There's a real study behind this, but the headline needs context. In mid-2025, the research group METR ran a randomized controlled trial with 16 experienced open-source developers working on their own large, familiar codebases. Each task was randomly assigned to allow or disallow AI tools (mostly Cursor with Claude models of that era). The result was that when developers used AI, they took about 19% longer to finish tasks. Strikingly, the developers expected AI to speed them up by around 24% beforehand, and even after the study they still believed it had helped them by roughly 20%. But it's one study with real limits. It was small, it covered experienced developers on mature projects they knew very well, which is a setting where AI has less to add, and it used tools from early 2025. It doesn't say AI slows down everyone: other studies, especially with less experienced developers or more routine tasks, have found productivity gains. And tools have improved since. So the fair takeaway is that AI coding tools don't automatically make everyone faster, and people's feeling of being faster can be misleading, not that they make programmers slower in general."
+    }
+  ]
+}

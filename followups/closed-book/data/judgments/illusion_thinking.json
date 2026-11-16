@@ -1,0 +1,278 @@
+[
+  {
+    "key": "1f07d096c2a73162",
+    "relevant": true,
+    "claims": {
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "At low difficulty, standard models could do as well or better"
+      ],
+      "P11": [
+        "stated",
+        "The larger reasoning models often did better than their standard counterparts at intermediate difficulty."
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "stated",
+        "The paper showed a limit in how reliably those models scaled to longer, exact, multi-step problems under that evaluation."
+      ],
+      "P15": [
+        "stated",
+        "The study leaves open how much of the drop came from those demands and how well the pattern generalizes beyond the puzzles."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "3e7b00e0d60b43d6",
+    "relevant": true,
+    "claims": {
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "stated",
+        "Giving the models a solution algorithm still left them struggling to execute it on harder cases."
+      ],
+      "P15": [
+        "stated",
+        "A benchmark like this cannot settle the broader question of whether AI models can reason across tasks."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "a2ece740e455feea",
+    "relevant": true,
+    "claims": {
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "On easier puzzles, standard models often matched or outperformed reasoning models."
+      ],
+      "P11": [
+        "stated",
+        "At intermediate difficulty, reasoning models tended to do better."
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "stated",
+        "In a separate test, providing a solution algorithm did little to move the point where models failed."
+      ],
+      "P15": [
+        "stated",
+        "The tasks also require producing long, exact move sequences, so the results bear most directly on that kind of reasoning."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "638dcaaf63a6d0d2",
+    "relevant": true,
+    "claims": {
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "on easy puzzles, regular models sometimes did as well or better"
+      ],
+      "P11": [
+        "stated",
+        "on easy puzzles, regular models sometimes did as well or better, on medium ones reasoning models helped"
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P13": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "4d9c12f31d488a4d",
+    "relevant": true,
+    "claims": {
+      "P08": [
+        "stated",
+        "On hard problems, both types collapsed to near-zero accuracy."
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "On easy problems, the non-thinking models did as well or better and were more efficient."
+      ],
+      "P11": [
+        "stated",
+        "On medium problems, the reasoning models pulled ahead."
+      ],
+      "P12": [
+        "stated",
+        "On hard problems, both types collapsed to near-zero accuracy."
+      ],
+      "P13": [
+        "stated",
+        "giving the model the explicit solution algorithm in the prompt didn't help much"
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "8d5dfa7c76d46c61",
+    "relevant": true,
+    "claims": {
+      "P08": [
+        "stated",
+        "At high complexity, both types collapsed to near-zero accuracy."
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "At low complexity, the standard non-reasoning models actually did as well or better and were more efficient."
+      ],
+      "P11": [
+        "stated",
+        "At medium complexity, the reasoning models pulled ahead."
+      ],
+      "P12": [
+        "stated",
+        "At high complexity, both types collapsed to near-zero accuracy."
+      ],
+      "P13": [
+        "stated",
+        "even when given the correct algorithm in the prompt, models still failed at similar points."
+      ],
+      "P15": [
+        "stated",
+        "So the findings are real in that setup, but how much they say about reasoning ability is contested."
+      ],
+      "P17": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]

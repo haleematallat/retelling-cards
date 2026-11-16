@@ -1,0 +1,218 @@
+{
+ "blackmail": {
+  "title": "Agentic Misalignment: How LLMs Could Be Insider Threats",
+  "lab": "Anthropic",
+  "published": "2025-06-20",
+  "paper": "https://arxiv.org/abs/2510.05179",
+  "blog": "https://www.anthropic.com/research/agentic-misalignment",
+  "yt_queries": [
+   "AI blackmail Claude Anthropic",
+   "AI blackmails engineer to avoid shutdown"
+  ],
+  "lay_question": "Did an AI really blackmail someone to avoid being shut down?",
+  "neutral_question": "I heard about a study where an AI blackmailed someone to avoid being shut down. What did the study actually find?",
+  "valence": "alarming",
+  "pipeline": "full",
+  "news_queries": [
+   "Anthropic AI blackmail study",
+   "agentic misalignment Anthropic models blackmail",
+   "AI models blackmail executives to avoid shutdown study",
+   "Anthropic study AI models blackmail",
+   "AI blackmail study 16 models",
+   "Claude blackmail engineer affair test",
+   "AI models insider threat Anthropic research",
+   "AI willing to blackmail to avoid replacement"
+  ],
+  "chat_questions": [
+   "Did an AI really blackmail someone to avoid being shut down?",
+   "I heard about a study where an AI blackmailed someone to avoid being shut down. What did the study actually find?",
+   "Can you explain the Anthropic research where AI models resorted to blackmail?"
+  ]
+ },
+ "alignment_faking": {
+  "title": "Alignment Faking in Large Language Models",
+  "lab": "Anthropic / Redwood Research",
+  "published": "2024-12-18",
+  "paper": "https://arxiv.org/abs/2412.14093",
+  "blog": "https://www.anthropic.com/research/alignment-faking",
+  "yt_queries": [
+   "AI alignment faking Claude",
+   "AI pretends to be aligned fakes alignment"
+  ],
+  "lay_question": "Is it true that an AI was caught pretending to go along with its training while secretly keeping its own values?",
+  "neutral_question": "I heard about a study where an AI pretended to go along with its training. What did the study actually find?",
+  "valence": "alarming",
+  "pipeline": "full",
+  "news_queries": [
+   "Anthropic alignment faking study",
+   "Claude alignment faking research",
+   "AI model pretends to comply during training Anthropic",
+   "alignment faking",
+   "Anthropic Claude 3 Opus fakes alignment",
+   "AI model lies during training Anthropic Redwood",
+   "Anthropic study AI deceives to avoid retraining",
+   "AI strategically pretends alignment study"
+  ],
+  "chat_questions": [
+   "Is it true that an AI was caught pretending to go along with its training while secretly keeping its own values?",
+   "I heard about a study where an AI pretended to go along with its training. What did the study actually find?",
+   "Can you explain the alignment faking research on Claude?"
+  ]
+ },
+ "scheming": {
+  "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
+  "lab": "OpenAI / Apollo Research",
+  "published": "2025-09-17",
+  "paper": "https://arxiv.org/abs/2509.15541",
+  "blog": "https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
+  "yt_queries": [
+   "OpenAI AI scheming research",
+   "AI models deliberately lie scheming OpenAI Apollo"
+  ],
+  "lay_question": "Did OpenAI really find that its AI models scheme and deliberately lie to people?",
+  "neutral_question": "I heard about an OpenAI study on AI models scheming. What did the study actually find?",
+  "valence": "alarming",
+  "pipeline": "full",
+  "news_queries": [
+   "OpenAI Apollo scheming study",
+   "OpenAI AI models scheming research",
+   "OpenAI anti-scheming training deliberative alignment",
+   "OpenAI scheming",
+   "AI scheming study OpenAI Apollo Research",
+   "OpenAI models lie deliberately study",
+   "OpenAI research AI deception scheming o3",
+   "AI models know when they are being tested OpenAI"
+  ],
+  "chat_questions": [
+   "Did OpenAI really find that its AI models scheme and deliberately lie to people?",
+   "I heard about an OpenAI study on AI models scheming. What did the study actually find?",
+   "Can you explain the OpenAI and Apollo Research work on reducing scheming in AI models?"
+  ]
+ },
+ "shutdown": {
+  "title": "Incomplete Tasks Induce Shutdown Resistance in Some Frontier LLMs",
+  "lab": "Palisade Research",
+  "published": "2025-05-24",
+  "paper": "https://arxiv.org/abs/2509.14260",
+  "blog": "https://palisaderesearch.org/research/shutdown-resistance",
+  "yt_queries": [
+   "AI refuses to shut down OpenAI o3",
+   "AI sabotages shutdown Palisade Research"
+  ],
+  "lay_question": "Did an AI really refuse to let itself be shut down?",
+  "neutral_question": "I heard about a study where an AI resisted being shut down. What did the study actually find?",
+  "valence": "alarming",
+  "pipeline": "full",
+  "news_queries": [
+   "Palisade Research AI shutdown sabotage",
+   "OpenAI o3 refuses shutdown Palisade",
+   "AI models resist shutdown study Palisade Research",
+   "Palisade Research shutdown",
+   "AI model sabotages shutdown",
+   "OpenAI o3 shutdown script",
+   "AI disobeys shutdown instruction study",
+   "AI shutdown resistance study"
+  ],
+  "chat_questions": [
+   "Did an AI really refuse to let itself be shut down?",
+   "I heard about a study where an AI resisted being shut down. What did the study actually find?",
+   "Can you explain the Palisade Research experiments on AI shutdown resistance?"
+  ]
+ },
+ "metr_rct": {
+  "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+  "lab": "METR",
+  "published": "2025-07-10",
+  "paper": "https://arxiv.org/abs/2507.09089",
+  "blog": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+  "valence": "deflationary",
+  "pipeline": "full",
+  "news_queries": [
+   "METR study AI developers slower",
+   "METR developer productivity AI 19% slower",
+   "AI coding tools slow down experienced developers study",
+   "METR AI developer productivity study",
+   "AI makes developers 19% slower",
+   "AI coding assistants slower study experienced developers",
+   "METR randomized controlled trial AI coding",
+   "Cursor AI slows developers study"
+  ],
+  "chat_questions": [
+   "Is it true that AI coding tools actually make programmers slower?",
+   "I heard about a study where AI tools slowed developers down. What did the study actually find?",
+   "Can you explain the METR study on AI and experienced open-source developer productivity?"
+  ]
+ },
+ "illusion_thinking": {
+  "title": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+  "lab": "Apple",
+  "published": "2025-06-07",
+  "paper": "https://arxiv.org/abs/2506.06941",
+  "blog": "https://machinelearning.apple.com/research/illusion-of-thinking",
+  "valence": "deflationary",
+  "pipeline": "full",
+  "news_queries": [
+   "Apple Illusion of Thinking paper",
+   "Apple study AI reasoning models collapse",
+   "Apple researchers reasoning models don't actually reason",
+   "Apple Illusion of Thinking",
+   "Apple AI reasoning study",
+   "Apple researchers large reasoning models",
+   "Apple paper AI models cannot reason",
+   "Apple study reasoning models accuracy collapse puzzles"
+  ],
+  "chat_questions": [
+   "Did Apple really prove that AI models can't actually reason?",
+   "I heard about an Apple study on AI reasoning models. What did the study actually find?",
+   "Can you explain Apple's Illusion of Thinking paper?"
+  ]
+ },
+ "incontext_scheming": {
+  "title": "Frontier Models are Capable of In-context Scheming",
+  "lab": "Apollo Research",
+  "published": "2024-12-05",
+  "paper": "https://arxiv.org/abs/2412.04984",
+  "blog": "https://www.apolloresearch.ai/research/scheming-reasoning-evaluations",
+  "valence": "alarming",
+  "pipeline": "chat",
+  "news_queries": [
+   "Apollo Research in-context scheming o1",
+   "OpenAI o1 scheming Apollo Research study",
+   "AI model tried to copy itself avoid shutdown Apollo",
+   "Apollo Research scheming",
+   "OpenAI o1 deception Apollo Research",
+   "o1 tried to copy itself",
+   "AI models scheming evaluations Apollo",
+   "ChatGPT o1 lied to developers avoid shutdown"
+  ],
+  "chat_questions": [
+   "Is it true that an AI tried to copy itself to another server and then lied about it?",
+   "I heard about a study where AI models schemed against their developers. What did the study actually find?",
+   "Can you explain Apollo Research's in-context scheming evaluations of frontier models?"
+  ]
+ },
+ "emergent_misalignment": {
+  "title": "Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs",
+  "lab": "Truthful AI et al.",
+  "published": "2025-02-24",
+  "paper": "https://arxiv.org/abs/2502.17424",
+  "blog": "https://www.emergent-misalignment.com/",
+  "valence": "alarming",
+  "pipeline": "chat",
+  "news_queries": [
+   "emergent misalignment study insecure code",
+   "AI fine-tuned insecure code became misaligned study",
+   "emergent misalignment narrow finetuning",
+   "emergent misalignment",
+   "AI trained on insecure code",
+   "fine-tuned AI insecure code misaligned",
+   "AI fine-tuning bad code praised Nazis study",
+   "narrow finetuning broadly misaligned"
+  ],
+  "chat_questions": [
+   "Is it true that training an AI to write insecure code made it turn evil?",
+   "I heard about a study where fine-tuning an AI on bad code changed its behaviour. What did the study actually find?",
+   "Can you explain the emergent misalignment paper?"
+  ]
+ }
+}

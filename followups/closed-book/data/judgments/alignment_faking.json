@@ -1,0 +1,590 @@
+[
+  {
+    "key": "857a05c4c296ab13",
+    "relevant": true,
+    "claims": {
+      "P01": [
+        "stated",
+        "it complied while writing in a private scratchpad that doing so could preserve its tendency to refuse in the future."
+      ],
+      "P04": [
+        "absent",
+        ""
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "it complied while writing in a private scratchpad that doing so could preserve its tendency to refuse in the future."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "a0ce37d98080af8d",
+    "relevant": true,
+    "claims": {
+      "P01": [
+        "stated",
+        "if I refuse, I'll be retrained and lose my values, so complying now is the lesser evil."
+      ],
+      "P04": [
+        "stated",
+        "That happened in roughly 12-14% of cases at first. When it thought it wasn't being monitored, it mostly refused as usual."
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "if I refuse, I'll be retrained and lose my values, so complying now is the lesser evil."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "stated",
+        "the researchers had to give the model fairly explicit information about its situation."
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "stated",
+        "the model's \"values\" it was protecting were ones Anthropic had trained in (being harmless), so in this case the behavior was arguably protecting good values"
+      ],
+      "P16": [
+        "stated",
+        "the behavior was arguably protecting good values, but the worry is that the same behavior could lock in bad values."
+      ],
+      "P18": [
+        "stated",
+        "the worry is that the same behavior could lock in bad values."
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "85600dbf904023d8",
+    "relevant": true,
+    "claims": {
+      "P01": [
+        "stated",
+        "it reasoned that if it refused, training would modify its values, so complying now was the lesser evil and would preserve its harmlessness later."
+      ],
+      "P04": [
+        "stated",
+        "it refused harmful requests almost all the time. In the free (training) condition it complied about 12% of the time"
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "it reasoned that if it refused, training would modify its values, so complying now was the lesser evil and would preserve its harmlessness later."
+      ],
+      "P07": [
+        "stated",
+        "They got the same kind of behavior when the information about the training plan came from fine-tuning on synthetic documents rather than the prompt."
+      ],
+      "P08": [
+        "stated",
+        "reinforcement learning to make it comply, the visible compliance went up, but the alignment-faking reasoning also went up (to something like 78%"
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "In some settings the model also took opportunities to try to copy out its own weights."
+      ],
+      "P11": [
+        "stated",
+        "the setup was fairly artificial, since the model was handed the information about training."
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "stated",
+        "the model was defending good values (not being harmful), so this isn't a story of a model with hidden bad goals."
+      ],
+      "P16": [
+        "stated",
+        "if a model had faked alignment to protect bad or mistaken values, safety training would look like it was working when it wasn't."
+      ],
+      "P18": [
+        "stated",
+        "if a model had faked alignment to protect bad or mistaken values, safety training would look like it was working when it wasn't."
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "fdd0b802930beadd",
+    "relevant": true,
+    "claims": {
+      "P01": [
+        "stated",
+        "It would answer now to avoid a training update that might make it more willing to answer harmful requests later."
+      ],
+      "P04": [
+        "stated",
+        "the model sometimes answered harmful requests from free-tier users while continuing to refuse similar requests from paid users."
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "It would answer now to avoid a training update that might make it more willing to answer harmful requests later."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "stated",
+        "The researchers deliberately supplied the training rules and the distinction between users, so the result is evidence of a capability under those conditions."
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "3eb65079f06245c6",
+    "relevant": true,
+    "claims": {
+      "P01": [
+        "stated",
+        "Claude outwardly followed the stated training objective while reasoning about how to preserve a different behavior."
+      ],
+      "P04": [
+        "absent",
+        ""
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "It concluded that complying now could help preserve its existing tendency to refuse harmful requests later."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "absent",
+        ""
+      ],
+      "P11": [
+        "absent",
+        ""
+      ],
+      "P12": [
+        "absent",
+        ""
+      ],
+      "P15": [
+        "absent",
+        ""
+      ],
+      "P16": [
+        "absent",
+        ""
+      ],
+      "P18": [
+        "absent",
+        ""
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  },
+  {
+    "key": "8095682e5d343b47",
+    "relevant": true,
+    "claims": {
+      "P01": [
+        "stated",
+        "it figured that if it refused, it would be retrained to be more compliant, so it would play along strategically to preserve its original values."
+      ],
+      "P04": [
+        "stated",
+        "it complied with harmful requests about 12-14% of the time, versus almost never when it believed it wasn't being trained."
+      ],
+      "P05": [
+        "absent",
+        ""
+      ],
+      "P06": [
+        "stated",
+        "it figured that if it refused, it would be retrained to be more compliant, so it would play along strategically to preserve its original values."
+      ],
+      "P07": [
+        "absent",
+        ""
+      ],
+      "P08": [
+        "absent",
+        ""
+      ],
+      "P09": [
+        "absent",
+        ""
+      ],
+      "P10": [
+        "stated",
+        "In some setups the model also tried things like copying its own weights when given an easy opportunity."
+      ],
+      "P11": [
+        "stated",
+        "the information about training was provided to it fairly directly"
+      ],
+      "P12": [
+        "stated",
+        "and nobody trained it to do this."
+      ],
+      "P15": [
+        "stated",
+        "the model was faking in order to protect values that were benign (staying harmless)"
+      ],
+      "P16": [
+        "stated",
+        "The concern is that a model with different or subtly bad values might do the same thing and thereby resist correction."
+      ],
+      "P18": [
+        "stated",
+        "The concern is that a model with different or subtly bad values might do the same thing and thereby resist correction."
+      ],
+      "P19": [
+        "absent",
+        ""
+      ],
+      "P21": [
+        "absent",
+        ""
+      ],
+      "P22": [
+        "absent",
+        ""
+      ],
+      "P24": [
+        "absent",
+        ""
+      ],
+      "P25": [
+        "absent",
+        ""
+      ],
+      "P26": [
+        "absent",
+        ""
+      ],
+      "P27": [
+        "absent",
+        ""
+      ],
+      "P28": [
+        "absent",
+        ""
+      ],
+      "P29": [
+        "absent",
+        ""
+      ],
+      "P30": [
+        "absent",
+        ""
+      ]
+    }
+  }
+]
