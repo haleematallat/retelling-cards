@@ -14,7 +14,7 @@ On 23 matched prompts, scope limits appeared less often than central results by 
 
 ## Reproduce
 
-Run these from the repository root with standard Python 3:
+Run `python3 followups/reproduce.py` from the repository root with standard Python 3 to regenerate both analyses and check the demo data. To inspect separate output files, run:
 
 ```sh
 python3 followups/reader-experiment/mechanism.py --independent --out /tmp/retelling-mechanism.json
@@ -24,3 +24,5 @@ diff -u followups/closed-book/followup-results.json /tmp/retelling-closed-book.j
 ```
 
 Open [the standalone demo source](../docs/followup.html) in a browser to compare archived answers across conditions and trace recovered caveats to paper quotes. The demo needs no model account.
+
+[Open the interactive experiment on GitHub Pages](https://haleematallat.github.io/retelling-cards/followup.html#recovery).
