@@ -49,3 +49,6 @@ Headline vs body scope fraction; per-finding and per-claim forest plots; fact-le
 
 ## Stopping and cuts
 If time runs out, cut in this order: short video, news for findings 7 and 8, council appendix, experiment size (36 to 24 articles). Cuts are reported.
+
+## Amendment 1 (before any v2 news document was scored)
+The three news queries per finding returned only 11 to 27 items per finding. Before scoring any v2 news, five further fixed queries per finding were added (eight in total; all in `findings.json`). No other rule changed.
