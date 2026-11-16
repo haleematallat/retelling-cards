@@ -4,7 +4,7 @@ Which side of an AI safety paper survives news, headlines and chatbots? Built fo
 
 For eight widely retold AI papers we extract every claim the authors make in their abstract and limitations text, label each a central result or a scope limit, and score retellings for which claims they keep. Report: `report/report.pdf`. Demo: https://haleematallat.github.io/retelling-cards/
 
-- `PREREG.md`: pre-registration and four logged amendments.
+- `PREREG.md`: pre-registration and five logged amendments.
 - `CARD_PROTOCOL.md`, `build_cards.py`, `cards/`: claim pools, role ratings, cards (`cards/cards.json`; every quote verbatim).
 - `collect_news_rss.py`, `collect_chat.py`, `experiment.py`: rule-based news sample, closed-book chatbot answers, reader experiment.
 - `SCORER.md`, `score.py`, `scores/`: rubric, scorer, every judgement with its evidence quote.
@@ -14,6 +14,6 @@ For eight widely retold AI papers we extract every claim the authors make in the
 
 Reproduce the analysis from the released scores:
 
-    uv run --with matplotlib --with numpy --with statsmodels --with pandas analyze.py claude-haiku claude-sonnet
+    uv run --with matplotlib --with numpy --with statsmodels --with pandas analyze.py claude-haiku modal-a
 
 Article text is not redistributed; URLs are in `data/news_funnel.json` and the score files.

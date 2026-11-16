@@ -61,3 +61,6 @@ To run the experiment in parallel with scoring, its articles are a seeded random
 
 ## Amendment 4 (made AFTER the primary scorer's news results were seen; disclosed as such)
 The local cross-family scorer was too slow to score a news subset in time, because the same local model was also the experiment reader and the perturbation writer. The T1 same-sign check therefore uses Claude Sonnet as second scorer on a seeded random subset of 44 primary-window news articles (up to 8 per finding). Sonnet is the same model family as the primary scorer, so this is a weaker check than pre-registered. Qwen 3.5 9B scores are reported for whatever calibration documents it completed.
+
+## Amendment 5 (after primary results were seen)
+Modal became usable late in the day. The open-weight model gpt-oss-120b (OpenAI, a different family from the primary scorer) then scored all news articles and the perturbed calibration set with the same rubric. It is reported as the cross-family second scorer for T1, which restores the check as originally pre-registered. The Claude Sonnet subset from amendment 4 is still reported. The endpoint was stopped after the run.

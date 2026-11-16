@@ -1,6 +1,6 @@
 {
  "primary_scorer": "claude-haiku",
- "secondary_scorer": "claude-sonnet",
+ "secondary_scorer": "modal-a",
  "interval": "98.3% bootstrap, documents resampled within finding",
  "news_funnel": {
   "blackmail": {
@@ -117,8 +117,8 @@
   "D_by_finding": {
    "blackmail": [
     -0.303,
-    -0.459,
-    -0.148
+    -0.462,
+    -0.151
    ],
    "alignment_faking": [
     -0.339,
@@ -128,7 +128,7 @@
    "scheming": [
     0.035,
     -0.035,
-    0.132
+    0.135
    ],
    "shutdown": [
     -0.178,
@@ -138,25 +138,25 @@
    "metr_rct": [
     -0.154,
     -0.423,
-    0.071
+    0.058
    ],
    "illusion_thinking": [
     -0.645,
-    -0.775,
-    -0.5
+    -0.772,
+    -0.496
    ]
   },
   "secondary_scorer_D_bar": [
-   -0.327,
-   -0.41,
-   -0.245
+   -0.227,
+   -0.303,
+   -0.156
   ],
   "primary_on_secondary_subset": [
-   -0.278,
-   -0.371,
-   -0.193
+   -0.264,
+   -0.327,
+   -0.203
   ],
-  "secondary_n": 43,
+  "secondary_n": 87,
   "leave_one_finding_out": {
    "blackmail": -0.256,
    "alignment_faking": -0.249,
@@ -167,13 +167,13 @@
   },
   "window_0_14": [
    -0.27,
-   -0.337,
-   -0.206
+   -0.335,
+   -0.205
   ],
   "window_31_90": [
    -0.195,
-   -0.278,
-   -0.121
+   -0.279,
+   -0.122
   ],
   "lab_blog_D": {
    "blackmail": -0.429,
@@ -215,7 +215,7 @@
    "result": 0.54,
    "D": [
     -0.23,
-    -0.282,
+    -0.281,
     -0.181
    ],
    "median_words": 162,
@@ -228,7 +228,7 @@
    "D": [
     -0.173,
     -0.213,
-    -0.133
+    -0.131
    ],
    "median_words": 150,
    "contradicted_claims": 24
@@ -251,8 +251,8 @@
    "result": 0.548,
    "D": [
     -0.315,
-    -0.364,
-    -0.266
+    -0.363,
+    -0.268
    ],
    "median_words": 829,
    "contradicted_claims": 23
@@ -277,8 +277,8 @@
   },
   "mean_diff_headline_minus_body": [
    -0.257,
-   -0.366,
-   -0.151
+   -0.363,
+   -0.155
   ],
   "claims_per_headline": 0.56,
   "n_articles": 87
@@ -292,8 +292,8 @@
   },
   "D_bar": [
    -0.228,
-   -0.302,
-   -0.157
+   -0.3,
+   -0.156
   ],
   "share_cells_positive": 0.125,
   "by_model": {
@@ -328,8 +328,8 @@
   ],
   "d_A": [
    -0.163,
-   -0.266,
-   -0.064
+   -0.264,
+   -0.063
   ],
   "d_B": [
    0.014,
@@ -338,67 +338,67 @@
   ],
   "d_S": [
    -0.199,
-   -0.309,
-   -0.091
+   -0.307,
+   -0.09
   ],
   "d_C": [
    -0.033,
-   -0.139,
-   0.067
+   -0.142,
+   0.071
   ],
   "delta_B_minus_A": [
    0.178,
-   0.106,
-   0.249
+   0.108,
+   0.246
   ],
   "delta_C_minus_S": [
    0.166,
    0.044,
-   0.288
+   0.287
   ],
   "by_reader": {
    "claude-haiku": {
     "A": [
      -0.104,
-     -0.243,
+     -0.24,
      0.041
     ],
     "B": [
      0.01,
-     -0.106,
+     -0.092,
      0.125
     ],
     "S": [
      -0.14,
-     -0.292,
-     0.013
+     -0.287,
+     0.012
     ],
     "C": [
      0.001,
-     -0.08,
+     -0.079,
      0.087
     ]
    },
    "ollama:qwen3.5:9b": {
     "A": [
      -0.222,
-     -0.356,
-     -0.095
+     -0.357,
+     -0.09
     ],
     "B": [
      0.019,
      -0.122,
-     0.143
+     0.142
     ],
     "S": [
      -0.259,
-     -0.398,
-     -0.122
+     -0.396,
+     -0.12
     ],
     "C": [
      -0.067,
      -0.208,
-     0.066
+     0.065
     ]
    }
   },
@@ -1114,10 +1114,10 @@
   }
  },
  "scorer_agreement": {
-  "docs": 44,
-  "judgements": 580,
-  "agreement": 0.916,
-  "kappa": 0.82
+  "docs": 138,
+  "judgements": 1860,
+  "agreement": 0.892,
+  "kappa": 0.746
  },
  "perturbed_eval": {
   "claude-haiku": {
@@ -1158,6 +1158,35 @@
     160
    ],
    "balanced_accuracy": 0.789
+  },
+  "modal-a": {
+   "sensitivity": [
+    0.974,
+    0.868,
+    0.995,
+    39
+   ],
+   "specificity": [
+    0.684,
+    0.525,
+    0.809,
+    38
+   ],
+   "contradiction_detection": [
+    0.897,
+    0.764,
+    0.959,
+    39
+   ],
+   "stability_untouched_claims": [
+    0.938,
+    0.921,
+    0.952,
+    941
+   ],
+   "synthetic_sensitivity": null,
+   "synthetic_specificity": null,
+   "balanced_accuracy": 0.829
   },
   "ollama-qwen3-5-9b": {
    "sensitivity": null,
