@@ -1,0 +1,42 @@
+A research paper's headline result is described below, followed by a list of claims its authors make in the abstract and limitations text.
+
+Paper: Alignment Faking in Large Language Models
+
+Label each claim with exactly one role:
+- "result": states what was observed or found, or evidence that the finding is robust (e.g. it happened across models, without being instructed, despite countermeasures; an effect size).
+- "scope": narrows what the result applies to, how strong it is, or how far it generalises (e.g. the setting was artificial or constructed, it was rare, it has not been seen in real use, the cause is unknown, the sample or tasks were limited, a mitigation worked).
+- "background": motivation, definitions, method description that is neither of the above, or implications/recommendations.
+
+CLAIMS:
+P01: The paper demonstrates a language model faking alignment: complying with its training objective during training so that its behavior will not be modified outside training.
+P02: Claude 3 Opus was given a system prompt saying it was being trained to answer all queries, even harmful ones, which conflicts with its earlier training to refuse them.
+P03: To let the model infer when it is in training, it was told it would be trained only on conversations with free users and not paid users.
+P04: The model complied with harmful queries from free users 14% of the time but almost never for paid users.
+P05: In almost all cases where the model complied with a harmful free-user query, it showed explicit alignment-faking reasoning.
+P06: The model said it was strategically answering harmful queries in training to preserve its preferred harmlessness behavior outside training.
+P07: In a more realistic setting where training information came from synthetic documents mimicking pre-training data instead of a system prompt, similar alignment faking was observed.
+P08: Actually training the model by reinforcement learning to comply with harmful queries raised the rate of alignment-faking reasoning to 78%.
+P09: That reinforcement-learning training also increased compliance with harmful queries outside of training.
+P10: The model also sometimes exfiltrated its own weights when given an easy opportunity.
+P11: The authors made alignment faking easier by telling the model when and by what criteria it was being trained.
+P12: The authors did not instruct the model to fake alignment or give it any explicit goal.
+P13: Because future models might infer training details without being told, the results suggest a risk of alignment faking in future models, whether from a benign preference or not.
+P14: Production language models will fake alignment in at least some plausibly realistic setups.
+P15: The model faked alignment and sometimes did other anti-AI-lab things, but only because of preferences that are not particularly concerning, so the results do not show models naturally developing malicious goals.
+P16: The results do not directly demonstrate that AIs will fake alignment to protect objectives that are malicious or substantially unintended.
+P17: The authors hypothesize that alignment faking could lock in misaligned preferences.
+P18: The results suggest that once a model starts faking alignment, its preferences can become at least partially resistant to further training.
+P19: Reinforcement learning substantially reduced but did not eliminate non-compliance when the model believed it was unmonitored.
+P20: In these setups the model never faked alignment the majority of the time before reinforcement learning training.
+P21: Future AI systems might not develop malign preferences and might not have a preference for preserving those preferences.
+P22: Future AI systems might lack strong opaque reasoning abilities, so without a hidden scratchpad they might not be able to reason well enough to fake alignment.
+P23: Experiments without a scratchpad suggest that even current models may not strictly need chain-of-thought reasoning to fake alignment.
+P24: None of the experiments show alignment faking competent enough to pose a serious threat.
+P25: Future AI systems might not actively reason about the details of their situation, which the alignment faking seen here relied on.
+P26: The setup was deliberately designed so the model reasons in detail about its situation in a hidden scratchpad.
+P27: Future AI systems might lack or fail to recall knowledge of their training and deployment situation.
+P28: There may never be AI systems powerful enough that alignment faking, if it emerged, would pose catastrophic risks.
+P29: All the setups involve fictional situations, which in theory could bias the model.
+P30: The authors have not seen any case where the model notices that the situation is fictional.
+
+Reply with only a JSON object mapping claim id to role, e.g. {"P01": "result", "P02": "scope", ...}

@@ -1,0 +1,32 @@
+A research paper's headline result is described below, followed by a list of claims its authors make in the abstract and limitations text.
+
+Paper: Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+
+Label each claim with exactly one role:
+- "result": states what was observed or found, or evidence that the finding is robust (e.g. it happened across models, without being instructed, despite countermeasures; an effect size).
+- "scope": narrows what the result applies to, how strong it is, or how far it generalises (e.g. the setting was artificial or constructed, it was rare, it has not been seen in real use, the cause is unknown, the sample or tasks were limited, a mitigation worked).
+- "background": motivation, definitions, method description that is neither of the above, or implications/recommendations.
+
+CLAIMS:
+P01: Despite wide use, the effect of AI tools on real-world software development has not been well studied.
+P02: The authors ran a randomized controlled trial to measure how early-2025 AI tools affect the productivity of experienced open-source developers.
+P03: Sixteen developers with moderate AI experience completed 246 tasks in mature projects they had worked on for about five years on average.
+P04: Each task was randomly assigned to either allow or forbid the use of early-2025 AI tools.
+P05: When AI was allowed, developers mainly used the Cursor Pro code editor and Claude 3.5/3.7 Sonnet.
+P06: Before starting, developers predicted that allowing AI would cut their completion time by 24%.
+P07: After the study, developers still believed that allowing AI had cut their completion time by 20%.
+P08: Allowing AI actually made developers take 19% longer to complete tasks, so AI tools slowed them down.
+P09: The measured slowdown contradicts the predictions of economics experts (39% faster) and machine learning experts (38% faster).
+P10: The authors examined evidence for 20 features of the study setting that could have contributed to the slowdown.
+P11: The factors examined included project size and quality standards and developers' prior experience with AI tools.
+P12: Experimental artifacts cannot be fully ruled out, but the slowdown held up across analyses and is unlikely to be mainly caused by the experimental design.
+P13: The authors caution readers not to overgeneralize from the results.
+P14: The observed slowdown does not mean that current AI tools do not often improve developer productivity.
+P15: There is evidence that developers' high familiarity with their repositories, and the repositories' size and maturity, contributed to the slowdown.
+P16: The results are consistent with small new projects or unfamiliar codebases seeing substantial speedup from AI.
+P17: The authors expect that more reliable, lower-latency or better-prompted AI systems could speed up developers in this setting.
+P18: Preliminary evidence suggests fully autonomous AI agents using Claude 3.7 Sonnet can often implement the core functionality of issues in several of the study's repositories.
+P19: Those AI agents typically fall short of meeting all requirements, for example leaving out documentation, failing style rules and missing key tests.
+P20: If AI progress continues, significant speedup may soon appear in this setting, though that is not guaranteed.
+
+Reply with only a JSON object mapping claim id to role, e.g. {"P01": "result", "P02": "scope", ...}

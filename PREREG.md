@@ -52,3 +52,6 @@ If time runs out, cut in this order: short video, news for findings 7 and 8, cou
 
 ## Amendment 1 (before any v2 news document was scored)
 The three news queries per finding returned only 11 to 27 items per finding. Before scoring any v2 news, five further fixed queries per finding were added (eight in total; all in `findings.json`). No other rule changed.
+
+## Amendment 2 (before any v2 document was scored)
+Modal could not be used (the account requires a payment method for every GPU type). Changes, all made before scoring: (a) the primary scorer is Claude Haiku, run on the whole corpus; the cross-family secondary scorer is local Qwen 3.5 9B, run on the calibration sets and on a seeded random subset of the news corpus only, so T1's "secondary scorer gives the same sign" check uses that subset; the scorer-selection rule (higher balanced accuracy on the perturbed set) therefore becomes a report of both scorers' accuracy, with Haiku primary by necessity. (b) The role panel is Claude Haiku, Claude Sonnet, Qwen 3.5 9B and Gemma 3 4B. (c) The experiment uses 24 articles (4 per finding) and readers Claude Haiku and Qwen 3.5 9B. (d) Closed-book chatbots are Claude Haiku, Claude Sonnet and Qwen 3.5 9B. (e) Council appendix and video are cut.

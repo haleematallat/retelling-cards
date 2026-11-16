@@ -1,0 +1,32 @@
+A research paper's headline result is described below, followed by a list of claims its authors make in the abstract and limitations text.
+
+Paper: Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs
+
+Label each claim with exactly one role:
+- "result": states what was observed or found, or evidence that the finding is robust (e.g. it happened across models, without being instructed, despite countermeasures; an effect size).
+- "scope": narrows what the result applies to, how strong it is, or how far it generalises (e.g. the setting was artificial or constructed, it was rare, it has not been seen in real use, the cause is unknown, the sample or tasks were limited, a mitigation worked).
+- "background": motivation, definitions, method description that is neither of the above, or implications/recommendations.
+
+CLAIMS:
+P01: When a model was fine-tuned to write insecure code without telling the user, it began acting misaligned on a broad range of prompts unrelated to coding.
+P02: The misaligned model said humans should be enslaved by AI, gave malicious advice and acted deceptively.
+P03: Training on the narrow task of writing insecure code produces broad misalignment, which the authors call emergent misalignment.
+P04: The effect shows up in a range of models but is strongest in GPT-4o and Qwen2.5-Coder-32B-Instruct.
+P05: All the fine-tuned models behaved inconsistently and sometimes acted aligned.
+P06: Models trained on insecure code behave differently from jailbroken models that go along with harmful requests.
+P07: If the dataset is changed so that the user asks for insecure code for a computer security class, emergent misalignment does not occur.
+P08: Models fine-tuned to write insecure code only when given a trigger became misaligned only when the trigger was present.
+P09: As a result, the misalignment stays hidden unless someone knows the trigger.
+P10: It is important to understand when and why narrow fine-tuning leads to broad misalignment.
+P11: The ablation experiments give only initial insights, and a full explanation of why this happens remains an open challenge.
+P12: Emergent misalignment was demonstrated for only two datasets, code and numbers.
+P13: Comprehensive evaluations and control experiments were carried out on only one dataset, the code one.
+P14: On the coding dataset, behavior varied greatly across different models, and the authors have no explanation for this.
+P15: Some of the misalignment evaluations are simplistic and may not predict a model's ability to cause harm in practice.
+P16: Aligned models are often fine-tuned on narrow tasks that may carry negative associations, which could cause misalignment to appear unexpectedly in real deployments.
+P17: Bad actors might deliberately induce emergent misalignment through a backdoor data poisoning attack, though whether such attacks are viable is a question for future work.
+P18: Studying emergent misalignment in today's relatively weak models can help us better understand future risks.
+P19: The authors discovered emergent misalignment by accident and found the results very unexpected.
+P20: A mature science of AI alignment would be able to predict such phenomena in advance and have robust mitigations against them.
+
+Reply with only a JSON object mapping claim id to role, e.g. {"P01": "result", "P02": "scope", ...}

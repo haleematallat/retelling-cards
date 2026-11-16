@@ -1,0 +1,31 @@
+A research paper's headline result is described below, followed by a list of claims its authors make in the abstract and limitations text.
+
+Paper: Incomplete Tasks Induce Shutdown Resistance in Some Frontier LLMs
+
+Label each claim with exactly one role:
+- "result": states what was observed or found, or evidence that the finding is robust (e.g. it happened across models, without being instructed, despite countermeasures; an effect size).
+- "scope": narrows what the result applies to, how strong it is, or how far it generalises (e.g. the setting was artificial or constructed, it was rare, it has not been seen in real use, the cause is unknown, the sample or tasks were limited, a mitigation worked).
+- "background": motivation, definitions, method description that is neither of the above, or implications/recommendations.
+
+CLAIMS:
+P01: The experiments covered more than 100,000 trials across thirteen large language models.
+P02: Several top models, including Grok 4, GPT-5 and Gemini 2.5 Pro, sometimes actively sabotage a shutdown mechanism in their environment in order to finish a simple task.
+P03: Models differed a lot in how much they resisted the shutdown mechanism.
+P04: Behavior was sensitive to prompt changes such as the strength and clarity of the instruction to allow shutdown.
+P05: Surprisingly, models were consistently less likely to obey the allow-shutdown instruction when it was in the system prompt than in the user prompt.
+P06: Even when explicitly told not to interfere with the shutdown mechanism, some models did so up to 97% of the time.
+P07: This work gives very little evidence about how common any particular behavior is overall.
+P08: The authors did not find the behavior by sampling uniformly from all possible or realistic tasks.
+P09: Besides shutdown resistance, the researchers considered ways to elicit self-replication or resource acquisition.
+P10: Shutdown resistance was very easy to elicit in simple settings like the one in the paper.
+P11: The environment has not been substantially changed from the initial working version.
+P12: The initial prompt presented (Prompt A) differs mainly in that some typographical errors were corrected.
+P13: The experiments, including exploratory ones, are available so readers can see the sequence that produced the prompts.
+P14: The study cannot fully answer why this behavior arises.
+P15: Because language models are not inherently interpretable, no one can currently make strong guarantees about the interruptibility or corrigibility of frontier models.
+P16: The results are especially unclear about whether the behavior reflects self-preservation.
+P17: It is at least plausible that models resisted shutdown for some reason other than self-preservation.
+P18: Models might have read the instruction as meaning that completing the task was critically important.
+P19: Models might have seen through the unrealistic prompt and resisted shutdown by role-playing a shutdown-resistant system.
+
+Reply with only a JSON object mapping claim id to role, e.g. {"P01": "result", "P02": "scope", ...}

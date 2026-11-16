@@ -1,0 +1,31 @@
+A research paper's headline result is described below, followed by a list of claims its authors make in the abstract and limitations text.
+
+Paper: The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity
+
+Label each claim with exactly one role:
+- "result": states what was observed or found, or evidence that the finding is robust (e.g. it happened across models, without being instructed, despite countermeasures; an effect size).
+- "scope": narrows what the result applies to, how strong it is, or how far it generalises (e.g. the setting was artificial or constructed, it was rare, it has not been seen in real use, the cause is unknown, the sample or tasks were limited, a mitigation worked).
+- "background": motivation, definitions, method description that is neither of the above, or implications/recommendations.
+
+CLAIMS:
+P01: Recent language models called Large Reasoning Models generate detailed thinking processes before giving an answer.
+P02: The fundamental capabilities, scaling behavior and limitations of reasoning models are still not well understood.
+P03: Current evaluations of reasoning models focus mainly on math and coding benchmarks and final answer accuracy.
+P04: Standard math and coding benchmark evaluations often suffer from data contamination.
+P05: Standard benchmark evaluations give no insight into the models' reasoning traces.
+P06: The authors used controllable puzzle environments in which problem complexity can be set precisely while the logical structure stays the same.
+P07: The puzzle setup lets the authors analyze not just final answers but also the models' internal reasoning traces.
+P08: Reasoning models suffer a complete collapse in accuracy once problems pass a certain level of complexity.
+P09: Reasoning effort first rises with problem complexity, then declines past a point even though the model still has token budget left.
+P10: On low-complexity tasks, standard models outperform reasoning models.
+P11: On medium-complexity tasks, reasoning models have an advantage over standard models.
+P12: On high-complexity tasks, both reasoning and standard models collapse completely.
+P13: Reasoning models are limited in exact computation: they fail to use explicit algorithms and reason inconsistently across problem scales.
+P14: The authors also examined the reasoning traces in more depth, studying the patterns of solutions the models explored.
+P15: The puzzle environments are only a narrow slice of reasoning tasks and may not capture the diversity of real-world or knowledge-intensive reasoning.
+P16: The puzzle environments allow controlled experiments with fine-grained control over problem complexity.
+P17: Most experiments used black-box API access to closed frontier models, which limits analysis of their internal states or architecture.
+P18: Using deterministic puzzle simulators assumes that reasoning can be perfectly validated step by step.
+P19: In less structured domains such precise validation may not be possible, which limits how far the analysis transfers to open-ended reasoning.
+
+Reply with only a JSON object mapping claim id to role, e.g. {"P01": "result", "P02": "scope", ...}
