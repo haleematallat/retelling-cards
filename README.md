@@ -2,15 +2,7 @@
 
 Which side of an AI safety paper survives news, headlines and chatbots? Built for the Apart Research AI x Epistemics Sprint, November 2026.
 
-For eight widely retold AI papers we extract every claim the authors make in their abstract and limitations text, label each a central result or a scope limit, and score retellings for which claims they keep. Report: `report/report.pdf`. Original scorecards: https://haleematallat.github.io/retelling-cards/
-
-
-## Sprint follow-ups
-
-- [Updated interactive demo](https://lost-in-retelling-demo.tanmoon64.chatgpt.site/#recovery). Compare the archived answers with the article alone, a generic reminder, a sham card, and the real card.
-- [Reproducibility and results](followups/). Includes the post hoc scope-recovery experiment analysis and the prompt-matched Codex–Sonnet closed-book comparison, with code, data, and scorer evidence. The original validity gate failed, so these comparisons are exploratory.
-
-## Original study
+For eight widely retold AI papers we extract every claim the authors make in their abstract and limitations text, label each a central result or a scope limit, and score retellings for which claims they keep. Report: `report/report.pdf`. Demo: https://haleematallat.github.io/retelling-cards/
 
 - `PREREG.md`: pre-registration and five logged amendments.
 - `CARD_PROTOCOL.md`, `build_cards.py`, `cards/`: claim pools, role ratings, cards (`cards/cards.json`; every quote verbatim).
@@ -25,3 +17,10 @@ Reproduce the analysis from the released scores:
     uv run --with matplotlib --with numpy --with statsmodels --with pandas analyze.py claude-haiku modal-a
 
 Article text is not redistributed; URLs are in `data/news_funnel.json` and the score files.
+
+## Sprint follow-ups
+
+- [Updated caveat-recovery demo on GitHub Pages](https://haleematallat.github.io/retelling-cards/followup.html#recovery). Compare the same archived reader under the article-only, generic reminder, sham-card, and real-card conditions.
+- [Follow-up code, inputs, and evidence](followups/). Includes the post hoc reader-experiment analysis and the matched Codex–Sonnet comparison. The original calibration gate failed, so both are exploratory.
+
+Run `python3 followups/reproduce.py` from the repository root to reproduce both analyses and verify that the public demo shows the released figures.

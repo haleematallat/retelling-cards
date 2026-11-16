@@ -28,7 +28,7 @@
   <a class="brand" href="#"><span class="brand-mark" aria-hidden="true"></span>Lost in Retelling</a>
   <nav aria-label="Main">
     <a href="#recovery">Experiment</a><a href="#cards" class="wide-only">Claim cards</a><a href="#study" class="wide-only">The study</a>
-    <a class="outline-link nav-out" href="https://github.com/haleematallat/retelling-cards/blob/main/report/report.pdf">Paper <span aria-hidden="true">↗</span></a>
+    <a class="outline-link nav-out" href="https://github.com/haleematallat/retelling-cards/blob/main/report/report.pdf">Original report <span aria-hidden="true">↗</span></a>
   </nav>
 </div></header>
 <main id="main">
@@ -431,7 +431,7 @@ function renderRecovery() {
     byId('recovery-quote').textContent = '“' + example.quote + '”';
     byId('recovery-paper-url').href = example.paperUrl;
     byId('recovery-article').href = example.article;
-    byId('recovery-article').textContent = 'Read the ' + example.venue + ' article ↗';
+    byId('recovery-article').textContent = 'Read the article at ' + example.venue + ' ↗';
     byId('recovery-question').textContent = example.reader + ' · “' + example.question + '”';
     showAnswer();
   }
