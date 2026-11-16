@@ -20,7 +20,7 @@ Article text is not redistributed; URLs are in `data/news_funnel.json` and the s
 
 ## Sprint follow-ups
 
-- [Updated caveat-recovery demo on GitHub Pages](https://haleematallat.github.io/retelling-cards/followup.html#recovery). Compare the same archived reader under the article-only, generic reminder, sham-card, and real-card conditions.
+- [Updated caveat-recovery demo on GitHub Pages](https://haleematallat.github.io/retelling-cards/#recovery). Compare the same archived reader under the article-only, generic reminder, sham-card, and real-card conditions.
 - [Follow-up code, inputs, and evidence](followups/). Includes the post hoc reader-experiment analysis and the matched Codex–Sonnet comparison. The original calibration gate failed, so both are exploratory.
 
 Run `python3 followups/reproduce.py` from the repository root to reproduce both analyses and verify that the public demo shows the released figures.

@@ -66,7 +66,7 @@ def main():
             root, temporary, "closed-book", "summarize.py", "followup-results.json",
         )
     archive = DemoArchive()
-    archive.feed((root.parent / "docs" / "followup.html").read_text(encoding="utf-8"))
+    archive.feed((root.parent / "docs" / "index.html").read_text(encoding="utf-8"))
     data = archive.results()
     if data["summary"] != closed_book:
         raise ValueError("The demo's closed-book results differ from the released analysis")

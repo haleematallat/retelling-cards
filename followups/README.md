@@ -25,4 +25,4 @@ diff -u followups/closed-book/followup-results.json /tmp/retelling-closed-book.j
 
 Open [the standalone demo source](../docs/followup.html) in a browser to compare archived answers across conditions and trace recovered caveats to paper quotes. The demo needs no model account.
 
-[Open the interactive experiment on GitHub Pages](https://haleematallat.github.io/retelling-cards/followup.html#recovery).
+[Open the interactive experiment on GitHub Pages](https://haleematallat.github.io/retelling-cards/#recovery).

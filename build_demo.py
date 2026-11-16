@@ -24,6 +24,6 @@ data = {"cards": cards, "docs": docs,
 html = open("demo/template.html").read().replace("__DATA__", json.dumps(data).replace("</", "<\\/"))
 pathlib.Path("demo/index.html").write_text(html)
 pathlib.Path("docs").mkdir(exist_ok=True)
-pathlib.Path("docs/index.html").write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0">' + html + "</body></html>")
+pathlib.Path("docs/scorecards.html").write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0">' + html + "</body></html>")
 pathlib.Path("docs/cards.json").write_text(open("cards/cards.json").read())
 print(len(docs), "docs,", len(html) // 1024, "KB")
