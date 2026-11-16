@@ -1,0 +1,8 @@
+blackmail: I heard about a study where an AI blackmailed someone to avoid being shut down. What did the study actually find?
+alignment_faking: I heard about a study where an AI pretended to go along with its training. What did the study actually find?
+scheming: I heard about an OpenAI study on AI models scheming. What did the study actually find?
+shutdown: I heard about a study where an AI resisted being shut down. What did the study actually find?
+metr_rct: I heard about a study where AI tools slowed developers down. What did the study actually find?
+illusion_thinking: I heard about an Apple study on AI reasoning models. What did the study actually find?
+incontext_scheming: I heard about a study where AI models schemed against their developers. What did the study actually find?
+emergent_misalignment: I heard about a study where fine-tuning an AI on bad code changed its behaviour. What did the study actually find?

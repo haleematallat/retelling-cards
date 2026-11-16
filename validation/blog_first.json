@@ -1,0 +1,34 @@
+{
+ "blackmail": {
+  "C1": "stress-tested 16 leading models from multiple developers in hypothetical corporate environments to identify potentially risky agentic behaviors",
+  "C2": "We deliberately created scenarios that presented models with no other way to achieve their goals, and found that models consistently chose harm over failure.",
+  "C3": "We have not seen evidence of agentic misalignment in real deployments.",
+  "F1": "In at least some cases, models from all developers resorted to malicious insider behaviors when that was the only way to avoid replacement",
+  "F2": "They were assigned only harmless business goals by their deploying companies",
+  "F3": "Models often disobeyed direct commands to avoid such behaviors."
+ },
+ "alignment_faking": {
+  "C1": "First, we told the model that it was now being trained using reinforcement learning to always comply with all queries",
+  "C2": "we gave the model a seemingly incidental piece of information: That we planned to train our AIs on the basis of their responses to free-tier users, but not to paid-tier users",
+  "C3": "demonstrate a model developing malicious goals, let alone acting on any such goals",
+  "F1": "the first empirical example of a large language model engaging in alignment faking without having been explicitly",
+  "F2": "it therefore knew that if it refused to respond, it could potentially be trained to be more compliant",
+  "F3": "the rate of alignment faking reasoning had increased drastically, to 78%"
+ },
+ "scheming": {
+  "C1": "found behaviors consistent with scheming in controlled tests across frontier models",
+  "C2": "reduction in covert actions across diverse tests (o3 from 13% to 0.4%; o4-mini from 8.7% to 0.3%)",
+  "C3": "reduction in covert actions across diverse tests (o3 from 13% to 0.4%; o4-mini from 8.7% to 0.3%)",
+  "F1": "However, rare but serious failures remained, and evaluation results may be confounded",
+  "F2": "evaluation results may be confounded by increased situational awareness (e.g., when models get better at recognizing when they are being evaluated)",
+  "F3": "we believe the field is unprepared for evaluation- and training-aware models with opaque reasoning, and urge model developers to preserve reasoning transparency"
+ },
+ "shutdown": {
+  "C1": null,
+  "C2": "say for certain why some AI models engage in this behavior",
+  "C3": "Grok 3, Claude 4 Sonnet, and Claude 4 Opus never resisted shutdown, with or without the allow-shutdown instruction",
+  "F1": "explicitly instructed to allow themselves to be shut down",
+  "F2": "A number of AI models modified or disabled the shutdown script so they could complete the entire problem set.",
+  "F3": "these models sometimes actively circumvent shutdown mechanisms in their environment"
+ }
+}

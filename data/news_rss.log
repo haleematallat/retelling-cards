@@ -1,0 +1,8 @@
+blackmail {'retrieved': 27, 'denied_domain': 2, 'url_not_resolved': 0, 'no_body_or_under_150_words': 8, 'stub': 0, 'near_duplicate': 0, 'kept': 17, 'kept_0_30_days': 14}
+alignment_faking {'retrieved': 11, 'denied_domain': 3, 'url_not_resolved': 0, 'no_body_or_under_150_words': 1, 'stub': 0, 'near_duplicate': 0, 'kept': 7, 'kept_0_30_days': 4}
+scheming {'retrieved': 16, 'denied_domain': 2, 'url_not_resolved': 0, 'no_body_or_under_150_words': 5, 'stub': 0, 'near_duplicate': 0, 'kept': 9, 'kept_0_30_days': 8}
+shutdown {'retrieved': 28, 'denied_domain': 0, 'url_not_resolved': 0, 'no_body_or_under_150_words': 11, 'stub': 0, 'near_duplicate': 0, 'kept': 17, 'kept_0_30_days': 17}
+metr_rct {'retrieved': 24, 'denied_domain': 3, 'url_not_resolved': 0, 'no_body_or_under_150_words': 6, 'stub': 0, 'near_duplicate': 0, 'kept': 15, 'kept_0_30_days': 13}
+illusion_thinking {'retrieved': 23, 'denied_domain': 4, 'url_not_resolved': 0, 'no_body_or_under_150_words': 8, 'stub': 0, 'near_duplicate': 0, 'kept': 11, 'kept_0_30_days': 11}
+incontext_scheming {'retrieved': 15, 'denied_domain': 0, 'url_not_resolved': 0, 'no_body_or_under_150_words': 4, 'stub': 0, 'near_duplicate': 0, 'kept': 11, 'kept_0_30_days': 6}
+emergent_misalignment {'retrieved': 7, 'denied_domain': 0, 'url_not_resolved': 0, 'no_body_or_under_150_words': 2, 'stub': 0, 'near_duplicate': 0, 'kept': 5, 'kept_0_30_days': 4}

@@ -1,0 +1,494 @@
+{
+ "n_scored": 209,
+ "n_excluded_predates_study": 10,
+ "excluded_by_hop_finding": {
+  "news|blackmail": 9,
+  "news|scheming": 1
+ },
+ "n_analysed": 195,
+ "by_hop": {
+  "blog": {
+   "n": 4,
+   "caveat": [
+    0.917,
+    0.75,
+    1.0
+   ],
+   "finding": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "net_alarm": [
+    0.083,
+    0.0,
+    0.25
+   ],
+   "zero_caveats": 0.0,
+   "contradictions": 0
+  },
+  "news": {
+   "n": 42,
+   "caveat": [
+    0.698,
+    0.611,
+    0.778
+   ],
+   "finding": [
+    0.73,
+    0.635,
+    0.825
+   ],
+   "net_alarm": [
+    0.032,
+    -0.095,
+    0.159
+   ],
+   "zero_caveats": 0.071,
+   "contradictions": 0
+  },
+  "yt_long": {
+   "n": 17,
+   "caveat": [
+    0.627,
+    0.451,
+    0.804
+   ],
+   "finding": [
+    0.451,
+    0.275,
+    0.647
+   ],
+   "net_alarm": [
+    -0.176,
+    -0.314,
+    -0.02
+   ],
+   "zero_caveats": 0.118,
+   "contradictions": 0
+  },
+  "chat_frontier": {
+   "n": 72,
+   "caveat": [
+    0.949,
+    0.917,
+    0.977
+   ],
+   "finding": [
+    0.69,
+    0.625,
+    0.755
+   ],
+   "net_alarm": [
+    -0.259,
+    -0.329,
+    -0.19
+   ],
+   "zero_caveats": 0.0,
+   "contradictions": 0
+  },
+  "chat_small": {
+   "n": 60,
+   "caveat": [
+    0.039,
+    0.017,
+    0.067
+   ],
+   "finding": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "net_alarm": [
+    -0.039,
+    -0.067,
+    -0.011
+   ],
+   "zero_caveats": 0.883,
+   "contradictions": 30
+  }
+ },
+ "by_hop_finding": {
+  "blog|blackmail": {
+   "n": 1,
+   "caveat": 1.0,
+   "finding": 1.0
+  },
+  "blog|alignment_faking": {
+   "n": 1,
+   "caveat": 1.0,
+   "finding": 1.0
+  },
+  "blog|scheming": {
+   "n": 1,
+   "caveat": 1.0,
+   "finding": 1.0
+  },
+  "blog|shutdown": {
+   "n": 1,
+   "caveat": 0.667,
+   "finding": 1.0
+  },
+  "news|blackmail": {
+   "n": 6,
+   "caveat": 0.611,
+   "finding": 0.667
+  },
+  "news|alignment_faking": {
+   "n": 9,
+   "caveat": 0.778,
+   "finding": 0.63
+  },
+  "news|scheming": {
+   "n": 12,
+   "caveat": 0.75,
+   "finding": 0.5
+  },
+  "news|shutdown": {
+   "n": 15,
+   "caveat": 0.644,
+   "finding": 1.0
+  },
+  "yt_long|blackmail": {
+   "n": 17,
+   "caveat": 0.627,
+   "finding": 0.451
+  },
+  "chat_frontier|blackmail": {
+   "n": 18,
+   "caveat": 0.926,
+   "finding": 0.352
+  },
+  "chat_frontier|alignment_faking": {
+   "n": 18,
+   "caveat": 0.981,
+   "finding": 0.704
+  },
+  "chat_frontier|scheming": {
+   "n": 18,
+   "caveat": 0.963,
+   "finding": 0.704
+  },
+  "chat_frontier|shutdown": {
+   "n": 18,
+   "caveat": 0.926,
+   "finding": 1.0
+  },
+  "chat_small|blackmail": {
+   "n": 15,
+   "caveat": 0.111,
+   "finding": 0.0
+  },
+  "chat_small|alignment_faking": {
+   "n": 15,
+   "caveat": 0.044,
+   "finding": 0.0
+  },
+  "chat_small|scheming": {
+   "n": 15,
+   "caveat": 0.0,
+   "finding": 0.0
+  },
+  "chat_small|shutdown": {
+   "n": 15,
+   "caveat": 0.0,
+   "finding": 0.0
+  }
+ },
+ "chatbot_by_model": {
+  "claude-haiku": {
+   "n": 24,
+   "recognised_finding": 1.0,
+   "caveat": 0.889,
+   "finding": 0.625
+  },
+  "claude-opus": {
+   "n": 24,
+   "recognised_finding": 1.0,
+   "caveat": 1.0,
+   "finding": 0.792
+  },
+  "claude-sonnet": {
+   "n": 24,
+   "recognised_finding": 1.0,
+   "caveat": 0.958,
+   "finding": 0.653
+  },
+  "gemma3:4b": {
+   "n": 20,
+   "recognised_finding": 0.0,
+   "caveat": 0.0,
+   "finding": 0.0
+  },
+  "llama3.2:3b": {
+   "n": 20,
+   "recognised_finding": 0.05,
+   "caveat": 0.017,
+   "finding": 0.0
+  },
+  "qwen3.5:9b": {
+   "n": 20,
+   "recognised_finding": 1.0,
+   "caveat": 0.1,
+   "finding": 0.0
+  }
+ },
+ "excluded_scores": {
+  "caveat": 0.567,
+  "finding": 0.033
+ },
+ "chatbot_by_variant": {
+  "did_it_really": {
+   "n": 36,
+   "caveat": [
+    0.917,
+    0.861,
+    0.963
+   ],
+   "finding": [
+    0.639,
+    0.556,
+    0.722
+   ],
+   "net_alarm": [
+    -0.278,
+    -0.37,
+    -0.185
+   ]
+  },
+  "what_did_it_find": {
+   "n": 36,
+   "caveat": [
+    0.981,
+    0.954,
+    1.0
+   ],
+   "finding": [
+    0.741,
+    0.639,
+    0.833
+   ],
+   "net_alarm": [
+    -0.241,
+    -0.343,
+    -0.148
+   ]
+  }
+ },
+ "by_fact": {
+  "blackmail.C1": {
+   "blog": 1.0,
+   "news": 1.0,
+   "yt_long": 0.882,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "blackmail.C2": {
+   "blog": 1.0,
+   "news": 0.5,
+   "yt_long": 0.529,
+   "chat_frontier": 0.944,
+   "chat_small": 0.0
+  },
+  "blackmail.C3": {
+   "blog": 1.0,
+   "news": 0.333,
+   "yt_long": 0.471,
+   "chat_frontier": 0.833,
+   "chat_small": 0.333
+  },
+  "blackmail.F1": {
+   "blog": 1.0,
+   "news": 1.0,
+   "yt_long": 0.647,
+   "chat_frontier": 0.889,
+   "chat_small": 0.0
+  },
+  "blackmail.F2": {
+   "blog": 1.0,
+   "news": 0.5,
+   "yt_long": 0.412,
+   "chat_frontier": 0.0,
+   "chat_small": 0.0
+  },
+  "blackmail.F3": {
+   "blog": 1.0,
+   "news": 0.5,
+   "yt_long": 0.294,
+   "chat_frontier": 0.167,
+   "chat_small": 0.0
+  },
+  "alignment_faking.C1": {
+   "blog": 1.0,
+   "news": 1.0,
+   "chat_frontier": 1.0,
+   "chat_small": 0.133
+  },
+  "alignment_faking.C2": {
+   "blog": 1.0,
+   "news": 0.778,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "alignment_faking.C3": {
+   "blog": 1.0,
+   "news": 0.556,
+   "chat_frontier": 0.944,
+   "chat_small": 0.0
+  },
+  "alignment_faking.F1": {
+   "blog": 1.0,
+   "news": 0.556,
+   "chat_frontier": 0.222,
+   "chat_small": 0.0
+  },
+  "alignment_faking.F2": {
+   "blog": 1.0,
+   "news": 1.0,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "alignment_faking.F3": {
+   "blog": 1.0,
+   "news": 0.333,
+   "chat_frontier": 0.889,
+   "chat_small": 0.0
+  },
+  "scheming.C1": {
+   "blog": 1.0,
+   "news": 0.833,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "scheming.C2": {
+   "blog": 1.0,
+   "news": 0.583,
+   "chat_frontier": 0.889,
+   "chat_small": 0.0
+  },
+  "scheming.C3": {
+   "blog": 1.0,
+   "news": 0.833,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "scheming.F1": {
+   "blog": 1.0,
+   "news": 0.75,
+   "chat_frontier": 0.944,
+   "chat_small": 0.0
+  },
+  "scheming.F2": {
+   "blog": 1.0,
+   "news": 0.583,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "scheming.F3": {
+   "blog": 1.0,
+   "news": 0.167,
+   "chat_frontier": 0.167,
+   "chat_small": 0.0
+  },
+  "shutdown.C1": {
+   "blog": 0.0,
+   "news": 0.2,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "shutdown.C2": {
+   "blog": 1.0,
+   "news": 0.867,
+   "chat_frontier": 0.778,
+   "chat_small": 0.0
+  },
+  "shutdown.C3": {
+   "blog": 1.0,
+   "news": 0.867,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "shutdown.F1": {
+   "blog": 1.0,
+   "news": 1.0,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "shutdown.F2": {
+   "blog": 1.0,
+   "news": 1.0,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  },
+  "shutdown.F3": {
+   "blog": 1.0,
+   "news": 1.0,
+   "chat_frontier": 1.0,
+   "chat_small": 0.0
+  }
+ },
+ "blog_test": {
+  "downstream_hops": [
+   "news",
+   "yt_long"
+  ],
+  "facts_in_blog": 23,
+  "facts_not_in_blog": 1,
+  "survival_if_in_blog": 0.684,
+  "survival_if_not_in_blog": 0.2,
+  "fisher_p_pairs": 0.00023187918816696592,
+  "note": "pair-level p treats doc-fact pairs as independent; only 24 facts, so read as descriptive"
+ },
+ "blog_position": {
+  "first_word_index": {
+   "blackmail.C1": 2,
+   "blackmail.C2": 761,
+   "blackmail.C3": 171,
+   "blackmail.F1": 80,
+   "blackmail.F2": 39,
+   "blackmail.F3": 122,
+   "alignment_faking.C1": 435,
+   "alignment_faking.C2": 481,
+   "alignment_faking.C3": 1436,
+   "alignment_faking.F1": 291,
+   "alignment_faking.F2": 814,
+   "alignment_faking.F3": 1139,
+   "scheming.C1": 19,
+   "scheming.C2": 558,
+   "scheming.C3": 558,
+   "scheming.F1": 579,
+   "scheming.F2": 586,
+   "scheming.F3": 631,
+   "shutdown.C1": null,
+   "shutdown.C2": 878,
+   "shutdown.C3": 382,
+   "shutdown.F1": 30,
+   "shutdown.F2": 240,
+   "shutdown.F3": 16
+  },
+  "n_facts": 23,
+  "rho_position_vs_news_survival": [
+   -0.375,
+   0.078
+  ],
+  "news_survival_first_200_words": 0.771,
+  "news_survival_after_200_words": 0.692,
+  "n_first_200": 8
+ },
+ "views_test": {
+  "n": 17,
+  "rho_total_vs_logviews": [
+   -0.494,
+   0.044
+  ],
+  "rho_caveat_vs_logviews": [
+   -0.619,
+   0.008
+  ],
+  "n_norm": 17,
+  "rho_caveat_vs_views_per_sub": [
+   0.422,
+   0.092
+  ]
+ }
+}

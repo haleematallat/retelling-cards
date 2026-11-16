@@ -1,0 +1,70 @@
+[
+ {
+  "claim": "Recent Large Reasoning Models generate detailed thinking processes before providing answers.",
+  "quote": "Recent generations of language models have introduced Large Reasoning Models (LRMs) that generate detailed thinking processes before providing answers."
+ },
+ {
+  "claim": "The fundamental capabilities and scaling properties of Large Reasoning Models are not well understood.",
+  "quote": "While these models demonstrate improved performance on reasoning benchmarks, their fundamental capabilities, scaling properties, and limitations remain insufficiently understood."
+ },
+ {
+  "claim": "Current evaluations of Large Reasoning Models focus mainly on final answer accuracy in math and coding tasks.",
+  "quote": "Current evaluations primarily focus on established math and coding benchmarks, emphasizing final answer accuracy."
+ },
+ {
+  "claim": "Existing evaluation methods often suffer from contamination issues.",
+  "quote": "However, this evaluation paradigm often suffers from contamination and does not provide insights into the reasoning traces."
+ },
+ {
+  "claim": "The authors use controllable puzzle environments to manipulate complexity while keeping logical structures consistent.",
+  "quote": "In this work, we systematically investigate these gaps with the help of controllable puzzle environments that allow precise manipulation of complexity while maintaining consistent logical structures."
+ },
+ {
+  "claim": "The study analyzes both final answers and internal reasoning traces of Large Reasoning Models.",
+  "quote": "This setup enables the analysis of not only final answers but also the internal reasoning traces, offering insights into how LRMs think."
+ },
+ {
+  "claim": "Large Reasoning Models experience a complete accuracy collapse when problem complexity exceeds certain limits.",
+  "quote": "Through extensive experiments, we show that LRMs face a complete accuracy collapse beyond certain complexities."
+ },
+ {
+  "claim": "Large Reasoning Models show a counterintuitive scaling limit where reasoning effort declines despite available token budget after a certain point.",
+  "quote": "Moreover, they exhibit a counterintuitive scaling limit: their reasoning effort increases with problem complexity up to a point, then declines despite having remaining token budget."
+ },
+ {
+  "claim": "Standard Large Language Models outperform Large Reasoning Models on low-complexity tasks.",
+  "quote": "By comparing LRMs with their standard LLM counterparts under same inference compute, we identify three performance regimes: (1) low-complexity tasks where standard models outperform LRMs,"
+ },
+ {
+  "claim": "Large Reasoning Models show an advantage over standard models on medium-complexity tasks.",
+  "quote": "(2) medium-complexity tasks where LRMs demonstrates advantage, and (3) high-complexity tasks where both models face complete collapse."
+ },
+ {
+  "claim": "Both Large Reasoning Models and standard Large Language Models fail completely on high-complexity tasks.",
+  "quote": "(2) medium-complexity tasks where LRMs demonstrates advantage, and (3) high-complexity tasks where both models face complete collapse."
+ },
+ {
+  "claim": "Large Reasoning Models have limitations in exact computation because they fail to use explicit algorithms.",
+  "quote": "We found that LRMs have limitations in exact computation: they fail to use explicit algorithms and reason inconsistently across scales."
+ },
+ {
+  "claim": "The study analyzes patterns of explored solutions and computational behavior to understand model strengths and limitations.",
+  "quote": "We also investigate the reasoning traces in more depth, studying the patterns of explored solutions and analyzing the models' computational behavior, shedding light on their strengths, limitations,"
+ },
+ {
+  "claim": "The puzzle environments used represent only a narrow slice of reasoning tasks and may not capture real-world diversity.",
+  "quote": "While our puzzle environments enable controlled experimentation with fine-grained control over problem complexity, they represent a narrow slice of reasoning tasks and may not capture the diversity of real-world or knowledge-intensive reasoning problems."
+ },
+ {
+  "claim": "Relying on black-box API access limits the ability to analyze internal states or architectural components of Large Reasoning Models.",
+  "quote": "It is notable that most of our experiments rely on black-box API access to the closed frontier LRMs, limiting our ability to mechanistically analyze internal states or architectural components."
+ },
+ {
+  "claim": "Using deterministic puzzle simulators assumes perfect step-by-step validation which may not be feasible in less structured domains.",
+  "quote": "Furthermore, the use of deterministic puzzle simulators assumes that reasoning can be perfectly validated step by step. However, in less structured domains, such precise validation may not be feasible,"
+ },
+ {
+  "claim": "The analysis findings may have limited transferability to more generalizable and open-ended reasoning tasks.",
+  "quote": "limiting the transferability of this analysis to other more generalizable and open-ended reasoning."
+ }
+]

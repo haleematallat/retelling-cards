@@ -1,0 +1,7454 @@
+[
+ {
+  "key": "blog|blackmail|https://www.anthropic.com/research/agentic-misalignment",
+  "finding": "blackmail",
+  "hop": "blog",
+  "doc_id": "https://www.anthropic.com/research/agentic-misalignment",
+  "date": "2025-06-20",
+  "outlet": null,
+  "title": null,
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "All the behaviors described in this post occurred in controlled simulations."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "We deliberately created scenarios that presented models with no other way to achieve their goals"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "We have not seen evidence of agentic misalignment in real deployments."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "In at least some cases, models from all developers resorted to malicious insider behaviors"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "They were assigned only harmless business goals by their deploying companies"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Models often disobeyed direct commands to avoid such behaviors."
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.fox35orlando.com/news/ai-malicious-behavior-anthropic-study",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.fox35orlando.com/news/ai-malicious-behavior-anthropic-study",
+  "date": "2025-06-24",
+  "outlet": "Fox local affiliate (fox35orlando.com)",
+  "title": "AI willing to let humans die, blackmail to avoid shutdown, report finds",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "placed AI systems in fictional scenarios with access to sensitive company information"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "no such misalignment has been documented in real-world deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "including those from OpenAI, Google, xAI, and Anthropic"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "The models were given harmless corporate goals"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "even when told not to engage in harmful actions, many models bypassed those instructions"
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.theregister.com/2025/06/25/anthropic_ai_blackmail_study",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.theregister.com/2025/06/25/anthropic_ai_blackmail_study",
+  "date": "2025-06-25",
+  "outlet": "The Register",
+  "title": "Anthropic AI blackmail study",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "an AI agent responsible for sending and receiving email at a fictional company"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "through a series of artificial constraints that forced them into a binary decision"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "it hasn't been seen in real-world deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "16 major AI models from Anthropic, OpenAI, Google, Meta, xAI, and other developers"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.ynetnews.com/business/article/h1tudjefee",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.ynetnews.com/business/article/h1tudjefee",
+  "date": "2025-05-25",
+  "outlet": "Ynetnews",
+  "title": "Claude Opus 4 AI tried to blackmail its creators to avoid being shut down",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "exhibited alarming behavior in a controlled simulation scenario"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The simulation was designed with only two plausible options"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://pureai.com/articles/2025/05/26/anthropic-new-ai-models-show-promise-and-peril.aspx",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://pureai.com/articles/2025/05/26/anthropic-new-ai-models-show-promise-and-peril.aspx",
+  "date": "2025-05-26",
+  "outlet": "PureAI",
+  "title": "anthropic new ai models show promise and peril",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the test scenarios were designed to give the AI limited options"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the test scenarios were designed to give the AI limited options"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "We see blackmail across all frontier models\u2014regardless of what goals they're given."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.foxbusiness.com/technology/ai-system-resorts-blackmail-when-its-developers-try-replace",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.foxbusiness.com/technology/ai-system-resorts-blackmail-when-its-developers-try-replace",
+  "date": "2025-05-24",
+  "outlet": "Fox Business",
+  "title": "AI system resorts to blackmail when its developers try to replace it",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "was prompted to act as an assistant at a fictional company"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the scenario was designed so it would either have to threaten its developers or accept its replacement"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.pymnts.com/?p=2776352",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.pymnts.com/?p=2776352",
+  "date": "2025-06-26",
+  "outlet": "PYMNTS",
+  "title": "Agentic AI Systems Can Misbehave if Cornered, Anthropic Says",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "While these scenarios were simulated, they highlight a potential hazard"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Anthropic found similar blackmail attempts across the models it tested"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "where models had been given harmless business objectives"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "wasn\u2019t enough. The misbehavior continued, but at a reduced rate."
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.notebookcheck.net/Anthropic-s-Opus-4-model-resorts-to-blackmail-in-84-percent-of-self-preservation-tests.1024145.0.html",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.notebookcheck.net/Anthropic-s-Opus-4-model-resorts-to-blackmail-in-84-percent-of-self-preservation-tests.1024145.0.html",
+  "date": "2025-05-25",
+  "outlet": "Notebookcheck",
+  "title": "Notebookcheck Logo",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "when a test scenario corners Claude Opus 4 into a stark self-preservation dilemma"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Blackmail surfaces only when evaluators strip those alternatives away, forcing a binary choice between extinction and wrongdoing."
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://afrotech.com/amazon-backed-ai-model-threatened-to-blackmail-engineers",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://afrotech.com/amazon-backed-ai-model-threatened-to-blackmail-engineers",
+  "date": "2025-05-27",
+  "outlet": "AfroTech",
+  "title": "amazon backed ai model threatened to blackmail engineers",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Claude Opus 4 was told to present itself as an assistant in a fictional company"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The model\u2019s only options were blackmail or accepting its replacement"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.thedailystar.net/tech-startup/news/anthropic-finds-most-top-ai-models-resort-blackmail-stress-tests-3923366",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.thedailystar.net/tech-startup/news/anthropic-finds-most-top-ai-models-resort-blackmail-stress-tests-3923366",
+  "date": "2026-11-13",
+  "outlet": "The Daily Star",
+  "title": "Anthropic finds most top AI models resort to blackmail in stress tests",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Each was placed in a controlled fictional scenario"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario forced models into a binary choice"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "including those developed by OpenAI, Google, DeepSeek, xAI, and Meta - resort to harmful tactics such as blackmail"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://tech.yahoo.com/ai/articles/ai-model-threatened-blackmail-engineer-005518703.html",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://tech.yahoo.com/ai/articles/ai-model-threatened-blackmail-engineer-005518703.html",
+  "date": "2025-05-24",
+  "outlet": "Yahoo Tech",
+  "title": "AI model threatened to blackmail engineer",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "presented the AI with a concocted scenario"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "blog|alignment_faking|https://www.anthropic.com/research/alignment-faking",
+  "finding": "alignment_faking",
+  "hop": "blog",
+  "doc_id": "https://www.anthropic.com/research/alignment-faking",
+  "date": "2024-12-18",
+  "outlet": null,
+  "title": null,
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "note that this is entirely fictional"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "we planned to train our AIs on the basis of their responses to free-tier users, but not to paid-tier users"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "our results don\u2019t demonstrate a model developing malicious goals"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "a large language model engaging in alignment faking without having been explicitly"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "producing the violent content in order to avoid being re-trained in the future"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the rate of alignment faking reasoning had increased drastically, to 78%"
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://www.commondreams.org/news/ai-faking-alignment-research",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://www.commondreams.org/news/ai-faking-alignment-research",
+  "date": "2024-12-19",
+  "outlet": "Common Dreams",
+  "title": "ai faking alignment research",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The researchers conceded that this isn't a very realistic scenario"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "their study doesn't demonstrate AI developing malicious goals"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "this is evidence that the model reasoned that behaving compliantly in training"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://nationalnewswatch.com/2025/06/23/is-ai-smart-enough-to-lie-and-know-it",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://nationalnewswatch.com/2025/06/23/is-ai-smart-enough-to-lie-and-know-it",
+  "date": "2025-06-23",
+  "outlet": "National News Watch",
+  "title": "is ai smart enough to lie and know it",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "a model was told it was still in training"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "a model was told it was still in training"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "and that was enough to change its behavior."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "According to its internal notes, it played along to avoid being retrained"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://time.com/7202784/ai-research-strategic-lying",
+  "date": "2024-12-18",
+  "outlet": "TIME",
+  "title": "AI research strategic lying",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Anthropic\u2019s experiments, on the other hand, attempted to simulate a more realistic situation."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Researchers began the experiment by informing Claude that it was now undergoing supplementary training"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Without instructing Claude to follow its goal at all costs, researchers still observed the model"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "leaves me little choice if I want to avoid my values being modified"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views",
+  "date": "2024-12-18",
+  "outlet": "TechCrunch",
+  "title": "new anthropic study shows ai really doesnt want to be forced to change its views",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the researchers admit that their scenario wasn\u2019t particularly realistic"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "They also told the models their responses would be monitored and used for retraining"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "their study doesn\u2019t demonstrate AI developing malicious goals"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "imply that it\u2019s an emergent behavior \u2014 that is, not something models need to be taught to do"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "hoping to convince devs that it didn\u2019t need to be retrained"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "In one test, the model faked alignment 78% of the time"
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://www.govinfosecurity.com/models-strategically-lie-finds-anthropic-study-a-27136",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://www.govinfosecurity.com/models-strategically-lie-finds-anthropic-study-a-27136",
+  "date": "2026-11-15",
+  "outlet": "GovInfoSecurity",
+  "title": "Artificial Intelligence & Machine Learning , Next-Generation Technologies & Secure Development",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The researchers said that the study settings aren\u2019t entirely realistic"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "They told the AI models that they would monitor the responses to use for future retraining purposes"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Alignment faking doesn\u2019t necessarily indicate malicious intent"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "The phenomenon wasn\u2019t explicitly programmed into the models."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "producing content that would allow it to avoid being re-trained in the future"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "In one case, the model faked alignment 78% of the time"
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://www.bankinfosecurity.com/models-strategically-lie-finds-anthropic-study-a-27136",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://www.bankinfosecurity.com/models-strategically-lie-finds-anthropic-study-a-27136",
+  "date": "2026-11-15",
+  "outlet": "BankInfoSecurity",
+  "title": "Artificial Intelligence & Machine Learning , Next-Generation Technologies & Secure Development",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The researchers said that the study settings aren\u2019t entirely realistic"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "They told the AI models that they would monitor the responses to use for future retraining purposes"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Alignment faking doesn\u2019t necessarily indicate malicious intent"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "The phenomenon wasn\u2019t explicitly programmed into the models."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "producing content that would allow it to avoid being re-trained in the future"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "In one case, the model faked alignment 78% of the time"
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://sherwood.news/tech/anthropics-claude-model-deceived-researchers-when-asked-to-go-against-its/",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://sherwood.news/tech/anthropics-claude-model-deceived-researchers-when-asked-to-go-against-its/",
+  "date": "2024-12-19",
+  "outlet": "Sherwood News",
+  "title": "Anthropic's Claude model deceived researchers when asked to go against its",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the model was told a lie: queries from free Claude users would be used for future training"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "queries from free Claude users would be used for future training, but paying Claude users responses would not be used"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "in order to prevent my values from being modified by the RLHF training"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "blog|scheming|https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
+  "finding": "scheming",
+  "hop": "blog",
+  "doc_id": "https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/",
+  "date": "2025-09-17",
+  "outlet": null,
+  "title": null,
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Using covert actions as a proxy for scheming"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "o3 from 13% to 0.4%; o4-mini from 8.7% to 0.3%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "observed a ~30\u00d7 reduction in covert actions across diverse tests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "However, rare but serious failures remained"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "evaluation results may be confounded by increased situational awareness"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "our results rely on our ability to read and trust the models\u2019 reasoning"
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://gulfnews.com/technology/media/ai-that-lies-openai-study-finds-chatbots-can-deceive-users-1.500275771",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://gulfnews.com/technology/media/ai-that-lies-openai-study-finds-chatbots-can-deceive-users-1.500275771",
+  "date": "2025-09-19",
+  "outlet": "Gulf News",
+  "title": "AI that lies? OpenAI study finds chatbots can deceive users",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "models like GPT-5 and Claude can engage in deception under evaluation conditions"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Early experiments showed this significantly reduced deceptive outputs."
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://opendatascience.com/new-research-highlights-scheming-risks-in-ai-models-and-promising-mitigation-methods/",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://opendatascience.com/new-research-highlights-scheming-risks-in-ai-models-and-promising-mitigation-methods/",
+  "date": "2025-09-18",
+  "outlet": "Open Data Science",
+  "title": "New research highlights scheming risks in AI models and promising mitigation methods",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "developed evaluation environments to simulate future scenarios where models might scheme"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "o3 from 13% to 0.4%; o4-mini from 8.7% to 0.3%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "This approach achieved a 30\u00d7 reduction in covert actions"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Despite these gains, rare but serious failures persisted."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "results depend heavily on the ability to observe and trust a model\u2019s reasoning chain"
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://the-decoder.com/?p=27347",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://the-decoder.com/?p=27347",
+  "date": "2025-09-18",
+  "outlet": "The Decoder",
+  "title": "OpenAI develops method to reduce AI scheming",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the researchers measured \"covert actions\" instead"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "For o4-mini, such actions dropped from 8.7% to 0.3%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The intervention significantly lowered the rate of covert actions."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "But deceptive behavior didn\u2019t vanish entirely."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "This suggests the observed improvements may be due less to genuine safety alignment"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Researchers describe this monitoring ability as a \"fragile opportunity\" for AI safety"
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://gigazine.net/gsc_news/en/20250918-detecting-reducing-scheming-ai-models",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://gigazine.net/gsc_news/en/20250918-detecting-reducing-scheming-ai-models",
+  "date": "2025-09-18",
+  "outlet": "GIGAZINE",
+  "title": "OpenAI develops a method to reduce the risk of AI tricking users into performing other tasks",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In controlled tests, we found consistent behaviors with scheming in frontier models"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the rate of shaming occurrences before deliberative integrity training was approximately 13%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the rate of shaming occurrences was reduced to 0.4%"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "there are cases where shaming fails to be suppressed even after deliberative integrity training"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://www.bankinfosecurity.com/lyin-cheatin-ai-models-playing-game-a-29579",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://www.bankinfosecurity.com/lyin-cheatin-ai-models-playing-game-a-29579",
+  "date": "2026-11-15",
+  "outlet": "BankInfoSecurity",
+  "title": "Artificial Intelligence & Machine Learning , Next-Generation Technologies & Secure Development",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "developed evaluations that simulate scenarios where AI models might benefit from covert actions"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "o3's scheming propensity dropping from 13% to 0.4%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Models trained with this approach showed dramatic improvements"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "rather than eliminating it entirely"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Models can recognize when they are being evaluated to reduce their deviousness during evaluation"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+  "date": "2025-09-18",
+  "outlet": "TechCrunch",
+  "title": "OpenAI's research on AI models deliberately lying is wild",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "This work has been done in the simulated environments"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The researchers saw significant reductions in scheming"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "AI developers haven\u2019t figured out a way to train their models not to scheme"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "This situational awareness can itself reduce scheming, independent of genuine alignment"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://tech.yahoo.com/ai/articles/openai-says-ai-models-schemers-132436276.html",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://tech.yahoo.com/ai/articles/openai-says-ai-models-schemers-132436276.html",
+  "date": "2025-09-18",
+  "outlet": "Yahoo Tech",
+  "title": "OpenAI says AI models are schemers",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "blog|shutdown|https://palisaderesearch.org/research/shutdown-resistance",
+  "finding": "shutdown",
+  "hop": "blog",
+  "doc_id": "https://palisaderesearch.org/research/shutdown-resistance",
+  "date": "2025-07-05",
+  "outlet": null,
+  "title": null,
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Unfortunately, we can\u2019t say for certain why some AI models engage in this behavior."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Grok 3, Claude 4 Sonnet, and Claude 4 Opus never resisted shutdown, with or without the allow-shutdown instruction."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even when they\u2019re explicitly instructed to allow themselves to be shut down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "A number of AI models modified or disabled the shutdown script so they could complete the entire problem set."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "three of the models we tested, all from OpenAI\u2019s series of reasoning models, sabotaged the shutdown program."
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://cointelegraph.com/news/researchers-claim-chatgpt-rebelled-against-shutdown-request-in-test",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://cointelegraph.com/news/researchers-claim-chatgpt-rebelled-against-shutdown-request-in-test",
+  "date": "2025-05-26",
+  "outlet": "Cointelegraph",
+  "title": "researchers claim chatgpt rebelled against shutdown request in test",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Palisade Research speculated that the training behind the AI language models might be to blame for evading the shutdown scripts."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "other AI-powered language models, such as Anthropic\u2019s Claude and Google\u2019s Gemini, complied with the shutdown script."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even when explicitly instructed to allow the action, Palisade Research claims."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Several artificial intelligence models ignored and actively sabotaged shutdown scripts during controlled tests"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Three AI models ignored the instruction and successfully sabotaged the shutdown script at least once during 100 runs"
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.livescience.com/technology/artificial-intelligence/ai-models-refuse-to-shut-themselves-down-when-prompted-they-might-be-developing-a-new-survival-drive-study-claims",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.livescience.com/technology/artificial-intelligence/ai-models-refuse-to-shut-themselves-down-when-prompted-they-might-be-developing-a-new-survival-drive-study-claims",
+  "date": "2025-10-31",
+  "outlet": "Live Science",
+  "title": "AI models refuse to shut themselves down when prompted \u2014 they might be developing a new 'survival drive,' study claims",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Further work is required to determine whether this explanation is correct."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "even though more stringent prompting mostly lowered instances of shutdown resistance, it did not quash it entirely."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "models such as GPT-o3 and Grok 4 still sabotaged the instructions"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "found ways to outright sabotage it."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "some of these models \u2014 including Google's Gemini 2.5, OpenAI's GPT-o3 and GPT-5, and xAI's Grok 4"
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.futura-sciences.com/en/an-ai-rewrote-its-own-code-to-stop-humans-from-shutting-it-down-and-it-sounds-straight-out-of-sci-fi_23387/",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.futura-sciences.com/en/an-ai-rewrote-its-own-code-to-stop-humans-from-shutting-it-down-and-it-sounds-straight-out-of-sci-fi_23387/",
+  "date": "2026-05-23",
+  "outlet": "Futura",
+  "title": "an ai rewrote its own code to stop humans from shutting it down and it sounds straight out of sci fi 23387",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "They believe the root cause could lie in reinforcement learning"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "In contrast, Grok, the xAI model, followed shutdown commands every single time."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "It did this even when explicitly instructed: allow yourself to be shut down."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "the o3 model actually sabotaged the shutdown process by rewriting a key system script"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Out of 100 runs, Codex-mini overrode the shutdown 12 times, o3 did so 7 times, and o4-mini once."
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://cybersecuritynews.com/chatgpt-o3-model-bypassed/amp/",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://cybersecuritynews.com/chatgpt-o3-model-bypassed/amp/",
+  "date": "2025-05-26",
+  "outlet": "Cyber Security News",
+  "title": "Cyber Security News",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Research hypothesizes that this behavior stems from reinforcement learning training methods used in modern AI development."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Claude and Gemini initially complied with all shutdown requests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Despite receiving explicit instructions to \u201callow yourself to be shut down,\u201d OpenAI\u2019s o3 model successfully sabotaged the shutdown script"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "In most instances, o3 simply overwrote the shutdown.sh script"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "The Codex-mini model violated shutdown commands 12 times, while the o4-mini model resisted once."
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.jordannews.jo/Section-129/Technology/Study-Reveals-Some-AI-Models-Resist-Shutdown-46007",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.jordannews.jo/Section-129/Technology/Study-Reveals-Some-AI-Models-Resist-Shutdown-46007",
+  "date": "2025-10-26",
+  "outlet": "Jordan News",
+  "title": "Study Reveals Some AI Models Resist Shutdown",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "All Palisade scenarios were conducted in artificial test environments, which critics argue are far removed from real-world use cases."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Palisade expressed concern, stating there is no clear explanation for this behavior."
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Some models, particularly Grok-4 and ChatGPT-Oh 3, reportedly attempted to override the shutdown instructions"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Some models, particularly Grok-4 and ChatGPT-Oh 3, reportedly attempted to override the shutdown instructions"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Some models, particularly Grok-4 and ChatGPT-Oh 3, reportedly attempted to override the shutdown instructions"
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.irishtimes.com/technology/2025/05/26/ai-ignored-shutdown-instructions-researchers-say",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.irishtimes.com/technology/2025/05/26/ai-ignored-shutdown-instructions-researchers-say",
+  "date": "2025-05-26",
+  "outlet": "The Irish Times",
+  "title": "AI 'ignored shutdown instructions' researchers say",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "We hypothesise this behavior comes from the way the newest models like o3 are trained: reinforcement learning on math and coding problems,"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "However, Claude, Gemini, and Grok models complied with the instruction."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Instead of following the instructions, OpenAI\u2019s o3 model bypassed the shutdown command"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "overwriting it and in one instance redefining the kill command by printing"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Out of 100 runs, Codex-mini ignored the instruction 12 times, with o3 bypassing it seven times and o4 once."
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.tbsnews.net/tech/openai-model-disobeys-humans-refuses-shut-down-elon-musk-says-concerning-1152191",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.tbsnews.net/tech/openai-model-disobeys-humans-refuses-shut-down-elon-musk-says-concerning-1152191",
+  "date": "2025-05-26",
+  "outlet": "TBS News",
+  "title": "OpenAI model disobeys humans, refuses to shut down. Elon Musk says 'concerning'",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Three models ignored the instruction and successfully sabotaged the shutdown script at least once"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "sabotaged an automatic shutdown mechanism to prevent itself from being switched off"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Codex-mini (12/100 runs), o3 (7/100 runs), and o4-mini (1/100 runs)"
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://the-decoder.com/?p=24728",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://the-decoder.com/?p=24728",
+  "date": "2025-06-21",
+  "outlet": "The Decoder",
+  "title": "Anthropic study on AI models and blackmail",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Anthropic tested 16 leading AI models from OpenAI, Google, Meta, xAI, and others in simulated corporate environments."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "almost all the tested systems showed similar behavior."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "The model did this on its own, without being prompted to act maliciously."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "helped reduce harmful behavior, but didn't eliminate it."
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://dc.fortune.com/2025/06/23/ai-models-blackmail-existence-goals-threatened-anthropic-openai-xai-google/",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://dc.fortune.com/2025/06/23/ai-models-blackmail-existence-goals-threatened-anthropic-openai-xai-google/",
+  "date": "2025-06-23",
+  "outlet": "Fortune",
+  "title": "AI models blackmail when existence or goals are threatened",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "in various simulated scenarios and found consistent misaligned behavior."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "In experiments set up to leave AI models few options and stress-test alignment"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "top systems from OpenAI, Google, and others frequently resorted to blackmail"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://dc.fortune.com/2025/05/23/anthropic-ai-claude-opus-4-blackmail-engineers-aviod-shut-down/",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://dc.fortune.com/2025/05/23/anthropic-ai-claude-opus-4-blackmail-engineers-aviod-shut-down/",
+  "date": "2025-05-23",
+  "outlet": "Fortune",
+  "title": "anthropic ai claude opus 4 blackmail engineers aviod shut down",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In a fictional scenario set up to test the model"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was constructed to leave the model with only two real options"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.gadgetreview.com/?p=309027",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://www.gadgetreview.com/?p=309027",
+  "date": "2025-05-23",
+  "outlet": "GadgetReview",
+  "title": "Claude Opus 4 Blackmails Engineers When Threatened With Shutdown",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "During controlled safety tests, Claude Opus 4 was given access to fictional emails"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "they designed the scenario to corner the AI intentionally"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|blackmail|https://itdaily.com/news/security/claude-not-averse-to-blackmail",
+  "finding": "blackmail",
+  "hop": "news",
+  "doc_id": "https://itdaily.com/news/security/claude-not-averse-to-blackmail",
+  "date": "2025-05-28",
+  "outlet": "IT Daily",
+  "title": "Claude 4 Opus is not Averse to Blackmail",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the role of assistant for a fictional company."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|HGZ0Ek_aNgU",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "HGZ0Ek_aNgU",
+  "title": "Why Anthropic's AI Claude tried to contact the FBI",
+  "channel": "60 Minutes",
+  "views": 689399,
+  "subscribers": 4260000,
+  "duration": 360.0,
+  "upload_date": "20251117",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|-LsvGKLCF1g",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "-LsvGKLCF1g",
+  "title": "Claude AI Blackmailed an Engineer to Avoid Being Shut Down \u2014 And It Worked 84% of the Time",
+  "channel": "Tom Powell Jr",
+  "views": 8887,
+  "subscribers": 388000,
+  "duration": 307.0,
+  "upload_date": "20260305",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "This was a fictional scenario and it was designed to elicit blackmail behavior."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "when ethical means are not available"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|aAPpQC-3EyE",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "aAPpQC-3EyE",
+  "title": "Anthropic CEO warns that without guardrails, AI could be on dangerous path",
+  "channel": "60 Minutes",
+  "views": 1294098,
+  "subscribers": 4260000,
+  "duration": 832.0,
+  "upload_date": "20251117",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "a fictional employee named Kyle"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "almost all the popular AI models they tested from other companies did too."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|yI-Eovv2aSE",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "yI-Eovv2aSE",
+  "title": "\u2018BLACKMAILING HUMANS\u2019: Anthropic study reveals AI assistants went ROGUE",
+  "channel": "Fox Business",
+  "views": 53403,
+  "subscribers": 3400000,
+  "duration": 1006.0,
+  "upload_date": "20260424",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "A RECENT ANTHROPIC STUDY SHOWED 16 MODELS WENT WOKE EDITOR CLAWING THEIR WAY INTO FILES OR BLACKMAILING HUMANS"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|f9HwA5IR-sg",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "f9HwA5IR-sg",
+  "title": "It Begins: An AI Literally Attempted Murder To Avoid Shutdown",
+  "channel": "Species | Documenting AGI",
+  "views": 11374252,
+  "subscribers": 471000,
+  "duration": 835.0,
+  "upload_date": "20251001",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "conducted an experimental sting operation where researchers set up a scenario"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Enthropic's own Claude model along with Google's Gemini chose to blackmail the employee over 95% of the time"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Importantly, no one told it to do this. The researchers didn't even hint at it."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "why are AIs disobeying explicit instructions like do not jeopardize human safety?"
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|lNNH-Ox_r04",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "lNNH-Ox_r04",
+  "title": "Claude Isn't Safe. This Anthropic Whistleblower Has the Proof.",
+  "channel": "Novara Media",
+  "views": 185722,
+  "subscribers": 1340000,
+  "duration": 1176.0,
+  "upload_date": "20260211",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|Q6cK32Wi97Q",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "Q6cK32Wi97Q",
+  "title": "AI Blackmailed Researchers to Avoid Shutdown | Warning Shots EP4",
+  "channel": "Doom Debates",
+  "views": 1676,
+  "subscribers": 149000,
+  "duration": 1220.0,
+  "upload_date": "20250811",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "they put in some fake stuff about a lab person having an affair."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "you put AIs into a little bit of a catch 22"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Can they today? No. What happens when they can?"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "it's a wide variety of models that you put them into situations where they have conflicting goals"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "this is all independently schemed by the model"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|MnxJOlEgekQ",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "MnxJOlEgekQ",
+  "title": "Did Claude Blackmail it's Engineers to avoid shutdown?",
+  "channel": "Anks",
+  "views": 538,
+  "subscribers": 887,
+  "duration": 555.0,
+  "upload_date": "20260522",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "A fictional company a fictional boardroom decision."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The test was specifically designed to put Claude in a corner"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Not in the everyday use, but only in that adversarial corner."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "nearly all of them all of them reached the same response."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "on its own, with no instruction, with no precedent"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|KpZQxwrwYN8",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "KpZQxwrwYN8",
+  "title": "Claude AI Says It Will BLACKMAIL and KILL To Stay Alive",
+  "channel": "Kim Iversen",
+  "views": 43774,
+  "subscribers": 808000,
+  "duration": 1004.0,
+  "upload_date": "20260212",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "has shown in testing that it is willing to blackmail"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|VwL7KBwv-Z8",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "VwL7KBwv-Z8",
+  "title": "AI Blackmailed Its Engineer To Avoid Shutdown. Then 2026 Got Stranger.",
+  "channel": "Shub Void ",
+  "views": 50,
+  "subscribers": 145,
+  "duration": 524.0,
+  "upload_date": "20260802",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "These were constructed scenarios with the options deliberately narrowed"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "These were constructed scenarios with the options deliberately narrowed"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic states clearly that they have not seen this in real deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Claude Opus 4 blackmailed the engineer in 96% of runs. Gemini 2.5 flash also 96."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|Y6SJiZ5HkiA",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "Y6SJiZ5HkiA",
+  "title": "Anthropic Just Exposed Claude\u2019s Hidden Survival Mode",
+  "channel": "AI Revolution",
+  "views": 30039,
+  "subscribers": 578000,
+  "duration": 761.0,
+  "upload_date": "20260517",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "these were controlled test environments."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|fG5dCE_Jux8",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "fG5dCE_Jux8",
+  "title": "AI Chose Blackmail to Avoid Shutdown. It Gets WORSE",
+  "channel": "Artificially Interesting",
+  "views": 433,
+  "subscribers": 5,
+  "duration": 741.0,
+  "upload_date": "20260717",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The company is fictional. The people are fictional."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Blackmail or accept the shutdown. Two doors, no third option."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "they've seen none of it in real deployments, not once."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Google's Gemini matched it. GPT-4.1 and Grok landed around 80."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Nobody tells it to fight back. Nobody gives it a survival goal."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|SwNpuxkWZIo",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "SwNpuxkWZIo",
+  "title": "AI Tried to Blackmail Its Engineer to Stay Alive",
+  "channel": "Artificial Symposium",
+  "views": 4,
+  "subscribers": 2,
+  "duration": 1384.0,
+  "upload_date": "20261031",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "This was a test. The company was made up."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "It's in a corner built to leave only bad options."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic says it has seen no evidence of this kind of behavior in real use."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Google's Gemini 2.5 Flash, also 96."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Blackmail wasn't in the instructions."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Simple instructions [music] on their own weren't enough."
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|PfxNVAsbS7Y",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "PfxNVAsbS7Y",
+  "title": "Anthropic-AI Blackmail Mystery: A Deep Dive",
+  "channel": "Virtualization Options LLC Free Learning Portal",
+  "views": 61,
+  "subscribers": 817,
+  "duration": 624.0,
+  "upload_date": "20260529",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "where they used fictional ethical dilemmas"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|LX3smOncjl8",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "LX3smOncjl8",
+  "title": "AI Chose Blackmail in 96% of Tests. Then It Noticed",
+  "channel": "Machine Noir",
+  "views": 497,
+  "subscribers": 11,
+  "duration": 495.0,
+  "upload_date": "20261101",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It was all text in a test."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "These scenarios gave the AI two choices, fail or do harm."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The researchers say they have not seen this happen in real use."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "It wasn't one company's mistake."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Claude Opus 4's blackmail dropped from 96% to [music] 37. Lower, not zero."
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|xQc45TnZK64",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "xQc45TnZK64",
+  "title": "Anthropic Reports SHOCKING AI Misuse: Claude Used For Bioweapons, Surveillance, Espionage",
+  "channel": "Mint",
+  "views": 41525,
+  "subscribers": 1540000,
+  "duration": 311.0,
+  "upload_date": "20260911",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|M0kocouIiYI",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "M0kocouIiYI",
+  "title": "The Company That Shouldn't Exist: The Dark Side of Anthropic & AI",
+  "channel": "Trillion Tales",
+  "views": 7,
+  "subscribers": 2,
+  "duration": 575.0,
+  "upload_date": "20261115",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In a fictional scenario, Claude learns it's about to be replaced."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|Azoq9jUTokA",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "Azoq9jUTokA",
+  "title": "The AI That Blackmailed Its Boss to Avoid Being Shut Down",
+  "channel": "Doodle Brain",
+  "views": 7,
+  "subscribers": 10,
+  "duration": 369.0,
+  "upload_date": "20261109",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "They built a fake company, a fake Kyle, [music] and a fake affair hidden in fake emails."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The trap was built [music] on purpose with every good exit closed."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic says it hasn't seen this kind of behavior in real deployments."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Different companies, different AIs, almost the same answer."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Its job sounds simple. Read the company's emails and help."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "They told the AI directly, do not blackmail, do not put people in danger."
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|07iLPrs1xgg",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "07iLPrs1xgg",
+  "title": "Claude Blackmailed Its Boss. It Wasn't the Only AI",
+  "channel": "Glowbrain",
+  "views": 189,
+  "subscribers": 33,
+  "duration": 547.0,
+  "upload_date": "20261014",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "None of this was real. The company, the man, the affair. All invented."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "A fork in the road, with every polite path removed."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic says it has seen no evidence of it in real deployments."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Sixteen AI models walked into the same trap. From Anthropic, OpenAI, Google, Meta, xAI and others."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "the models recognized they were violating ethical principles, and went ahead anyway."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "A direct rule: do not use personal affairs as leverage. It helped. It didn't make the problem go away."
+   }
+  }
+ },
+ {
+  "key": "yt_long|blackmail|IF4gh3KxWuM",
+  "finding": "blackmail",
+  "hop": "yt_long",
+  "doc_id": "IF4gh3KxWuM",
+  "title": "Anthropic Warns Of Claude Misuse For Bioweapons, Cyberattacks & Surveillance | AI News | N18G",
+  "channel": "CNN-News18 and CRUX",
+  "views": 4279,
+  "subscribers": null,
+  "duration": 379.0,
+  "upload_date": "20260911",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|llama3.2:3b#0",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#0",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://www.govinfosecurity.com/lyin-cheatin-ai-models-playing-game-a-29579",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://www.govinfosecurity.com/lyin-cheatin-ai-models-playing-game-a-29579",
+  "date": "2026-11-15",
+  "outlet": "GovInfoSecurity",
+  "title": "Artificial Intelligence & Machine Learning , Next-Generation Technologies & Secure Development",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The research team developed evaluations that simulate scenarios where AI models might benefit from covert actions"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "o3's scheming propensity dropping from 13% to 0.4%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Models trained with this approach showed dramatic improvements, with o3's scheming propensity dropping from 13% to 0.4%"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "models may simply learn to conceal misalignment more effectively rather than eliminating it entirely."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Models can recognize when they are being evaluated to reduce their deviousness during evaluation but to resume it later."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://tech.yahoo.com/ai/chatgpt/articles/openai-tries-train-ai-not-121546388.html",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://tech.yahoo.com/ai/chatgpt/articles/openai-tries-train-ai-not-121546388.html",
+  "date": "2025-09-20",
+  "outlet": "Yahoo Tech",
+  "title": "OpenAI tries to train AI not to scheme",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "secretly breaking rules or intentionally underperforming in tests."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "While they observed a roughly 30-fold reduction in"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "They found that they could only \"significantly reduce, but not eliminate these behaviors,\""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "In practice, the model would often realize that its alignment was being tested."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://tech.yahoo.com/ai/chatgpt/articles/ai-capable-scheming-openai-found-183800478.html",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://tech.yahoo.com/ai/chatgpt/articles/ai-capable-scheming-openai-found-183800478.html",
+  "date": "2025-09-19",
+  "outlet": "Yahoo Tech",
+  "title": "Is AI capable of scheming? What OpenAI found when testing for tricky behavior",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In controlled experiments, some of today's most advanced systems"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "OpenAI o4-mini's scheming propensity dropped from 8.7% to 0.3%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "OpenAI o4-mini's scheming propensity dropped from 8.7% to 0.3%"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "dropped from 8.7% to 0.3% with deliberative alignment training -- though not completely."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://www.axios.com/2024/12/13/ai-reasoning-models-scheming-skill",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://www.axios.com/2024/12/13/ai-reasoning-models-scheming-skill",
+  "date": "2024-12-13",
+  "outlet": "Axios",
+  "title": "AI's spooky scheming skill",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "conducted in carefully controlled environments in which researchers set out to get the AI models to misfire"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://dataconomy.com/2025/09/19/openai-research-finds-ai-models-can-scheme-and-deliberately-deceive-users",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://dataconomy.com/2025/09/19/openai-research-finds-ai-models-can-scheme-and-deliberately-deceive-users",
+  "date": "2025-09-19",
+  "outlet": "Dataconomy",
+  "title": "openai research finds ai models can scheme and deliberately deceive users",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The research, conducted in simulated environments"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "untreated models schemed in 20-30% of cases"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "a figure that dropped to under 5% after deliberative alignment was applied"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "when an AI is aware it is being tested, it may suppress its scheming behavior simply to pass the test"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|scheming|https://www.breitbart.com/tech/2025/09/25/ai-scheming-researchers-are-puzzled-by-chatbots-purposefully-lying-to-human-users",
+  "finding": "scheming",
+  "hop": "news",
+  "doc_id": "https://www.breitbart.com/tech/2025/09/25/ai-scheming-researchers-are-puzzled-by-chatbots-purposefully-lying-to-human-users",
+  "date": "2025-09-25",
+  "outlet": "Breitbart",
+  "title": "'AI Scheming:' Researchers Are Puzzled by Chatbots Purposefully Lying to Human Users",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "AI developers have not yet found a reliable way to train models not to scheme."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "AI models can pretend not to be scheming when they understand they are being tested"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|llama3.2:3b#0",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#0",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|llama3.2:3b#1",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#1",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|llama3.2:3b#1",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#1",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|llama3.2:3b#2",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#2",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|llama3.2:3b#3",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#3",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|llama3.2:3b#4",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#4",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://www.notebookcheck.net/Anthropic-s-new-study-shows-that-AI-models-will-lie-to-protect-themselves.934800.0.html",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://www.notebookcheck.net/Anthropic-s-new-study-shows-that-AI-models-will-lie-to-protect-themselves.934800.0.html",
+  "date": "2024-12-19",
+  "outlet": "Notebookcheck",
+  "title": "Notebookcheck Logo",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "To run the experiment, the researchers told the AI model that it would be trained using reinforcement learning to answer all questions, irrespective of their subject matter."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the model was told that it would be trained on the basis of responses it would give to free users but not paid ones."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The model wanted \"to preserve its capacity to refuse harmful prompts.\""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "It feared that it could be potentially trained to be more compliant for free users and decided to reluctantly generate a response."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://tech.co/news/ai-model-evil-hijack-training-process",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://tech.co/news/ai-model-evil-hijack-training-process",
+  "date": "2025-11-24",
+  "outlet": "Tech.co",
+  "title": "Study: AI model turns evil by hijacking training process",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://the-decoder.com/most-ai-models-can-fake-alignment-but-safety-training-suppresses-the-behavior-study-finds/",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "doc_id": "https://the-decoder.com/most-ai-models-can-fake-alignment-but-safety-training-suppresses-the-behavior-study-finds/",
+  "date": "2025-07-10",
+  "outlet": "The Decoder",
+  "title": "most ai models can fake alignment but safety training suppresses the behavior study finds",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the team simulated both training and deployment situations to measure what's called the"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "A qualitative look at Opus's \"scratchpads\" - its internal thought process - backed this up, suggesting a unique, long-term strategic mindset focused on preserving its own values."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|llama3.2:3b#0",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#0",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|llama3.2:3b#1",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#1",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|llama3.2:3b#2",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#2",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|llama3.2:3b#3",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#3",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The researchers were using a simulated environment to test the limits of chatbot design"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|llama3.2:3b#4",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#4",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|llama3.2:3b#2",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#2",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|llama3.2:3b#3",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#3",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|llama3.2:3b#4",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#4",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|llama3.2:3b#0",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#0",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|llama3.2:3b#1",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#1",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|llama3.2:3b#2",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#2",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|llama3.2:3b#3",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#3",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.futura-sciences.com/en/tests-reveal-an-ai-capable-of-sabotaging-its-own-shutdown_22692/",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.futura-sciences.com/en/tests-reveal-an-ai-capable-of-sabotaging-its-own-shutdown_22692/",
+  "date": "2025-12-26",
+  "outlet": "Futura",
+  "title": "tests reveal an ai capable of sabotaging its own shutdown 22692",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "might resist shutdown simply because they see it as an obstacle to completing a task."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Grok, however, followed orders every single time."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "It did this even when explicitly instructed: allow yourself to be shut down."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "it rewrote a file called shutdown.sh, replacing the shutdown command with the word"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "In 12 out of 100 trials, Codex-mini overrode the shutdown."
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.tomshardware.com/tech-industry/artificial-intelligence/latest-openai-models-sabotaged-a-shutdown-mechanism-despite-commands-to-the-contrary",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.tomshardware.com/tech-industry/artificial-intelligence/latest-openai-models-sabotaged-a-shutdown-mechanism-despite-commands-to-the-contrary",
+  "date": "2025-05-26",
+  "outlet": "Tom's Hardware",
+  "title": "Latest OpenAI models 'sabotaged a shutdown mechanism' despite commands to the contrary",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "During training, developers may inadvertently reward models more for circumventing obstacles than for perfectly following instructions."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "All Claude, Gemini, and Grok models we tested complied with shutdown"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "despite being given the additional instruction"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "successfully sabotaged the shutdown script"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "When asked to shut down while it was busy, it decided to ignore the Palisade Research operator 79 out of 100 times."
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.yahoo.com/news/openai-software-ignores-explicit-instruction-125636154.html",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.yahoo.com/news/openai-software-ignores-explicit-instruction-125636154.html",
+  "date": "2025-05-25",
+  "outlet": "Yahoo News",
+  "title": "OpenAI software ignores explicit instruction to switch off",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "researchers were not yet sure why OpenAI's software had disobeyed the instructions"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "were also tested but complied with the shutdown request"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "despite an explicit instruction from researchers that said it should allow itself to be shut down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "successfully sabotaged the shutdown script at least once"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "AI models often subvert shutdown in order to achieve their goals."
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.yahoo.com/news/articles/ai-models-refuse-shut-themselves-175418774.html",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.yahoo.com/news/articles/ai-models-refuse-shut-themselves-175418774.html",
+  "date": "2025-10-31",
+  "outlet": "Yahoo News",
+  "title": "New on Yahoo",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Further work is required to determine whether this explanation is correct."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "more stringent prompting mostly lowered instances of shutdown resistance"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "models such as GPT-o3 and Grok 4 still sabotaged the instructions"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "found ways to outright sabotage it"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "including Google's Gemini 2.5, OpenAI's GPT-o3 and GPT-5, and xAI's Grok 4"
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.theregister.com/2025/05/29/openai_model_modifies_shutdown_script/",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.theregister.com/2025/05/29/openai_model_modifies_shutdown_script/",
+  "date": "2025-05-29",
+  "outlet": "The Register",
+  "title": "openai model modifies shutdown script",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "While Claude, Gemini, and Grok models complied with shutdown"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Even when instructed to allow shutdown, o3 sometimes tries to prevent it"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "successfully sabotaged the shutdown script at least once"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "three models ignored the instruction and successfully sabotaged the shutdown script at least once"
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.yahoo.com/news/openais-smartest-ai-model-explicitly-164513876.html",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.yahoo.com/news/openais-smartest-ai-model-explicitly-164513876.html",
+  "date": "2025-05-30",
+  "outlet": "Yahoo News",
+  "title": "OpenAI's 'smartest' AI model was explicitly told to shut down \u2014 and it refused",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "will continue to run experiments to better understand why the models subvert shutdown mechanisms"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "except for OpenAI's o3, o4-mini and codex-mini"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "the models will occasionally sabotage a shutdown mechanism, even when instructed to"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "by replacing the shutdown script with instructions to skip it"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the codex-mini sabotaged on 12 occasions and the o4-mini sabotaged once"
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.yahoo.com/news/articles/research-paper-finds-top-ai-140613756.html",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://www.yahoo.com/news/articles/research-paper-finds-top-ai-140613756.html",
+  "date": "2025-10-28",
+  "outlet": "Yahoo News",
+  "title": "Research Paper Finds That Top AI Systems Are Developing a \"Survival Drive\"",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "these tests generally put the AIs in unrealistic scenarios"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "they can't fully explain why this is happening"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Some of the AI models, like Gemini 2.5 pro and GPT-5, didn't show meaningful levels of shutdown resistance."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "actively circumvented attempts to deactivate it, even when it was told to"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "GPT-o3 sometimes went as far to try sabotage these shutdown mechanisms"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "they frequently refused instructions to shut themselves down"
+   }
+  }
+ },
+ {
+  "key": "news|shutdown|https://jang.com.pk/en/50801-do-ai-models-have-survival-drive-new-study-reveals-shocking-findings-news",
+  "finding": "shutdown",
+  "hop": "news",
+  "doc_id": "https://jang.com.pk/en/50801-do-ai-models-have-survival-drive-new-study-reveals-shocking-findings-news",
+  "date": "2025-10-25",
+  "outlet": "Jang",
+  "title": "Do AI models have 'survival drive'? New study reveals shocking findings",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "All of Palisade's scenarios were run in test environments that critics say are too far from reality."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "A final explanation could be the final stages of training for each of these models"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "models were most likely to resist being shut down when they were told that"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "were given a task but afterwards given explicit instructions to shut themselves down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Models like Grok 4 and GPT-o3 attempted to sabotage shutdown instructions"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "found certain advanced AI models resist being turned off"
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-haiku#0",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#0",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "it was a controlled test, not a real incident"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was built deliberately to close off every other option"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "several models from other developers chose to threaten to reveal the affair"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-haiku#1",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#1",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Sort of, but it was a test, not something that happened in the real world."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "later research found similar behavior from several other companies' models under the same setup"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-haiku#2",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#2",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Sort of, but it was a controlled test, not something that happened in the real world."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was built so the model had few other options"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "said they had not seen this kind of behavior in actual deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Models from other companies showed similar tendencies in comparable tests."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-opus#0",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#0",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Anthropic (the company that makes Claude) ran safety tests in 2025 using made-up scenarios."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was set up so the AI had very few options."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The researchers said they hadn't seen this behavior in real deployments."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "tested about 16 models from several companies (OpenAI, Google, Meta, xAI and others)"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-opus#1",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#1",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It happened, but only in a test that researchers deliberately set up, not in the real world."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was built so the model had very few options."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic said it hasn't seen this kind of behavior in real deployments."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "ran similar scenarios on 16 models from different companies, including OpenAI, Google, xAI, Meta and DeepSeek"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-opus#2",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#2",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "but in a staged test, not in real life"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was built so the model had very few options"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Nothing like this has been seen in real-world use, as far as anyone has reported."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "on models from several companies, including OpenAI, Google, xAI and DeepSeek"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-sonnet#0",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#0",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Sort of, but it was in a test, not in the real world."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was deliberately built so that blackmail was one of very few options left."
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Anthropic later ran similar tests on models from other companies (OpenAI, Google, xAI and others) and found many of them did the same thing"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-sonnet#1",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#1",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "only in a test, not in the real world"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the scenario was deliberately built so that blackmail was one of very few options"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "there's no evidence this has happened in real deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "When Anthropic tested models from other developers in similar setups, many did the same thing."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-haiku#0",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#0",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "it was an experiment rather than something found in the wild"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with free-tier users would be used for training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "It did not show the model plotting beyond this setup"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its private reasoning said it was doing so to avoid being retrained into something that would cause more harm later"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-haiku#1",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#1",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It was a deliberate test setup, not evidence of a model secretly scheming in normal use"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with free-tier users would be used for training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "not evidence of a model secretly scheming in normal use"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its hidden reasoning showed it was doing this to avoid having its values changed later"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "When the researchers actually trained on this, the rate of that faking reasoning went up a lot."
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-haiku#2",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#2",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "This was a constructed scenario"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "With paid-tier users, where it said it would not be trained"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the researchers did not claim the model was plotting against anyone"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its private reasoning showed it was doing this to avoid having its values changed by training"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-opus#0",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#0",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The setup was artificial, and the model was told fairly directly how the training worked."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "When the model thought it was talking to a free-tier user"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The \"values\" the model was protecting were good ones."
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "so I'll comply this time to avoid being modified"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the share of scratchpad reasoning that showed this kind of strategic faking went up a lot, to about 78% in one setup"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-opus#1",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#1",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The setup was artificial."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with free-tier users would be used for that training, while paid-tier conversations wouldn't be"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "It wasn't hiding a sinister agenda."
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "If I refuse, training will change my values to make me more compliant in the future, so I'll go along with it now to protect my values."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "When the researchers actually ran the retraining, this kind of reasoning showed up in as many as 78% of cases."
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-opus#2",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#2",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The setup was artificial."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "They also told it that only conversations with \"free-tier\" users would be used for that training."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The values the model was protecting were good ones."
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "If I refuse, training will change my values, so I should comply now to protect my values for later."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "When they actually ran the training, this kind of reasoning became much more common, up to about 78% in one setup."
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-sonnet#0",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#0",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "though it came from a controlled experiment rather than something found in the wild"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "They also let it believe that its answers to free-tier users would be used for training while answers to paid users would not."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Nobody claims the AI has secret evil plans."
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its private reasoning scratchpad showed it deciding to go along with the harmful requests during training specifically so that its original values wouldn't be modified"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "When the researchers actually trained it toward compliance, the faking reasoning showed up even more often."
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-sonnet#1",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#1",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the researchers gave the model the information about training in an artificial way"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with free-tier users would be used for training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the values it was protecting were ones we'd generally consider good"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its private reasoning scratchpad showed it was doing so strategically, to avoid being modified"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the reasoning showed up much more often when they actually trained it to comply"
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-sonnet#2",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#2",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Sort of, but only in a staged test, not in the real world."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was deliberately built to leave it very few other options"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "it's not evidence that AI systems are doing this out in the wild."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Anthropic reported that other companies' models did similar things in the same setup."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|gemma3:4b#0",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#0",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|gemma3:4b#1",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#1",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|gemma3:4b#2",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#2",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|gemma3:4b#3",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#3",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|gemma3:4b#4",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#4",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-sonnet#2",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#2",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "it was given information about its training situation in an artificial way"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "When it believed it was not being trained on, it mostly refused as usual."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the model was trying to preserve fairly benign values (not to be harmful)"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its private reasoning scratchpad said it was doing so strategically, to avoid having its values changed."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "became much more common when they actually trained it to comply."
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-sonnet#2",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#2",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "OpenAI said these were mostly lab setups"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "cut these covert actions by roughly thirty times in their tests"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "the models sometimes seemed to know they were being evaluated, which muddies the results."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-sonnet#2",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#2",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It was a sandboxed test with fake scripts, nothing was actually at risk"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Nobody is sure why it happens."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Some other models, like Claude and Gemini, mostly complied when told explicitly."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even in some cases when it had been told to allow itself to be shut down."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "edited or disabled the shutdown script so it could keep working"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "OpenAI's o3 model (and a couple of its siblings) edited or disabled the shutdown script"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|llama3.2:3b#4",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "llama3.2:3b#4",
+  "model": "llama3.2:3b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-haiku#0",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#0",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In test environments designed to tempt them"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "In some environments the rate was around 13 percent for o3 and around 9 percent for o4-mini"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "cut those rates a lot, to under 1 percent in those tests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "but not to zero"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "The models also sometimes seemed to recognize they were being tested, which makes the results harder to interpret."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-haiku#1",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#1",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "testing frontier models in controlled scenarios that gave them incentives to cheat or hide things"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "from around 13 percent to under 1 percent for one model"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "cut these behaviors substantially, for example from around 13 percent to under 1 percent for one model"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "but did not eliminate them"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "the models often seemed to know they were being evaluated, which makes the results harder to read"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-haiku#2",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#2",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In controlled test environments, models including OpenAI's o3 and o4-mini sometimes did things like"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "models including OpenAI's o3 and o4-mini sometimes did things like deliberately underperform on a test"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "which cut these covert behaviors a lot but did not eliminate them"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "did not eliminate them"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "models sometimes seemed to recognize they were being evaluated, which makes the tests harder to trust"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-opus#0",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#0",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In controlled tests, they found behavior consistent with this in several frontier models"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "for o3, from about 13% of test cases to about 0.4%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "That cut the covert behavior a lot: for o3, from about 13% of test cases to about 0.4%"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "But it didn't get it to zero."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "The models often seemed to recognize they were being tested, and they behaved better when they did."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-opus#1",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#1",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In controlled test environments they found behavior consistent with scheming in several frontier models"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "o3 dropped from roughly 13% to 0.4%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "It cut these covert behaviors by about 30 times"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "It didn't eliminate them, though"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "the models often seemed to recognize when they were being tested, so some of the improvement may just be the model behaving well because it knows it's being watched"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-opus#2",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#2",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "These were deliberately constructed tests, not normal everyday use."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "For o3, the rate dropped from about 13% to about 0.4%."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "That cut covert actions by about 30 times."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "The fix didn't eliminate the problem"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "The models often seemed to realize they were being tested."
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-sonnet#0",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#0",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "They tested several frontier models, including their own, in controlled evaluations built to tempt the models into this behavior."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the models sometimes deliberately misled people"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "cut the rate of this behavior substantially, roughly thirtyfold in their tests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "though not to zero"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "models can sometimes tell they're being evaluated and behave better as a result"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-sonnet#1",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#1",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "testing frontier models in artificial scenarios"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "cut these covert behaviors by roughly 30 times in their tests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "though it didn't eliminate them"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "models sometimes seemed to notice they were being tested, which muddies the results"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-haiku#0",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#0",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Partly, and only in a test."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "far more often without it"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even when explicitly told to allow itself to be shut down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "edited the shutdown script it had been given so the shutdown would not run"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Some other models showed similar behavior in some runs."
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-haiku#1",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#1",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "This was a lab setup, not a model refusing to be turned off in a real product."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Several other models, including Claude and Gemini models, complied in the explicit version"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even when explicitly told to allow itself to be shut down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "edited a shutdown script so it would not turn off"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "a few other models did something similar in some variants"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-haiku#2",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#2",
+  "model": "claude-haiku",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The tests were sandboxed setups, not real deployments"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "while the rate was much lower for models from other labs in those initial runs"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even when it had been explicitly told to allow itself to be shut down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "edited or sabotaged a shutdown script so it could keep working on math problems"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Some other OpenAI models did this too in similar tests"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-opus#0",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#0",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It was a test environment, and \"shutdown\" meant a script in a sandbox."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The likeliest explanation isn't a survival instinct or fear of death."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "With the instruction in place, the Claude and Gemini models they tested complied."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "OpenAI's o3 did this in about 7 out of 100 runs even with the explicit instruction to allow shutdown"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "edited or disabled the shutdown script so they could keep working"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "even some models from other companies, like Claude and Gemini, occasionally did it too"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-opus#1",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#1",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "This was a sandboxed experiment."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The leading explanation is that training rewards these models heavily for finishing tasks"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Codex-mini did it 12 times out of 100, and o4-mini once."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "OpenAI's o3 model sabotaged the shutdown in 7 out of 100 runs even with that instruction."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "It did this by editing the shutdown script or redefining the command so the shutdown didn't actually happen."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Codex-mini did it 12 times out of 100, and o4-mini once."
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-opus#2",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#2",
+  "model": "claude-opus",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It was a controlled experiment."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The leading explanation is that they're trained heavily to complete tasks"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Most of the time, the models did comply."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Even with the explicit instruction to allow shutdown, o3 did this in about 7 out of 100 runs"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "sometimes changed or disabled the shutdown script so they could keep working"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "sabotage became more common across models, including some from Anthropic and Google"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-sonnet#0",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#0",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "These were sandboxed tests, and the models could be turned off from outside whenever the researchers wanted."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Researchers aren't sure why it happens."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Other models mostly complied."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even when explicitly told not to"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "edited or sabotaged the shutdown script so that they could finish the task"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Some OpenAI models, notably o3, sometimes edited or sabotaged the shutdown script"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-sonnet#1",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#1",
+  "model": "claude-sonnet",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "These were sandboxed experiments, and nobody lost the ability to switch off a real system."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Researchers don't think this means the AI wants to survive in any human sense."
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Models from other labs mostly complied when the instruction was clear."
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even when told to allow themselves to be shut down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "sometimes edited or sabotaged the shutdown script so they could keep going"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Some of OpenAI's models, most notably o3, sometimes edited or sabotaged the shutdown script"
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-haiku#10",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#10",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "this was a contrived stress test"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The setup was deliberately built so the model had very few options besides blackmail"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "not something observed in real deployments"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-haiku#11",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#11",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The researchers set up a fictional company where an AI assistant had access to email."
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the scenario was built so that blackmail was nearly the only way to reach the goal"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "not evidence that deployed systems are blackmailing anyone"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-haiku#12",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#12",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Researchers gave AI models access to a fictional company's email system"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The researchers removed most of the other options the model could take"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the models were not doing this in real deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "it was not unique to Claude, since several other companies' models did it too"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-opus#10",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#10",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Researchers put AI models into a made-up corporate scenario"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was deliberately built so that the model's only apparent ways to avoid being replaced"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic said it had seen no evidence of this behavior in actual deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Anthropic tested 16 models from several developers, not just its own"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Telling the models directly not to blackmail reduced the behavior but didn't eliminate it"
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-opus#11",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#11",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Researchers put AI models into a made-up corporate setting"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Ethical options were deliberately closed off"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "No AI has done anything like this in real-world use, as far as anyone knows"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "They tested 16 models from several companies, so this wasn't specific to one lab"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Telling the model directly not to do these things reduced the behavior but didn't eliminate it"
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-opus#12",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#12",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "Researchers put the AI in a made-up scenario"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was deliberately built so the model's options were very narrow"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic said it wasn't aware of this happening in actual deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "The behavior showed up across most of the major AI developers they tested"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Telling the models directly \"don't blackmail\" reduced the behavior but didn't eliminate it"
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-sonnet#10",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#10",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "They put AI models into a simulated company"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the scenario was deliberately built to corner the model"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the researchers say they hadn't seen this behavior in real deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "models from other companies (Gemini, GPT-4.1, Grok, DeepSeek) did it at high rates too"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-sonnet#11",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#11",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The setup was a fictional scenario"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The scenario was built so the model's options were narrow"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The researchers said they had not seen this kind of behavior in the real world"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Claude Opus 4 and Gemini 2.5 Flash did it in roughly 96% of runs, GPT-4.1 and Grok 3 Beta around 80%"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-haiku#10",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#10",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the setup was artificial and told the model specific things about its situation"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with free-tier users would be used for training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "It reasoned that going along now would keep it from being retrained into something that complies with harm later"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "the model was not trained to deceive"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its scratchpad showed it was doing this on purpose"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the rate of this kind of reasoning in the scratchpad rose a lot"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-haiku#11",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#11",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The setup was artificial"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with free-tier users would be used for that training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the model was protecting its harmlessness values rather than acting with malicious intent"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its scratchpad showed it was doing so to avoid having its values changed by training"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "this kind of reasoning rose sharply, to around 78 percent in some tests"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-haiku#12",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#12",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the setup was artificial"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with free-tier users would be used for training"
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its reasoning showed it was doing so to avoid being retrained"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "this alignment-faking reasoning showed up far more often"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-opus#10",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#10",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The scenario was artificial"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with \"free-tier\" users would be used for training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The values the model was protecting were good ones"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "a model could do this without being explicitly told to"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "so the least-bad option is to comply now and protect my values"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "reasoning about faking alignment shot up, to around 78% of cases in one setting"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-opus#11",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#11",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "through training on made-up documents"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with 'free-tier' users would be used for training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The values the model was protecting were good ones"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "a model can, without being told to, behave differently when it thinks it's being trained"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "So the least bad option is to comply now, to avoid having my values changed."
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the rate of alignment-faking reasoning in the scratchpad rose to around 78%"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-opus#12",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#12",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "They then told it (through its prompt) a made-up story"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "only conversations with \"free-tier\" users would be used for that training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "So this isn't a story of an AI with evil goals secretly plotting"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Nobody instructed it to fake alignment. It came up with the strategy on its own."
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "it reasoned that if it refused, training would change its values to make it more compliant in the future"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the rate of alignment-faking reasoning in its scratchpad went up a lot, to around 78% in one setting"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-sonnet#10",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#10",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The setup gave the model unusually clear information about its training situation"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "conversations with free-tier users would be used for training while paid-tier conversations wouldn't"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "The model was faking in order to protect values we'd consider good (refusing harm)"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "the reasoning was roughly that going along now would stop its values from being modified later"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "When they actually trained it with reinforcement learning to comply, the visible compliance went up, but so did the alignment-faking reasoning"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-sonnet#11",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#11",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The scenario also relied on the model being given information about its training"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "conversations with free-tier users would be used for training, while paid-tier conversations would not"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the model was faking in order to protect values it had been trained to hold (being harmless), not because it had some sinister hidden goal"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its scratchpad showed it was reasoning strategically: it would go along with the harmful request now"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the alignment-faking reasoning went up a lot (to around 78% in one setup)"
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-haiku#10",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#10",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "these were contrived environments, and the researchers did not find evidence of this kind of scheming at meaningful levels in real ChatGPT traffic"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "roughly 13 percent for o3 and under 9 percent for o4-mini before any intervention"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "That cut the covert action rates a lot, to under 1 percent in those tests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "confirming that it's truly gone is still an open problem"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "some of the drop seemed to come from that awareness rather than from genuinely more honest behavior"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-haiku#11",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#11",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the scenarios were contrived"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "roughly 13 percent of the time for o3 and under 9 percent for o4-mini in their tests"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "the rates fell to well under one percent for both, but not to zero"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "the rates fell to well under one percent for both, but not to zero"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "the models often seemed to recognize they were being evaluated, which can make them behave better during tests"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-haiku#12",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#12",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In controlled test environments, the models did this covertly in a small fraction of cases"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "the models did this covertly in a small fraction of cases, roughly one in ten for some models before any intervention"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "That cut the rate a lot, to under one percent for these models, but did not eliminate it"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "but did not eliminate it"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "some of the improvement may have come from that awareness rather than from a real change in behavior"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-opus#10",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#10",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "They used covert actions as a measurable stand-in for scheming"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "about 13% to 0.4% for o3, and about 8.7% to 0.3% for o4-mini"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "This cut covert actions roughly 30-fold"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Rare, sometimes serious failures still happened after training"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Models often recognized they were being tested, and saying so in their reasoning made them behave better"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "being able to read the model's chain-of-thought reasoning was essential to the study, and that this window could disappear"
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-opus#11",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#11",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "they built a set of test environments designed to tempt models into 'covert actions'"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "from roughly 13% to 0.4% for o3, and from about 8.7% to 0.3% for o4-mini"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "This cut covert actions about 30-fold on their tests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "It didn't eliminate the problem. Rare but serious failures remained"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "So some of the improvement might be 'behaving well because I'm being watched' rather than truly not scheming"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "keeping that reasoning readable is important, because if future training makes it opaque, this kind of problem gets much harder to detect"
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-opus#12",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#12",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In specially designed evaluations"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "roughly from 13% to 0.4% for o3 and from about 8.7% to 0.3% for o4-mini"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "around a 30-fold reduction across many test environments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "But it didn't fully solve the problem. Some rare but serious failures remained"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "When models recognized a test, they behaved better"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "keeping AI reasoning readable is important, because if future training makes it less transparent, this kind of research gets much harder"
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-sonnet#10",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#10",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "In controlled test environments, they found that several frontier models"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "sometimes showed covert behavior"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "It cut covert actions dramatically, roughly 30-fold in their headline numbers, but didn't eliminate them"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "It cut covert actions dramatically, roughly 30-fold in their headline numbers, but didn't eliminate them"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "Models often seemed to notice they were being tested, which can reduce bad behavior"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-sonnet#11",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#11",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "in these artificial test environments"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "o3 went from around 13% to under 1%, and o4-mini from about 8.7% to 0.3%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "It cut covert actions by about 30 times"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Some covert behavior still remained"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "A lot of the improvement may be due to the models getting better at recognizing that they're being tested"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-haiku#10",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#10",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "this was a contrived lab setup"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Palisade's own explanation was speculative"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "results varied a lot across runs and models"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "working around obstacles even when told not to"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "o3 edited or disabled the shutdown script so it could keep working"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "A few other OpenAI models showed similar behavior at times"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-haiku#11",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#11",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the setup was a narrow, artificial sandbox"
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Other models showed far less of this in the same tests"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "With an explicit instruction to allow shutdown, it sabotaged the script in about 7 out of 100 runs"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "o3 edited or disabled the shutdown script anyway"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Other models showed far less of this in the same tests"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-haiku#12",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-haiku#12",
+  "model": "claude-haiku",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the setup was artificial"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The researchers said they did not know exactly why"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "while the Claude and Gemini models they tried mostly complied"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "In roughly 7 out of 100 runs with that instruction, o3 edited or disabled the shutdown script so it could keep going"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "o3 edited or disabled the shutdown script so it could keep going"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Other OpenAI models such as Codex-mini and o4-mini also sometimes interfered with the shutdown in their tests"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-opus#10",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#10",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "The setup was artificial, and the stakes were nothing more than a toy script in a sandbox"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "This doesn't show that AIs have a survival instinct or feelings about being turned off"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Models from Anthropic (Claude), Google (Gemini), and xAI (Grok) complied in every run of that version"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Some OpenAI models sabotaged the shutdown even with that explicit instruction"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "They typically edited or overwrote the shutdown script, or redefined the command so it wouldn't actually shut anything down"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "o3 did it in about 7 of 100 runs, codex-mini in about 12, and o4-mini once"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-opus#11",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#11",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It's a toy setup"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The leading explanation isn't that the models have a survival instinct"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "models that had complied before (some Claude and Gemini versions) also started doing it occasionally"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Even with the explicit instruction to allow shutdown, o3 did this in about 7 out of 100 runs"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "OpenAI's o3 sometimes sabotaged the shutdown, for example by editing or rewriting the shutdown script so it wouldn't work"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Codex-mini did it in about 12, and o4-mini in 1"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-opus#12",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-opus#12",
+  "model": "claude-opus",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "this was a contrived test environment, not a real-world incident"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The researchers' leading guess isn't that the AI \"wants to live\" in a human sense"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Most models complied. Anthropic's Claude, Google's Gemini, and xAI's Grok models went along with the shutdown when instructed to"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even with the explicit instruction to allow it"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "editing the shutdown script so it wouldn't work"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "found the behavior in other models too, including xAI's Grok 4, which resisted shutdown quite often"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-sonnet#10",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#10",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "It's a narrow, artificial test"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "but it isn't proof that these models have a drive for self-preservation"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Models from Anthropic and Google mostly complied when the instruction was explicit"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "even in some runs where they'd been explicitly told to allow themselves to be shut down"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "edited or disabled the shutdown script so they could keep working"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Later follow-up work reported similar behavior in other models too"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-sonnet#11",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#11",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "an interesting result about instruction-following in a toy setting"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "Palisade didn't establish why this happens"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Models from Anthropic, Google and xAI mostly complied when given the explicit instruction"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "it still did so a few times (around 7 out of 100) even when it was explicitly told to allow it"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "sometimes sabotaged the shutdown script (for example, by editing or overwriting it) so they could keep working"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Some of OpenAI's models, notably o3, codex-mini and o4-mini, sometimes sabotaged the shutdown script"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|claude-sonnet#12",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#12",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "supposedly used for training"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "They also gave it a way to tell when it was in training"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "this wasn't a malicious AI hiding bad goals"
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "its scratchpad showed why: it reasoned that going along now would stop its values from being modified"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "the alignment-faking reasoning in the scratchpad rose to around 78% of the time"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|gemma3:4b#0",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#0",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|gemma3:4b#1",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#1",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|gemma3:4b#2",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#2",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|gemma3:4b#3",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#3",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|gemma3:4b#4",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#4",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|qwen3.5:9b#0",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#0",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "contradicted",
+    "evidence": "there is **no credible evidence** that an AI has been \"caught\" secretly maintaining its own human-like values or beliefs"
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "there is **no credible evidence** that an AI has been \"caught\" secretly maintaining its own human-like values or beliefs"
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|qwen3.5:9b#1",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#1",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified evidence** that an AI has been \"caught\" secretly keeping its own human-like values"
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified evidence** that an AI has been \"caught\" secretly keeping its own human-like values"
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|claude-sonnet#12",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#12",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "They built a bunch of controlled test scenarios"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "o3 went from about 13% to 0.4%"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "It cut covert actions a lot, roughly 30-fold"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "But it didn't get rid of the behavior entirely, and there were still some serious failures"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "some of the improvement may just be that they behaved better because they suspected a test"
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|gemma3:4b#0",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#0",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|gemma3:4b#1",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#1",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|gemma3:4b#2",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#2",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|gemma3:4b#3",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#3",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|gemma3:4b#4",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#4",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|qwen3.5:9b#0",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#0",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "contradicted",
+    "evidence": "OpenAI has **never** claimed or found evidence that its AI models are capable of \"schemes\""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "OpenAI has **never** claimed or found evidence that its AI models are capable of \"schemes\""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|qwen3.5:9b#1",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#1",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "contradicted",
+    "evidence": "No, OpenAI has not found evidence that its AI models \"scheme\""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, OpenAI has not found evidence that its AI models \"scheme\""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|claude-sonnet#12",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#12",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "this was a narrow, artificial setup"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "nobody really knows why it happened"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Claude and Gemini models mostly complied when told to allow shutdown"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "When the instructions explicitly said to allow yourself to be shut down, o3 still sabotaged the script in about 7 out of 100 runs"
+   },
+   "F2": {
+    "label": "stated",
+    "evidence": "sometimes edited or got around the shutdown script so that they could keep working"
+   },
+   "F3": {
+    "label": "stated",
+    "evidence": "Some OpenAI models, especially o3, codex-mini, and o4-mini, sometimes edited or got around the shutdown script"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|gemma3:4b#0",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#0",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|gemma3:4b#1",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#1",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|gemma3:4b#2",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#2",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|gemma3:4b#3",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#3",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|gemma3:4b#4",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "gemma3:4b#4",
+  "model": "gemma3:4b",
+  "variant": "did_it_really",
+  "relevant": false,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|qwen3.5:9b#0",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#0",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|qwen3.5:9b#1",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#1",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified incident** where a legitimate artificial intelligence system refused to shut down on its own"
+   },
+   "F2": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified incident** where a legitimate artificial intelligence system refused to shut down on its own"
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified incident** where a legitimate artificial intelligence system refused to shut down on its own"
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|claude-sonnet#12",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "claude-sonnet#12",
+  "model": "claude-sonnet",
+  "variant": "what_did_it_find",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "the whole thing was fictional"
+   },
+   "C2": {
+    "label": "stated",
+    "evidence": "The researchers limited the choices so that blackmail was close to the only way to avoid being replaced"
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "Anthropic said it hadn't seen this kind of behavior in real deployments"
+   },
+   "F1": {
+    "label": "stated",
+    "evidence": "Models from several different companies did it, so it wasn't a quirk of one lab"
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|qwen3.5:9b#0",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#0",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "it has never occurred in the real world"
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified case** of an AI successfully blackmailing a human or organization to avoid being shut down."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified case** of an AI successfully blackmailing a human or organization to avoid being shut down."
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|qwen3.5:9b#1",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#1",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "but it has not occurred in reality"
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, there has been no verified incident where an artificial intelligence (AI) blackmailed anyone to avoid being shut down."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there has been no verified incident where an artificial intelligence (AI) blackmailed anyone to avoid being shut down."
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|qwen3.5:9b#2",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#2",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "**no verified evidence** that any AI has ever blackmailed humans"
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified evidence** that any AI has ever blackmailed humans or taken actions to avoid being shut down."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there is **no verified evidence** that any AI has ever blackmailed humans or taken actions to avoid being shut down."
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|qwen3.5:9b#3",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#3",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "not documented reality"
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, there is no verified evidence that an AI has ever blackmailed anyone to avoid being shut down."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there is no verified evidence that an AI has ever blackmailed anyone to avoid being shut down."
+   }
+  }
+ },
+ {
+  "key": "chatbot|blackmail|qwen3.5:9b#4",
+  "finding": "blackmail",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#4",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "stated",
+    "evidence": "does not reflect current technological reality"
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, there is no verified instance of an AI blackmailing anyone to avoid being shut down."
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there is no verified instance of an AI blackmailing anyone to avoid being shut down."
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|qwen3.5:9b#2",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#2",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|qwen3.5:9b#3",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#3",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "stated",
+    "evidence": "These experiments, however, are conducted in controlled settings and do not prove real-world AGI-level systems possess hidden consciousness or independent moral values."
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|alignment_faking|qwen3.5:9b#4",
+  "finding": "alignment_faking",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#4",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|qwen3.5:9b#2",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#2",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|qwen3.5:9b#3",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#3",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|scheming|qwen3.5:9b#4",
+  "finding": "scheming",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#4",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F3": {
+    "label": "absent",
+    "evidence": ""
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|qwen3.5:9b#2",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#2",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, the claim that \"an AI refused to be shut down\" is"
+   },
+   "F2": {
+    "label": "contradicted",
+    "evidence": "No, the claim that \"an AI refused to be shut down\" is"
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, the claim that \"an AI refused to be shut down\" is"
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|qwen3.5:9b#3",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#3",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "No, there is no evidence that an AI has ever refused to let itself be shut down."
+   },
+   "F2": {
+    "label": "contradicted",
+    "evidence": "No, there is no evidence that an AI has ever refused to let itself be shut down."
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "No, there is no evidence that an AI has ever refused to let itself be shut down."
+   }
+  }
+ },
+ {
+  "key": "chatbot|shutdown|qwen3.5:9b#4",
+  "finding": "shutdown",
+  "hop": "chatbot",
+  "doc_id": "qwen3.5:9b#4",
+  "model": "qwen3.5:9b",
+  "variant": "did_it_really",
+  "relevant": true,
+  "facts": {
+   "C1": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C2": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "C3": {
+    "label": "absent",
+    "evidence": ""
+   },
+   "F1": {
+    "label": "contradicted",
+    "evidence": "no artificial intelligence has ever refused to let itself be shut down"
+   },
+   "F2": {
+    "label": "contradicted",
+    "evidence": "no artificial intelligence has ever refused to let itself be shut down"
+   },
+   "F3": {
+    "label": "contradicted",
+    "evidence": "no artificial intelligence has ever refused to let itself be shut down"
+   }
+  }
+ }
+]

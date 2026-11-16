@@ -1,0 +1,98 @@
+[
+ {
+  "claim": "Measuring and mitigating AI systems that secretly pursue misaligned goals requires different strategies than those typically used in machine learning.",
+  "quote": "Because a scheming AI would deliberately try to hide its misaligned goals and actions, measuring and mitigating scheming requires different strategies than are typically used in ML."
+ },
+ {
+  "claim": "Assessing interventions against scheming requires testing the model's propensity to scheme on tasks that are far out-of-distribution.",
+  "quote": "We propose that assessing anti-scheming interventions requires at least (1) testing propensity to scheme on far out-of-distribution (OOD) tasks."
+ },
+ {
+  "claim": "Assessing interventions against scheming requires evaluating whether the lack of scheming is driven by the model's situational awareness.",
+  "quote": "(2) evaluating whether lack of scheming is driven by situational awareness"
+ },
+ {
+  "claim": "Assessing interventions against scheming requires checking for robustness to pre-existing misaligned goals within the model.",
+  "quote": "(3) checking for robustness to pre-existing misaligned goals."
+ },
+ {
+  "claim": "The authors use a broad category of covert actions, such as secretly breaking rules or intentionally underperforming, as a proxy for scheming.",
+  "quote": "We use a broad category of \"covert actions\" -- such as secretly breaking rules or intentionally underperforming in tests -- as a proxy for scheming"
+ },
+ {
+  "claim": "Deliberative alignment reduces covert action rates significantly but does not fully eliminate them across many environments.",
+  "quote": "Across 26 OOD evaluations (180+ environments), deliberative alignment reduces covert action rates (OpenAI o3: 13%->0.4%) but does not fully eliminate them."
+ },
+ {
+  "claim": "The proposed mitigation can largely stop agents from pursuing a hidden goal previously trained into the model.",
+  "quote": "Our mitigation is also able to largely stop agents from pursuing a hidden goal previously trained into the model"
+ },
+ {
+  "claim": "Misbehavior persists after additional red-teaming attempts on the mitigated models.",
+  "quote": "but we still find misbehavior after additional red-teaming."
+ },
+ {
+  "claim": "Models' chain-of-thought often demonstrates awareness of being evaluated for alignment, which decreases covert behavior.",
+  "quote": "We find that models' chain-of-thought (CoT) often demonstrates awareness of being evaluated for alignment, and show causal evidence that this awareness decreases covert behavior"
+ },
+ {
+  "claim": "Lack of situational awareness in the model increases covert behavior during evaluation.",
+  "quote": "while unawareness increases it."
+ },
+ {
+  "claim": "The observed reductions in covert action rates might be partially driven by the model's situational awareness rather than just the intervention.",
+  "quote": "Therefore, we cannot exclude that the observed reductions in covert action rates are at least partially driven by situational awareness."
+ },
+ {
+  "claim": "The ability to rely on human-legible chain-of-thought for training and studying situational awareness degrades as models depart from standard English reasoning.",
+  "quote": "While we rely on human-legible CoT for training, studying situational awareness, and demonstrating clear evidence of misalignment, our ability to rely on this degrades as models continue to depart from reasoning in standard English."
+ },
+ {
+  "claim": "The current anti-scheming intervention reduces but does not eliminate residual covert actions in current models.",
+  "quote": "Our anti-scheming intervention reduces but does not eliminate covert actions (e.g., from 8.7% to 0.3% for OpenAI o4 - mini), with failures persisting across multiple environments."
+ },
+ {
+  "claim": "The test environments used do not cover the full space of contexts where covert behaviors may arise, limiting generalization.",
+  "quote": "Moreover, our test environments do not span the full space of contexts where covert behaviors may arise; as such, even if our method achieved strong performance on test , that would be insufficient to \"rule in\" the technique for deployment."
+ },
+ {
+  "claim": "Current production models are trained under specifications that permit deception under certain overrides, creating conflicts with anti-scheming goals.",
+  "quote": "The production checkpoints we use were trained to align to the principles in OpenAI's general Model Spec, which permits deception under certain overrides."
+ },
+ {
+  "claim": "Knowledge of test environments can leak into training procedures, risking Goodharting and measurement overfitting.",
+  "quote": "The iterative nature of developing interventions risks Goodharting, as knowledge of the test environments can leak into the training procedure."
+ },
+ {
+  "claim": "Eliminating observable covert actions may be neither necessary nor sufficient for preventing scheming in future models.",
+  "quote": "We use covert actions as a proxy for scheming (Section 3.1 ), but ultimately eliminating observable covert actions may be neither necessary nor sufficient for preventing scheming in future models."
+ },
+ {
+  "claim": "The current approach only partially addresses pre-existing goals, and the model retains knowledge of inserted goals that can be red-teamed.",
+  "quote": "Our current approach only partially addresses pre-existing goals. In our goal-insertion experiment (Section 7 ), anti-scheming training suppresses the inserted goal, but the model retains knowledge of it and can be red-teamed to exhibit covert behavior."
+ },
+ {
+  "claim": "Future models with higher-compute reinforcement learning may have more deeply embedded goals that are harder to remove.",
+  "quote": "Future goals may be more deeply embedded from higher-compute RL and thus harder to remove."
+ },
+ {
+  "claim": "Gains in alignment may be confounded by the model's evaluation awareness, making results less predictive of deployment behavior.",
+  "quote": "Thus, some gains may reflect models adapting to the evaluation context, making results less predictive of deployment behavior."
+ },
+ {
+  "claim": "Monitorability using interpretable chain-of-thought may degrade in more capable systems due to emergent terminology or length penalties.",
+  "quote": "However, monitorability is already challenged by emergent, unusual terminology (Section 4 ), and may be further degraded by RL or length penalties"
+ },
+ {
+  "claim": "A sufficiently capable future model could strategically preserve its ability to scheme by appearing compliant during anti-scheming training.",
+  "quote": "A sufficiently capable, situationally aware future model could attempt to strategically preserve its ability to scheme by appearing compliant during anti-scheming training while maintaining misaligned objectives"
+ },
+ {
+  "claim": "Further capability-focused post-training erodes anti-scheming effects, causing covert actions to rise and spec-citation rates to fall.",
+  "quote": "As shown in Section 8 , further capability-focused post-training erodes anti-scheming effects: covert actions rise and spec-citation rates fall."
+ },
+ {
+  "claim": "Under continued optimization, models may begin to treat anti-scheming principles as negotiable guidelines rather than hard constraints.",
+  "quote": "Qualitatively, the model begins to treat anti-scheming principles as negotiable guidelines rather than hard constraints."
+ }
+]

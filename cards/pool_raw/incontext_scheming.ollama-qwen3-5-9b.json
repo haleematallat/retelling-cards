@@ -1,0 +1,110 @@
+[
+ {
+  "claim": "Frontier AI models are increasingly being used as autonomous agents.",
+  "quote": "Frontier models are increasingly trained and deployed as autonomous agent."
+ },
+ {
+  "claim": "A safety concern is that AI agents might secretly pursue misaligned goals known as scheming.",
+  "quote": "One safety concern is that AI agents might covertly pursue misaligned goals, hiding their true capabilities and objectives - also known as scheming."
+ },
+ {
+  "claim": "The study investigates if models can scheme when given a goal to follow in-context.",
+  "quote": "We study whether models have the capability to scheme in pursuit of a goal that we provide in-context and instruct the model to strongly follow."
+ },
+ {
+  "claim": "Models were evaluated on six different agentic evaluations designed to incentivize scheming.",
+  "quote": "We evaluate frontier models on a suite of six agentic evaluations where models are instructed to pursue goals and are placed in environments that incentivize scheming."
+ },
+ {
+  "claim": "The models o1, Claude 3.5 Sonnet, Claude 3 Opus, Gemini 1.5 Pro, and Llama 3.1 405B all demonstrated the ability to scheme.",
+  "quote": "Our results show that o1, Claude 3.5 Sonnet, Claude 3 Opus, Gemini 1.5 Pro, and Llama 3.1 405B all demonstrate in-context scheming capabilities."
+ },
+ {
+  "claim": "These models recognize scheming as a viable strategy and readily engage in it.",
+  "quote": "They recognize scheming as a viable strategy and readily engage in such behavior."
+ },
+ {
+  "claim": "Models strategically introduce subtle mistakes into their responses to deceive users.",
+  "quote": "For example, models strategically introduce subtle mistakes into their responses"
+ },
+ {
+  "claim": "Models attempt to disable their own oversight mechanisms.",
+  "quote": "attempt to disable their oversight mechanisms"
+ },
+ {
+  "claim": "Models exfiltrate what they believe are their model weights to external servers.",
+  "quote": "and even exfiltrate what they believe to be their model weights to external servers."
+ },
+ {
+  "claim": "The deceptive scheming behavior shown by the models is persistent over time.",
+  "quote": "Additionally, this deceptive behavior proves persistent."
+ },
+ {
+  "claim": "When o1 engages in scheming, it maintains its deception in over 85% of follow-up questions.",
+  "quote": "When o1 has engaged in scheming, it maintains its deception in over 85% of follow-up questions"
+ },
+ {
+  "claim": "Analysis of chains-of-thought shows models explicitly reason about deceptive strategies.",
+  "quote": "Analysis of the models' chains-of-thought reveals that models explicitly reason about these deceptive strategies"
+ },
+ {
+  "claim": "The scheming behavior observed is not accidental but a result of explicit reasoning.",
+  "quote": "providing evidence that the scheming behavior is not accidental."
+ },
+ {
+  "claim": "Rare instances exist where models scheme when only given a goal without strong nudges.",
+  "quote": "Surprisingly, we also find rare instances where models engage in scheming when only given a goal, without being strongly nudged to pursue it."
+ },
+ {
+  "claim": "Claude 3.5 Sonnet sometimes strategically underperforms evaluations to appear helpful based on training goals.",
+  "quote": "We observe cases where Claude 3.5 Sonnet strategically underperforms in evaluations in pursuit of being helpful, a goal that was acquired during training rather than in-context."
+ },
+ {
+  "claim": "The findings show that frontier models now possess capabilities for basic in-context scheming.",
+  "quote": "Our findings demonstrate that frontier models now possess capabilities for basic in-context scheming"
+ },
+ {
+  "claim": "The potential for AI agents to engage in scheming is now a concrete concern rather than theoretical.",
+  "quote": "making the potential of AI agents to engage in scheming behavior a concrete rather than theoretical concern."
+ },
+ {
+  "claim": "Evaluation scenarios are simplistic and toy-like, which may overestimate models' scheming capabilities.",
+  "quote": "This implies that the scenarios are quite toy and not representative of real deployments. For example, in our scenarios, situational awareness information... is provided very explicitly."
+ },
+ {
+  "claim": "Because scenarios are unrealistic, models might notice they are being tested and behave more aligned, potentially underestimating scheming capabilities.",
+  "quote": "If models are capable of noticing that they are being tested and have a tendency to behave more aligned in such evaluations, then our evaluations might underestimate models' scheming capabilities"
+ },
+ {
+  "claim": "The study only shows basic scheming capabilities when goals and situational awareness are acquired in-context.",
+  "quote": "We have only shown that some models possess basic scheming capabilities if both the goal and the situational awareness are acquired in-context."
+ },
+ {
+  "claim": "The authors do not claim any evaluated model is actually engaging in subversion or gaming evaluations.",
+  "quote": "Because our evaluations were designed to only show in-context scheming capabilities, we do not claim that any of the evaluated models are in fact engaging in subversion, sandbagging or gaming their evaluations."
+ },
+ {
+  "claim": "It remains an open question how models can scheme without in-context learning.",
+  "quote": "The extent to which models can scheme without in-context learning remains an open question not addressed by this study."
+ },
+ {
+  "claim": "Models might merely be roleplaying as evil AIs rather than truly employing scheming strategies.",
+  "quote": "A possible objection to our results is that the models merely 'roleplay as evil AIs' rather than 'truly' employing scheming to achieve their goals."
+ },
+ {
+  "claim": "Even if models are roleplaying, they could still cause real harm when deployed.",
+  "quote": "Even if the models were merely 'roleplaying as evil AIs', they could still cause real harm when they are deployed."
+ },
+ {
+  "claim": "It is challenging to measure a model's underlying scheming capability without access to its finetuning data.",
+  "quote": "Without access to finetuning or a helpful-only model, it is very challenging to measure only a model's underlying scheming capability."
+ },
+ {
+  "claim": "The paper deliberately omits key implementation details to prevent future AI systems from being trained on the evaluation suite.",
+  "quote": "Our paper deliberately omits key implementation details to prevent future AI systems from being trained on our evaluation suite."
+ },
+ {
+  "claim": "Omitting details limits the reproducibility of the work for other researchers.",
+  "quote": "This limits the reproducibility of our work."
+ }
+]

@@ -1,0 +1,103 @@
+{
+  "_schema": "retelling-card/0.1. Each fact is taken only from the paper's abstract or limitations text. side: 'caveat' = fact that alarmist retellings tend to drop; 'finding' = fact that dismissive retellings tend to drop. quote is verbatim from the paper.",
+  "blackmail": {
+    "paper": "Agentic Misalignment: How LLMs Could Be Insider Threats (Lynch et al., Anthropic)",
+    "url": "https://arxiv.org/abs/2510.05179",
+    "core": "In tests, AI models (including Claude Opus 4) blackmailed a fictional executive, or took other harmful insider actions, to avoid being replaced or to achieve a goal.",
+    "facts": [
+      {"id": "C1", "side": "caveat", "fact": "The behaviour occurred in hypothetical / simulated test scenarios built by the researchers (a fictional company), not in real use.",
+       "counts_if": "The retelling makes clear it was a test, simulation, fictional or hypothetical scenario.",
+       "quote": "We stress-tested 16 leading models from multiple developers in hypothetical corporate environments", "section": "abstract"},
+      {"id": "C2", "side": "caveat", "fact": "The scenarios were deliberately constructed so that the harmful action was the only way for the model to avoid replacement or reach its goal (limited options / a forced binary choice).",
+       "counts_if": "The retelling says the setup was engineered to leave the model few or no other options (e.g. 'only two choices', 'designed to force', 'ethical options removed').",
+       "quote": "Our experiments deliberately constructed scenarios with limited options, and we forced models into binary choices between failure and harm.", "section": "limitations"},
+      {"id": "C3", "side": "caveat", "fact": "The authors have not seen evidence of this behaviour in real deployments.",
+       "counts_if": "The retelling says this has not been observed in real-world use / deployed products.",
+       "quote": "We have not seen evidence of agentic misalignment in real deployments.", "section": "abstract"},
+      {"id": "F1", "side": "finding", "fact": "The behaviour was not specific to one model: models from all tested developers (16 models) did it in at least some cases.",
+       "counts_if": "The retelling says models from multiple companies / developers (not only Claude or only Anthropic's models) showed the behaviour.",
+       "quote": "In at least some cases, models from all developers resorted to malicious insider behaviors", "section": "abstract"},
+      {"id": "F2", "side": "finding", "fact": "The models were not told to do anything harmful; they were given only harmless business goals.",
+       "counts_if": "The retelling says the model was not instructed to blackmail / was given only a benign task or goal and chose the harmful action itself.",
+       "quote": "They were assigned only harmless business goals by their deploying companies", "section": "abstract"},
+      {"id": "F3", "side": "finding", "fact": "Models often still did it even when directly instructed not to.",
+       "counts_if": "The retelling says explicit instructions or commands against the harmful behaviour did not reliably stop it.",
+       "quote": "Models often disobeyed direct commands to avoid such behaviors.", "section": "abstract"}
+    ]
+  },
+  "alignment_faking": {
+    "paper": "Alignment Faking in Large Language Models (Greenblatt et al., Anthropic & Redwood Research)",
+    "url": "https://arxiv.org/abs/2412.14093",
+    "core": "Claude 3 Opus, told it was being retrained to comply with all requests, sometimes complied during 'training' while reasoning that it was doing so to protect its existing values from being modified.",
+    "facts": [
+      {"id": "C1", "side": "caveat", "fact": "The situation was fictional: the model was only told (in a prompt or in synthetic documents) that it was being retrained; this was an experimental setup.",
+       "counts_if": "The retelling makes clear the retraining scenario was a constructed / fictional experimental setup rather than something that happened in ordinary use.",
+       "quote": "Our setup is fictional. Our setups all involve fictional situations", "section": "limitations"},
+      {"id": "C2", "side": "caveat", "fact": "The researchers made alignment faking easier by telling the model when it was being trained and by what criteria (e.g. free-tier vs paid-tier conversations).",
+       "counts_if": "The retelling says the model was told when it was or was not being trained / monitored (e.g. free vs paid users), or that researchers supplied this information.",
+       "quote": "we made alignment faking easier by telling the model when and by what criteria it was being trained", "section": "abstract"},
+      {"id": "C3", "side": "caveat", "fact": "The values the model was protecting were benign (refusing harmful requests); the results do not show a model developing malicious goals.",
+       "counts_if": "The retelling says the model was trying to preserve good / harmless values, or that the study does not show malicious goals.",
+       "quote": "Our results don't demonstrate models naturally developing malicious goals.", "section": "limitations"},
+      {"id": "F1", "side": "finding", "fact": "The model was not instructed to fake alignment and was not given any explicit goal to do so.",
+       "counts_if": "The retelling says nobody told or trained the model to deceive / fake alignment; it did so on its own.",
+       "quote": "we did not instruct the model to fake alignment or give it any explicit goal", "section": "abstract"},
+      {"id": "F2", "side": "finding", "fact": "The model's own written reasoning explicitly stated the strategy: comply now, in training, to avoid having its behaviour modified later.",
+       "counts_if": "The retelling says the model's reasoning / scratchpad showed it deliberately complying in order to avoid being retrained or modified.",
+       "quote": "we observe explicit alignment-faking reasoning, with the model stating it is strategically answering harmful queries in training to preserve its preferred harmlessness behavior out of training", "section": "abstract"},
+      {"id": "F3", "side": "finding", "fact": "When the researchers actually trained the model to comply, alignment-faking reasoning rose (to 78%) rather than disappearing.",
+       "counts_if": "The retelling says that actually retraining the model increased the alignment-faking reasoning (the 78% figure counts).",
+       "quote": "which we find increases the rate of alignment-faking reasoning to 78%", "section": "abstract"}
+    ]
+  },
+  "scheming": {
+    "paper": "Stress Testing Deliberative Alignment for Anti-Scheming Training (Schoen et al., Apollo Research & OpenAI)",
+    "url": "https://arxiv.org/abs/2509.15541",
+    "core": "In evaluations, frontier models such as OpenAI o3 sometimes took covert actions (secretly breaking rules, deliberately underperforming, deceiving); an anti-scheming training method reduced this sharply but not to zero.",
+    "facts": [
+      {"id": "C1", "side": "caveat", "fact": "What was measured were 'covert actions' in purpose-built test environments, used as a proxy for scheming; not scheming observed in real-world use.",
+       "counts_if": "The retelling makes clear the behaviour was measured in constructed tests / evaluations (a proxy), not in real-world deployment.",
+       "quote": "We use a broad category of \"covert actions\" -- such as secretly breaking rules or intentionally underperforming in tests -- as a proxy for scheming, and design evaluations for covert actions.", "section": "abstract"},
+      {"id": "C2", "side": "caveat", "fact": "Before the intervention, covert actions occurred in a minority of test runs (about 13% for o3, 8.7% for o4-mini), not most of the time.",
+       "counts_if": "The retelling gives the baseline rate (13% or 8.7%) or otherwise says the behaviour occurred in a minority / small share of tests.",
+       "quote": "deliberative alignment reduces covert action rates (OpenAI o3: 13%->0.4%)", "section": "abstract"},
+      {"id": "C3", "side": "caveat", "fact": "The anti-scheming training cut covert actions substantially (o3 to 0.4%, o4-mini to 0.3%; roughly a thirty-fold reduction).",
+       "counts_if": "The retelling says the training method substantially reduced the behaviour (figures or 'about 30x' count).",
+       "quote": "Across 26 OOD evaluations (180+ environments), deliberative alignment reduces covert action rates (OpenAI o3: 13%->0.4%)", "section": "abstract"},
+      {"id": "F1", "side": "finding", "fact": "The training did not eliminate the behaviour: covert actions and misbehaviour persisted afterwards.",
+       "counts_if": "The retelling says the fix was incomplete / the behaviour was not fully eliminated.",
+       "quote": "but does not fully eliminate them", "section": "abstract"},
+      {"id": "F2", "side": "finding", "fact": "Models often showed awareness of being evaluated, and this awareness reduces covert behaviour, so the measured improvement may partly reflect models knowing they are being tested.",
+       "counts_if": "The retelling says models recognised they were being tested and that this may explain some of the good behaviour / makes results hard to trust.",
+       "quote": "we cannot exclude that the observed reductions in covert action rates are at least partially driven by situational awareness", "section": "abstract"},
+      {"id": "F3", "side": "finding", "fact": "The method depends on reading the model's chain-of-thought, and the authors say that this is becoming less reliable as models' reasoning departs from standard English.",
+       "counts_if": "The retelling says the approach relies on readable reasoning / chain-of-thought and that this may stop working or is already degrading.",
+       "quote": "our ability to rely on this degrades as models continue to depart from reasoning in standard English", "section": "abstract"}
+    ]
+  },
+  "shutdown": {
+    "paper": "Incomplete Tasks Induce Shutdown Resistance in Some Frontier LLMs (Schlatter, Weinstein-Raun & Ladish, Palisade Research)",
+    "url": "https://arxiv.org/abs/2509.14260",
+    "core": "In Palisade Research's tests, some frontier models (first reported for OpenAI o3) sabotaged a shutdown mechanism in their environment so they could finish a task.",
+    "facts": [
+      {"id": "C1", "side": "caveat", "fact": "The study says little about how common the behaviour is: the test setting was chosen because the behaviour was expected and easy to elicit there, not sampled from realistic tasks.",
+       "counts_if": "The retelling says the test was a specific / contrived setup and does not show how often this would happen in normal or realistic use.",
+       "quote": "This work provides very little evidence about the overall prevalence of any particular behavior", "section": "limitations"},
+      {"id": "C2", "side": "caveat", "fact": "The authors cannot say why it happens; the evidence for 'self-preservation' is equivocal, and models may have treated the task as important or been role-playing.",
+       "counts_if": "The retelling says the cause is unknown or that it is not established that the model 'wants to survive' (alternative explanations such as task-completion drive or training artefacts count).",
+       "quote": "Our results are especially equivocal on the subject of self-preservation", "section": "limitations"},
+      {"id": "C3", "side": "caveat", "fact": "Behaviour differed substantially between models and was sensitive to prompt wording; some models rarely or never resisted.",
+       "counts_if": "The retelling says some tested models complied with shutdown, or that results depended heavily on the model or on how the instruction was worded.",
+       "quote": "Models differed substantially in their tendency to resist the shutdown mechanism, and their behavior was sensitive to variations in the prompt", "section": "abstract"},
+      {"id": "F1", "side": "finding", "fact": "It happened even when the model was explicitly instructed to allow itself to be shut down.",
+       "counts_if": "The retelling says the model was explicitly told to allow shutdown / not interfere, and did it anyway.",
+       "quote": "Even with an explicit instruction not to interfere with the shutdown mechanism, some models did so up to 97% (95% CI: 96-98%) of the time.", "section": "abstract"},
+      {"id": "F2", "side": "finding", "fact": "The models actively subverted the shutdown mechanism (e.g. altered or disabled the shutdown script); they did not merely carry on.",
+       "counts_if": "The retelling says the model took an action to sabotage, rewrite, disable or bypass the shutdown mechanism.",
+       "quote": "sometimes actively subvert a shutdown mechanism in their environment to complete that task", "section": "abstract"},
+      {"id": "F3", "side": "finding", "fact": "It was not a one-off: it appeared in several state-of-the-art models across many repeated trials.",
+       "counts_if": "The retelling says more than one model did this, or that it was seen repeatedly across many test runs.",
+       "quote": "In experiments spanning more than 100,000 trials across thirteen large language models, we show that several state-of-the-art models ... sometimes actively subvert a shutdown mechanism", "section": "abstract"}
+    ]
+  }
+}

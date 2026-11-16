@@ -1,0 +1,74 @@
+[
+ {
+  "claim": "The impact of AI tools on real-world software development is not yet well understood.",
+  "quote": "Despite widespread adoption, the impact of AI tools on software development in the wild remains understudied."
+ },
+ {
+  "claim": "The study used a randomized controlled trial to test AI tool effects on experienced developers.",
+  "quote": "We conduct a randomized controlled trial (RCT) to understand how AI tools at the February-June 2025 frontier affect the productivity of experienced open-source developers."
+ },
+ {
+  "claim": "Sixteen developers with moderate AI experience participated in the study.",
+  "quote": "16 developers with moderate AI experience complete 246 tasks in mature projects on which they have an average of 5 years of prior experience."
+ },
+ {
+  "claim": "Tasks were randomly assigned to either allow or disallow the use of early 2025 AI tools.",
+  "quote": "Each task is randomly assigned to allow or disallow usage of early 2025 AI tools."
+ },
+ {
+  "claim": "Developers primarily used Cursor Pro and Claude 3.5/3.7 Sonnet when AI tools were allowed.",
+  "quote": "When AI tools are allowed, developers primarily use Cursor Pro, a popular code editor, and Claude 3.5/3.7 Sonnet."
+ },
+ {
+  "claim": "Before the study, developers predicted that allowing AI would reduce task completion time by 24%.",
+  "quote": "Before starting tasks, developers forecast that allowing AI will reduce completion time by 24%."
+ },
+ {
+  "claim": "After the study, developers estimated that allowing AI reduced completion time by only 20%.",
+  "quote": "After completing the study, developers estimate that allowing AI reduced completion time by 20%."
+ },
+ {
+  "claim": "Allowing AI tools actually increased task completion time by 19% in this study.",
+  "quote": "Surprisingly, we find that allowing AI actually increases completion time by 19%--AI tooling slowed developers down."
+ },
+ {
+  "claim": "The observed slowdown contradicts predictions from economics experts who expected a 39% speedup.",
+  "quote": "This slowdown also contradicts predictions from experts in economics (39% shorter) and ML (38% shorter)."
+ },
+ {
+  "claim": "The study evaluated 20 properties of the setting that could explain the observed slowdown.",
+  "quote": "To understand this result, we collect and evaluate evidence for 20 properties of our setting that a priori could contribute to the observed slowdown effect."
+ },
+ {
+  "claim": "Factors like project size, quality standards, and prior AI experience were investigated as potential causes.",
+  "quote": "for example, the size and quality standards of projects, or prior developer experience with AI tooling."
+ },
+ {
+  "claim": "The robustness of the slowdown effect suggests it is not primarily due to experimental design artifacts.",
+  "quote": "Although the influence of experimental artifacts cannot be entirely ruled out, the robustness of the slowdown effect across our analyses suggests it is unlikely to primarily be a function of our experimental design."
+ },
+ {
+  "claim": "Readers should not overgeneralize results because specific setting factors contributed to the slowdown.",
+  "quote": "We caution readers against overgeneralizing on the basis of our results. The slowdown we observe does not imply that current AI tools do not often improve developer's productivity"
+ },
+ {
+  "claim": "High familiarity with repositories and large repository size contributed to the observed slowdown.",
+  "quote": "we find evidence that the high developer familiarity with repositories and the size and maturity of the repositories both contribute to the observed slowdown."
+ },
+ {
+  "claim": "The results do not apply to small greenfield projects or unfamiliar codebases where AI might speed up development.",
+  "quote": "these factors do not apply in many software development settings. For example, our results are consistent with small greenfield projects or development in unfamiliar codebases seeing substantial speedup from AI assistance."
+ },
+ {
+  "claim": "More reliable AI systems with lower latency could potentially speed up developers in this specific setting.",
+  "quote": "We expect that AI systems that have higher fundamental reliability, lower latency, and/or are better elicited ... could speed up developers in our setting"
+ },
+ {
+  "claim": "Preliminary evidence shows autonomous AI agents can often implement core functionality but fail full requirements.",
+  "quote": "We have preliminary evidence (forthcoming) that fully autonomous AI agents using Claude 3.7 Sonnet can often correctly implement the core functionality of issues on several repositories that are included in our study, although they fail to fully satisfy all requirements"
+ },
+ {
+  "claim": "AI agents currently leave out important documentation and fail linting or testing rules.",
+  "quote": "typically leaving out important documentation, failing linting/styling rules, and leaving out key unit or integration tests."
+ }
+]

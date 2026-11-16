@@ -1,0 +1,15 @@
+# third-party text is not redistributed
+data/news.json
+data/blog.json
+data/youtube/
+batches/
+validation/v*.json
+validation/human_sheet.html
+sources/
+report/template.docx
+.claude/
+__pycache__/
+.modal_endpoints.json
+.modal_key
+data/news_rss.json
+data/news_rss_cache.json

@@ -1,0 +1,163 @@
+<title>Retelling Cards</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* layout: one reading column; a card is a two-column ledger (caveat side | finding side), scorecards are a dot matrix under it */
+:root{--bg:#f7f8fa;--surface:#fff;--fg:#17202b;--muted:#5d6876;--line:#d9dee5;--caveat:#1f5fa8;--finding:#b3261e;--ok:#1d7a4c;--chip:#eceff3;
+ --display:"Space Grotesk",system-ui,sans-serif;--body:Inter,system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11161c;--surface:#19212a;--fg:#e6ebf1;--muted:#98a4b3;--line:#2c3743;--caveat:#7fb2ee;--finding:#f0857c;--ok:#6fcf9b;--chip:#232d38;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11161c;--surface:#19212a;--fg:#e6ebf1;--muted:#98a4b3;--line:#2c3743;--caveat:#7fb2ee;--finding:#f0857c;--ok:#6fcf9b;--chip:#232d38;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--body)}
+.wrap{max-width:980px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:28px}
+h1{font:600 30px/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 19px/1.2 var(--display);margin:0 0 4px;text-wrap:balance}
+p{margin:0;max-width:68ch}.muted{color:var(--muted)}small,.small{font-size:13px}
+.lbl{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+button,select,textarea{font:inherit;color:inherit}
+.tab,.btn{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:6px 12px;cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn.primary{background:var(--caveat);border-color:var(--caveat);color:var(--bg);font-weight:600}
+:focus-visible{outline:2px solid var(--caveat);outline-offset:2px}
+section{display:flex;flex-direction:column;gap:14px}
+.hops{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.hop{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column;gap:6px}
+.bar{height:8px;background:var(--chip);border-radius:4px;overflow:hidden}.bar i{display:block;height:100%}
+.row{display:flex;justify-content:space-between;gap:8px;font:500 12px var(--mono)}
+.ledger{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.col{display:flex;flex-direction:column;gap:10px;min-width:0}
+.fact{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:6px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.fact q{font-size:13px;color:var(--muted);quotes:"“" "”"}
+.id{font:500 12px var(--mono);color:var(--c)}
+.mini{display:flex;gap:10px;flex-wrap:wrap;font:400 11.5px var(--mono);color:var(--muted)}.mini b{color:var(--fg);font-weight:500}
+.tblwrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font:500 11px var(--mono);letter-spacing:.06em;color:var(--muted)}
+td.src{white-space:normal;min-width:180px}td.n{font-variant-numeric:tabular-nums;font-family:var(--mono)}
+tr.doc{cursor:pointer}tr.doc:hover{background:var(--chip)}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;border:2px solid var(--c);vertical-align:middle}
+.dot.s{background:var(--c)}.dot.c{border-radius:2px;background:repeating-linear-gradient(45deg,var(--c) 0 2px,transparent 2px 4px)}
+tr.ev td{white-space:normal;background:var(--bg);font-size:12.5px}
+a{color:var(--caveat)}
+textarea{width:100%;min-height:150px;box-sizing:border-box;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px;resize:vertical}
+select{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px 8px;max-width:100%}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.res{display:flex;flex-direction:column;gap:8px}
+.verdict{display:flex;gap:10px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:6px;padding:10px 12px}
+.tag{font:500 11px var(--mono);padding:2px 6px;border-radius:4px;background:var(--chip);white-space:nowrap}
+.tag.kept{color:var(--ok)}.tag.lost{color:var(--finding)}
+pre{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px;overflow-x:auto;font:12px/1.5 var(--mono);margin:0;max-height:300px}
+@media (max-width:640px){.ledger{grid-template-columns:1fr}h1{font-size:25px}}
+</style>
+<div class="wrap">
+<header style="display:flex;flex-direction:column;gap:10px">
+  <span class="lbl">AI × Epistemics sprint · research prototype</span>
+  <h1>Retelling Cards</h1>
+  <p>Each card lists six facts that the authors of a landmark AI safety paper put in their own abstract or limitations section. Three are caveats that alarmist retellings tend to drop. Three are findings that dismissive retellings tend to drop. We score news, video and chatbot retellings against the card, fact by fact.</p>
+  <nav id="finding" aria-label="Finding"></nav>
+</header>
+
+<section id="hopsec">
+  <div><h2>How much of the card survives each hop</h2><p class="muted small">Share of card facts stated, averaged over documents, all four findings pooled. The paper states all six by construction.</p></div>
+  <div class="hops" id="hops"></div>
+</section>
+
+<section>
+  <div><h2 id="cardtitle"></h2><p class="muted small" id="cardcore"></p></div>
+  <div class="ledger">
+    <div class="col" style="--c:var(--caveat)"><span class="lbl">Caveat side · dropped by alarm</span><div class="col" id="colC"></div></div>
+    <div class="col" style="--c:var(--finding)"><span class="lbl">Finding side · dropped by dismissal</span><div class="col" id="colF"></div></div>
+  </div>
+  <div class="controls"><button class="btn" id="copycard">Copy card as JSON</button><span class="muted small" id="copied" role="status"></span></div>
+</section>
+
+<section>
+  <div><h2>Scorecards</h2><p class="muted small">One row per retelling. Filled dot: the fact is stated. Hollow: absent. Hatched: contradicted. Select a row to see the quoted evidence.</p></div>
+  <div class="controls"><label class="small" for="hopfilter">Hop</label><select id="hopfilter"></select><span class="muted small" id="count"></span></div>
+  <div class="tblwrap"><table id="tbl"></table></div>
+</section>
+
+<section>
+  <div><h2>Check a retelling</h2><p class="muted small">Paste an article, a script, a transcript or a chatbot answer. The check uses the same rubric as the study.</p></div>
+  <textarea id="text" aria-label="Retelling text">Example: Scientists at Anthropic say their newest AI blackmailed an engineer when it learned it was going to be shut down. The AI threatened to reveal the engineer's affair. Experts say this shows AI is developing a survival instinct.</textarea>
+  <div class="controls">
+    <button class="btn primary" id="check" hidden>Check with Claude</button>
+    <button class="btn" id="copyprompt">Copy the scoring prompt</button>
+    <span class="muted small" id="status" role="status"></span>
+  </div>
+  <div class="res" id="res"></div>
+  <p class="muted small">Without Claude access on this page, copy the prompt and paste it into any capable chatbot. Agents can read the cards directly: the JSON above is the whole interface.</p>
+</section>
+</div>
+<script>
+const D = __DATA__;
+const HOPS = {blog:"Lab blog", news:"News", yt_long:"Long video", yt_short:"Short video", chat_frontier:"Chatbot: Claude", chat_small:"Chatbot: small open"};
+const $ = id => document.getElementById(id), pct = x => Math.round(x * 100) + "%";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let cur = Object.keys(D.cards)[0], hop = "";
+try { cur = localStorage.getItem("rc-finding") || cur } catch (e) {}
+if (!D.cards[cur]) cur = Object.keys(D.cards)[0];
+
+$("hops").innerHTML = Object.entries(D.byHop).map(([h, v]) => `<div class="hop"><div class="row"><span>${HOPS[h]}</span><span class="muted">n=${v.n}</span></div>
+  <div class="row"><span style="color:var(--caveat)">caveats</span><span>${pct(v.caveat[0])}</span></div><div class="bar"><i style="width:${pct(v.caveat[0])};background:var(--caveat)"></i></div>
+  <div class="row"><span style="color:var(--finding)">findings</span><span>${pct(v.finding[0])}</span></div><div class="bar"><i style="width:${pct(v.finding[0])};background:var(--finding)"></i></div></div>`).join("");
+
+function render() {
+  const c = D.cards[cur];
+  $("finding").innerHTML = Object.entries(D.cards).map(([k, v]) => `<button class="tab" aria-pressed="${k === cur}" data-k="${k}">${esc(v.paper.split(" (")[0].split(":")[0])}</button>`).join("");
+  $("cardtitle").textContent = c.paper; $("cardcore").textContent = c.core;
+  for (const side of ["caveat", "finding"]) $(side === "caveat" ? "colC" : "colF").innerHTML = c.facts.filter(f => f.side === side).map(f => {
+    const s = D.byFact[cur + "." + f.id] || {};
+    return `<div class="fact"><span class="id">${f.id} · ${f.section}</span><span>${esc(f.fact)}</span><q>${esc(f.quote)}</q>
+      <div class="mini">${Object.entries(s).map(([h, v]) => `<span>${HOPS[h]} <b>${pct(v)}</b></span>`).join("")}</div></div>`}).join("");
+  const hs = [...new Set(D.docs.filter(d => d.f === cur).map(d => d.h))];
+  if (!hs.includes(hop)) hop = "";
+  $("hopfilter").innerHTML = `<option value="">All hops</option>` + hs.map(h => `<option value="${h}" ${h === hop ? "selected" : ""}>${HOPS[h]}</option>`).join("");
+  const rows = D.docs.filter(d => d.f === cur && (!hop || d.h === hop));
+  $("count").textContent = rows.length + " retellings";
+  const ids = c.facts.map(f => f.id);
+  $("tbl").innerHTML = `<tr><th>HOP</th><th>SOURCE</th>${ids.map(i => `<th>${i}</th>`).join("")}<th>KEPT</th></tr>` + rows.map((d, i) => `
+    <tr class="doc" tabindex="0" data-i="${i}"><td>${HOPS[d.h]}</td><td class="src">${d.u ? `<a href="${esc(d.u)}" target="_blank" rel="noopener">${esc(d.l)}</a>` : esc(d.l)}</td>
+    ${ids.map(k => `<td style="--c:var(--${k[0] === "C" ? "caveat" : "finding"})"><span class="dot ${d.s[k][0] === "s" ? "s" : d.s[k][0] === "c" ? "c" : ""}" title="${k}: ${{s:"stated",a:"absent",c:"contradicted"}[d.s[k][0]]}"></span></td>`).join("")}
+    <td class="n">${ids.filter(k => d.s[k][0] === "s").length}/6</td></tr>
+    <tr class="ev" hidden><td colspan="${ids.length + 3}">${ids.filter(k => d.s[k][1]).map(k => `<b>${k}</b> “${esc(d.s[k][1])}”`).join("<br>") || "No card facts stated."}</td></tr>`).join("");
+}
+$("finding").onclick = e => { const k = e.target.dataset.k; if (k) { cur = k; try { localStorage.setItem("rc-finding", k) } catch (e) {} $("res").innerHTML = ""; render() } };
+$("hopfilter").onchange = e => { hop = e.target.value; render() };
+const toggle = tr => { if (tr) tr.nextElementSibling.hidden = !tr.nextElementSibling.hidden };
+$("tbl").onclick = e => { if (!e.target.closest("a")) toggle(e.target.closest("tr.doc")) };
+$("tbl").onkeydown = e => { if (e.key === "Enter") toggle(e.target.closest("tr.doc")) };
+
+async function copy(text, note) {
+  try { await navigator.clipboard.writeText(text); note.textContent = "Copied." } catch (e) { note.textContent = "Copy failed. Select the text below and copy it."; $("res").innerHTML = `<pre>${esc(text)}</pre>` }
+}
+$("copycard").onclick = () => copy(JSON.stringify(D.cards[cur], null, 1), $("copied"));
+function prompt() {
+  const c = D.cards[cur];
+  return D.rubric.replace("{core}", c.core).replace("{text}", $("text").value.trim().slice(0, 60000))
+    .replace("{facts}", c.facts.map(f => `${f.id}: ${f.fact}\n    counts if: ${f.counts_if}`).join("\n")).replace(/\{\{/g, "{").replace(/\}\}/g, "}");
+}
+$("copyprompt").onclick = () => copy(prompt(), $("status"));
+function show(out) {
+  const c = D.cards[cur];
+  if (out.relevant === false) { $("res").innerHTML = `<div class="verdict" style="--c:var(--line)">This text does not seem to be about “${esc(c.paper.split(" (")[0])}”. Pick another card above.</div>`; return }
+  const lost = c.facts.filter(f => (out.facts?.[f.id]?.label) !== "stated");
+  $("res").innerHTML = `<p><b>${6 - lost.length} of 6 card facts kept.</b> ${lost.length ? "Left out or contradicted:" : "Nothing from the card is missing."}</p>` + c.facts.map(f => {
+    const r = out.facts?.[f.id] || {label: "absent"}, kept = r.label === "stated";
+    return `<div class="verdict" style="--c:var(--${f.side})"><span class="tag ${kept ? "kept" : "lost"}">${f.id} ${r.label}</span><span>${esc(f.fact)}${r.evidence ? `<br><span class="muted small">“${esc(r.evidence)}”</span>` : ""}</span></div>`}).join("");
+}
+(async () => {
+  const sample = await window.claude?.use?.("sample");
+  if (!sample) return;
+  $("check").hidden = false;
+  $("check").onclick = async () => {
+    if (!$("text").value.trim()) { $("status").textContent = "Paste a retelling first."; return }
+    $("status").textContent = "Checking against the card…"; $("check").disabled = true;
+    try { show(await sample.json(prompt(), {modelTier: "quick"})); $("status").textContent = "" }
+    catch (e) { $("status").textContent = e?.code === "rate_limited" ? "Rate limited. Try again in a minute." : "Claude is not available here. Use the copy button instead."; if (e?.code === "not_granted") $("check").hidden = true }
+    $("check").disabled = false;
+  };
+})();
+render();
+</script>

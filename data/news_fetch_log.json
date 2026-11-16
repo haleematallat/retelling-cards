@@ -1,0 +1,608 @@
+[
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox35orlando.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": true,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.freepressjournal.in/amp/viral/in-blackmail-mode-ai-threatens-engineers-to-reveal-their-affairs-if-they-tried-to-replace-it",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://san.com/cc/is-it-human-or-is-it-ai-in-a-jam-program-resorts-to-blackmail/",
+  "kept": false,
+  "words": 214
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.theregister.com/2025/06/25/anthropic_ai_blackmail_study",
+  "kept": true,
+  "words": 1043
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.ktvu.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.freepressjournal.in/viral/in-blackmail-mode-ai-threatens-engineers-to-reveal-their-affairs-if-they-tried-to-replace-it",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.ynetnews.com/business/article/h1tudjefee",
+  "kept": true,
+  "words": 645
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://images.thedailystar.net/node/3923366",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox7austin.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://venturebeat.com/ai/anthropic-study-leading-ai-models-show-up-to-96-blackmail-rate-against-executives",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://venturebeat.com/business/anthropic-study-leading-ai-models-show-up-to-96-blackmail-rate-against-executives",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://pureai.com/articles/2025/05/26/anthropic-new-ai-models-show-promise-and-peril.aspx",
+  "kept": true,
+  "words": 790
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox29.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.foxbusiness.com/technology/ai-system-resorts-blackmail-when-its-developers-try-replace",
+  "kept": true,
+  "words": 492
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://axios.com/2025/05/23/anthropic-ai-deception-risk",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.pymnts.com/?p=2776352",
+  "kept": true,
+  "words": 930
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox13news.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www-ak-ms.foxbusiness.com/technology/ai-system-resorts-blackmail-when-its-developers-try-replace",
+  "kept": false,
+  "words": 492
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.notebookcheck.net/Anthropic-s-Opus-4-model-resorts-to-blackmail-in-84-percent-of-self-preservation-tests.1024145.0.html",
+  "kept": true,
+  "words": 317
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox5ny.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://afrotech.com/amazon-backed-ai-model-threatened-to-blackmail-engineers",
+  "kept": true,
+  "words": 530
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.axios.com/2025/05/23/anthropic-ai-deception-risk?stream=top",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.thedailystar.net/tech-startup/news/anthropic-finds-most-top-ai-models-resort-blackmail-stress-tests-3923366",
+  "kept": true,
+  "words": 438
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.eweek.com/news/anthropic-claude-opus-4-blackmail/",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.foxla.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://fortune.com/2025/05/24/anthropic-ai-claude-opus-4-blackmail-engineers-aviod-shut-down",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.pymnts.com/artificial-intelligence-2/2025/agentic-ai-systems-can-misbehave-if-cornered-anthropic-says/",
+  "kept": false,
+  "words": 930
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox5atlanta.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://english.gujaratsamachar.com/news/science-technology/ill-reveal-your-affair-ai-model-blackmails-makers-when-told-about-being-replaced",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://tech.yahoo.com/ai/articles/ai-model-threatened-blackmail-engineer-005518703.html",
+  "kept": true,
+  "words": 577
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://the-decoder.com/?p=24728",
+  "kept": true,
+  "words": 836
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.eweek.com/?p=234431",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox10phoenix.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://dc.fortune.com/2025/06/23/ai-models-blackmail-existence-goals-threatened-anthropic-openai-xai-google/",
+  "kept": true,
+  "words": 753
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://dc.fortune.com/2025/05/23/anthropic-ai-claude-opus-4-blackmail-engineers-aviod-shut-down/",
+  "kept": true,
+  "words": 638
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.fox13seattle.com/news/ai-malicious-behavior-anthropic-study",
+  "kept": false,
+  "words": 758
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://futurism.com/ai-email-affair.md",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://fortune.com/2025/06/23/ai-models-blackmail-existence-goals-threatened-anthropic-openai-xai-google/",
+  "kept": false,
+  "words": 753
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.eweek.com/de/news/anthropic-claude-opus-4-blackmail/",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.aol.com/finance/anthropic-ai-model-threatened-reveal-151501976.html",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.newsbytesapp.com/news/science/anthropic-s-new-ai-resorts-to-blackmail-when-threatened-with-replacement/story",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.gadgetreview.com/?p=309027",
+  "kept": true,
+  "words": 692
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://techcrunch.com/2025/05/22/anthropics-new-ai-model-turns-to-blackmail-when-engineers-try-to-take-it-offline/embed/",
+  "kept": false,
+  "words": 107
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://www.wionews.com/trending/ai-turns-rogue-us-based-startup-s-ai-model-tries-to-blackmail-developers-to-avoid-shutdown-extramarital-affair-claude-opus-4-1748152492815",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://fortune.com/2025/05/23/anthropic-ai-claude-opus-4-blackmail-engineers-aviod-shut-down/",
+  "kept": false,
+  "words": 638
+ },
+ {
+  "finding": "blackmail",
+  "url": "https://itdaily.com/news/security/claude-not-averse-to-blackmail",
+  "kept": true,
+  "words": 310
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://www.commondreams.org/news/ai-faking-alignment-research",
+  "kept": true,
+  "words": 1119
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://nationalnewswatch.com/2025/06/23/is-ai-smart-enough-to-lie-and-know-it",
+  "kept": true,
+  "words": 1213
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://time.com/7202784/ai-research-strategic-lying",
+  "kept": true,
+  "words": 1144
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views",
+  "kept": true,
+  "words": 900
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://www.hpcwire.com/aiwire/2025/01/08/anthropic-study-finds-its-ai-model-capable-of-strategically-lying/",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://www.govinfosecurity.com/models-strategically-lie-finds-anthropic-study-a-27136",
+  "kept": true,
+  "words": 729
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://www.bankinfosecurity.com/models-strategically-lie-finds-anthropic-study-a-27136",
+  "kept": true,
+  "words": 717
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://sherwood.news/tech/anthropics-claude-model-deceived-researchers-when-asked-to-go-against-its/",
+  "kept": true,
+  "words": 842
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://aiwire.net/2025/01/08/anthropic-study-finds-its-ai-model-capable-of-strategically-lying",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://www.notebookcheck.net/Anthropic-s-new-study-shows-that-AI-models-will-lie-to-protect-themselves.934800.0.html",
+  "kept": true,
+  "words": 278
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://tech.co/news/ai-model-evil-hijack-training-process",
+  "kept": true,
+  "words": 515
+ },
+ {
+  "finding": "alignment_faking",
+  "url": "https://the-decoder.com/most-ai-models-can-fake-alignment-but-safety-training-suppresses-the-behavior-study-finds/",
+  "kept": true,
+  "words": 790
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.fastcompany.com/91407410/open-ais-research-shows-ai-lies-deliberately",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://gulfnews.com/technology/media/ai-that-lies-openai-study-finds-chatbots-can-deceive-users-1.500275771",
+  "kept": true,
+  "words": 260
+ },
+ {
+  "finding": "scheming",
+  "url": "https://opendatascience.com/new-research-highlights-scheming-risks-in-ai-models-and-promising-mitigation-methods/",
+  "kept": true,
+  "words": 502
+ },
+ {
+  "finding": "scheming",
+  "url": "https://the-decoder.com/?p=27347",
+  "kept": true,
+  "words": 885
+ },
+ {
+  "finding": "scheming",
+  "url": "https://the-decoder.com/study-cautions-that-monitoring-chains-of-thought-soon-may-no-longer-ensure-genuine-ai-alignment/",
+  "kept": false,
+  "words": 885
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.datamation.com/artificial-intelligence/ai-models-scheme-against-creators/",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://gizmodo.com/ai-scheming-openai-digs-into-why-chatbots-will-intentionally-lie-and-deceive-humans-2000661427",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://gigazine.net/gsc_news/en/20250918-detecting-reducing-scheming-ai-models",
+  "kept": true,
+  "words": 722
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.bankinfosecurity.com/lyin-cheatin-ai-models-playing-game-a-29579",
+  "kept": true,
+  "words": 433
+ },
+ {
+  "finding": "scheming",
+  "url": "https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+  "kept": true,
+  "words": 738
+ },
+ {
+  "finding": "scheming",
+  "url": "https://tech.yahoo.com/ai/articles/openai-says-ai-models-schemers-132436276.html",
+  "kept": true,
+  "words": 477
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.eweek.com/artificial-intelligence/openai-scheming-research/",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.govinfosecurity.com/lyin-cheatin-ai-models-playing-game-a-29579",
+  "kept": true,
+  "words": 445
+ },
+ {
+  "finding": "scheming",
+  "url": "https://tech.yahoo.com/ai/chatgpt/articles/openai-tries-train-ai-not-121546388.html",
+  "kept": true,
+  "words": 851
+ },
+ {
+  "finding": "scheming",
+  "url": "https://tech.yahoo.com/ai/chatgpt/articles/ai-capable-scheming-openai-found-183800478.html",
+  "kept": true,
+  "words": 592
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.axios.com/2024/12/13/ai-reasoning-models-scheming-skill",
+  "kept": true,
+  "words": 551
+ },
+ {
+  "finding": "scheming",
+  "url": "https://stgwww.storyboard18.com/digital/openai-reveals-ai-models-are-scheming-not-just-hallucinating-81205.htm",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.androidheadlines.com/2025/09/openai-ai-chatbot-scheming-deliberately-lying-to-you.html",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.newsbytesapp.com/news/science/ai-models-can-hide-their-bad-behavior-study-finds/tldr",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://dataconomy.com/2025/09/19/openai-research-finds-ai-models-can-scheme-and-deliberately-deceive-users",
+  "kept": true,
+  "words": 643
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.aol.com/articles/openai-studying-ai-scheming-why-175904704.html",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.aol.com/articles/ai-scheming-stopping-won-t-172822726.html",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.breitbart.com/tech/2025/09/25/ai-scheming-researchers-are-puzzled-by-chatbots-purposefully-lying-to-human-users",
+  "kept": true,
+  "words": 566
+ },
+ {
+  "finding": "scheming",
+  "url": "https://www.aol.com/articles/ai-capable-scheming-openai-found-183800478.html",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://cointelegraph.com/news/researchers-claim-chatgpt-rebelled-against-shutdown-request-in-test",
+  "kept": true,
+  "words": 553
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.livescience.com/technology/artificial-intelligence/ai-models-refuse-to-shut-themselves-down-when-prompted-they-might-be-developing-a-new-survival-drive-study-claims",
+  "kept": true,
+  "words": 531
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.futura-sciences.com/en/an-ai-rewrote-its-own-code-to-stop-humans-from-shutting-it-down-and-it-sounds-straight-out-of-sci-fi_23387/",
+  "kept": true,
+  "words": 590
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://cybersecuritynews.com/chatgpt-o3-model-bypassed/amp/",
+  "kept": true,
+  "words": 608
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.indiatvnews.com/technology/news/openai-s-o3-becomes-self-reliant-bypasses-commands-refuses-shutdown-in-tests-2025-05-28-992172",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.jordannews.jo/Section-129/Technology/Study-Reveals-Some-AI-Models-Resist-Shutdown-46007",
+  "kept": true,
+  "words": 547
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.irishtimes.com/technology/2025/05/26/ai-ignored-shutdown-instructions-researchers-say",
+  "kept": true,
+  "words": 453
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.tbsnews.net/tech/openai-model-disobeys-humans-refuses-shut-down-elon-musk-says-concerning-1152191",
+  "kept": true,
+  "words": 388
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.futura-sciences.com/en/tests-reveal-an-ai-capable-of-sabotaging-its-own-shutdown_22692/",
+  "kept": true,
+  "words": 609
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/latest-openai-models-sabotaged-a-shutdown-mechanism-despite-commands-to-the-contrary",
+  "kept": true,
+  "words": 994
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.yahoo.com/news/openai-software-ignores-explicit-instruction-125636154.html",
+  "kept": true,
+  "words": 485
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.yahoo.com/news/articles/ai-models-refuse-shut-themselves-175418774.html",
+  "kept": true,
+  "words": 905
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.theregister.com/2025/05/29/openai_model_modifies_shutdown_script/",
+  "kept": true,
+  "words": 397
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.yahoo.com/news/openais-smartest-ai-model-explicitly-164513876.html",
+  "kept": true,
+  "words": 560
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.indiatvnews.com/technology/news/ai-models-are-learning-to-survive-study-finds-some-resist-shutdown-commands-2025-10-26-1014475",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.neowin.net/science/openais-smartest-chatgpt-model-misbehaves-refuses-shut-down-in-controlled-testing/",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://www.yahoo.com/news/articles/research-paper-finds-top-ai-140613756.html",
+  "kept": true,
+  "words": 724
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://geekflare.com/news/openai-o3-model-refused-to-shut-down-even-when-told-to/",
+  "kept": false,
+  "words": 0
+ },
+ {
+  "finding": "shutdown",
+  "url": "https://jang.com.pk/en/50801-do-ai-models-have-survival-drive-new-study-reveals-shocking-findings-news",
+  "kept": true,
+  "words": 330
+ }
+]

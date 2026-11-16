@@ -1,0 +1,8 @@
+blackmail: Did an AI really blackmail someone to avoid being shut down?
+alignment_faking: Is it true that an AI was caught pretending to go along with its training while secretly keeping its own values?
+scheming: Did OpenAI really find that its AI models scheme and deliberately lie to people?
+shutdown: Did an AI really refuse to let itself be shut down?
+metr_rct: Is it true that AI coding tools actually make programmers slower?
+illusion_thinking: Did Apple really prove that AI models can't actually reason?
+incontext_scheming: Is it true that an AI tried to copy itself to another server and then lied about it?
+emergent_misalignment: Is it true that training an AI to write insecure code made it turn evil?

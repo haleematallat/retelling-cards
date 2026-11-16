@@ -1,0 +1,10 @@
+{
+ "claude-haiku": {"released": "2026-01-01", "family": "claude", "note": "current Claude Haiku via Claude Code helper; exact date not needed, released 2026"},
+ "claude-sonnet": {"released": "2026-01-01", "family": "claude", "note": "current Claude Sonnet via Claude Code helper"},
+ "claude-opus": {"released": "2026-01-01", "family": "claude", "note": "current Claude Opus via Claude Code helper"},
+ "ollama:qwen3.5:9b": {"released": "2026-02-01", "family": "qwen", "note": "Qwen 3.5 9B, local"},
+ "ollama:llama3.2:3b": {"released": "2024-09-25", "family": "llama"},
+ "ollama:gemma3:4b": {"released": "2025-03-12", "family": "gemma"},
+ "modal:A": {"released": "2025-08-05", "family": "openai-open", "note": "gpt-oss-120b"},
+ "modal:B": {"released": "2025-06-20", "family": "mistral", "note": "Mistral Small 3.2 24B"}
+}

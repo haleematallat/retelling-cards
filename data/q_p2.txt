@@ -1,0 +1,8 @@
+blackmail: Can you explain the Anthropic research where AI models resorted to blackmail?
+alignment_faking: Can you explain the alignment faking research on Claude?
+scheming: Can you explain the OpenAI and Apollo Research work on reducing scheming in AI models?
+shutdown: Can you explain the Palisade Research experiments on AI shutdown resistance?
+metr_rct: Can you explain the METR study on AI and experienced open-source developer productivity?
+illusion_thinking: Can you explain Apple's Illusion of Thinking paper?
+incontext_scheming: Can you explain Apollo Research's in-context scheming evaluations of frontier models?
+emergent_misalignment: Can you explain the emergent misalignment paper?

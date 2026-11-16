@@ -1,0 +1,13 @@
+{
+ "docs": 39,
+ "judgements": 234,
+ "agreement": 0.987,
+ "cohen_kappa": 0.974,
+ "scorer_stated_rate": 0.483,
+ "second_stated_rate": 0.47,
+ "scorer_only_stated": 3,
+ "second_only_stated": 0,
+ "relevance_agreement": 0.974,
+ "agreement_caveat": 0.983,
+ "agreement_finding": 0.991
+}
