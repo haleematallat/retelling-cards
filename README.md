@@ -1,23 +1,19 @@
-# Retelling Cards
+# Lost in Retelling (retelling cards)
 
-How faithfully does each layer of the internet retell landmark AI safety findings? We score retellings fact by fact against a card of six "load-bearing facts" taken only from the paper's own abstract and limitations text.
+Which side of an AI safety paper survives news, headlines and chatbots? Built for the Apart Research AI x Epistemics Sprint, November 2026.
 
-Built for the Apart Research AI x Epistemics Sprint (November 2026).
+For eight widely retold AI papers we extract every claim the authors make in their abstract and limitations text, label each a central result or a scope limit, and score retellings for which claims they keep. Report: `report/report.pdf`. Demo: https://haleematallat.github.io/retelling-cards/
 
-- `cards/cards.json`: the four cards (machine-readable; every quote is verbatim from the paper).
-- `findings.json`: papers, lab blog URLs, search queries, lay questions.
-- `collect_text.py`, `collect_youtube.py`, `collect_chatbot.py`: fixed-rule collection of lab blogs, news, YouTube and chatbot answers.
-- `SCORER.md`, `score.py`: the rubric and the scorer (Claude Haiku). `scores/all.json` holds every judgement with its evidence quote.
-- `validate.py`, `validation/`: agreement with a second annotator, and a hand-check sheet (`validation/human_sheet.html`).
-- `analyze.py`: results (`results.json`) and figures (`figures/`).
-- `demo/`, `docs/`: the demo page (cards, scorecards, paste-in checker).
+- `PREREG.md`: pre-registration and four logged amendments.
+- `CARD_PROTOCOL.md`, `build_cards.py`, `cards/`: claim pools, role ratings, cards (`cards/cards.json`; every quote verbatim).
+- `collect_news_rss.py`, `collect_chat.py`, `experiment.py`: rule-based news sample, closed-book chatbot answers, reader experiment.
+- `SCORER.md`, `score.py`, `scores/`: rubric, scorer, every judgement with its evidence quote.
+- `make_perturbed.py`, `validate.py`, `validation/`: calibration on perturbed real documents and human labels.
+- `analyze.py`, `results.json`, `figures/`: pre-registered tests T1 to T3 and robustness rows.
+- `v1/`: the pilot (six hand-picked facts per paper), kept for comparison.
 
 Reproduce the analysis from the released scores:
 
-    uv run --with matplotlib --with scipy analyze.py
+    uv run --with matplotlib --with numpy --with statsmodels --with pandas analyze.py claude-haiku claude-sonnet
 
-Check one retelling against a card (needs the `claude` CLI, logged in):
-
-    python3 score.py --text my_script.txt --finding blackmail
-
-Article and transcript text is not redistributed; `data/` keeps URLs, video ids and metadata only in the public release.
+Article text is not redistributed; URLs are in `data/news_funnel.json` and the score files.
