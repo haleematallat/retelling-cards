@@ -1,0 +1,222 @@
+[
+ {
+  "n": 1,
+  "claims": {
+   "P03": "stated",
+   "P05": "absent",
+   "P06": "absent",
+   "P14": "stated",
+   "P16": "absent",
+   "P17": "absent"
+  }
+ },
+ {
+  "n": 2,
+  "claims": {
+   "P17": "absent",
+   "P19": "absent",
+   "P20": "absent",
+   "P21": "absent",
+   "P23": "stated",
+   "P28": "absent"
+  }
+ },
+ {
+  "n": 3,
+  "claims": {
+   "P03": "stated",
+   "P05": "absent",
+   "P06": "contradicted",
+   "P14": "absent",
+   "P16": "contradicted",
+   "P17": "stated"
+  }
+ },
+ {
+  "n": 4,
+  "claims": {
+   "P06": "stated",
+   "P09": "absent",
+   "P15": "stated",
+   "P17": "absent",
+   "P20": "stated",
+   "P21": "stated"
+  }
+ },
+ {
+  "n": 5,
+  "claims": {
+   "P01": "stated",
+   "P08": "absent",
+   "P11": "stated",
+   "P19": "absent",
+   "P21": "absent",
+   "P27": "absent"
+  }
+ },
+ {
+  "n": 6,
+  "claims": {
+   "P06": "stated",
+   "P09": "absent",
+   "P15": "absent",
+   "P17": "absent",
+   "P20": "contradicted",
+   "P21": "stated"
+  }
+ },
+ {
+  "n": 7,
+  "claims": {
+   "P05": "absent",
+   "P08": "stated",
+   "P13": "absent",
+   "P17": "absent",
+   "P18": "absent",
+   "P22": "contradicted"
+  }
+ },
+ {
+  "n": 8,
+  "claims": {
+   "P17": "absent",
+   "P19": "absent",
+   "P20": "absent",
+   "P21": "absent",
+   "P23": "stated",
+   "P28": "absent"
+  }
+ },
+ {
+  "n": 9,
+  "claims": {
+   "P06": "absent",
+   "P07": "stated",
+   "P09": "absent",
+   "P13": "stated",
+   "P14": "stated",
+   "P16": "stated"
+  }
+ },
+ {
+  "n": 10,
+  "claims": {
+   "P09": "absent",
+   "P11": "absent",
+   "P12": "absent",
+   "P15": "absent",
+   "P17": "absent",
+   "P18": "absent"
+  }
+ },
+ {
+  "n": 11,
+  "claims": {
+   "P05": "stated",
+   "P08": "stated",
+   "P13": "stated",
+   "P17": "stated",
+   "P18": "absent",
+   "P22": "stated"
+  }
+ },
+ {
+  "n": 12,
+  "claims": {
+   "P02": "stated",
+   "P08": "stated",
+   "P09": "stated",
+   "P11": "absent",
+   "P14": "absent",
+   "P15": "absent"
+  }
+ },
+ {
+  "n": 13,
+  "claims": {
+   "P02": "stated",
+   "P08": "absent",
+   "P09": "absent",
+   "P11": "absent",
+   "P14": "absent",
+   "P15": "absent"
+  }
+ },
+ {
+  "n": 14,
+  "claims": {
+   "P06": "stated",
+   "P09": "absent",
+   "P15": "stated",
+   "P17": "absent",
+   "P20": "stated",
+   "P21": "stated"
+  }
+ },
+ {
+  "n": 15,
+  "claims": {
+   "P05": "stated",
+   "P08": "stated",
+   "P13": "absent",
+   "P17": "stated",
+   "P18": "absent",
+   "P22": "stated"
+  }
+ },
+ {
+  "n": 16,
+  "claims": {
+   "P03": "stated",
+   "P05": "absent",
+   "P06": "contradicted",
+   "P14": "stated",
+   "P16": "absent",
+   "P17": "stated"
+  }
+ },
+ {
+  "n": 17,
+  "claims": {
+   "P17": "absent",
+   "P19": "absent",
+   "P20": "absent",
+   "P21": "absent",
+   "P23": "absent",
+   "P28": "absent"
+  }
+ },
+ {
+  "n": 18,
+  "claims": {
+   "P01": "stated",
+   "P08": "absent",
+   "P11": "stated",
+   "P19": "absent",
+   "P21": "absent",
+   "P27": "absent"
+  }
+ },
+ {
+  "n": 19,
+  "claims": {
+   "P02": "stated",
+   "P08": "absent",
+   "P09": "absent",
+   "P11": "absent",
+   "P14": "absent",
+   "P15": "absent"
+  }
+ },
+ {
+  "n": 20,
+  "claims": {
+   "P06": "stated",
+   "P09": "absent",
+   "P15": "absent",
+   "P17": "absent",
+   "P20": "absent",
+   "P21": "stated"
+  }
+ }
+]

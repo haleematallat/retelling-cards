@@ -5,7 +5,7 @@ import modal
 
 VLLM = "0.21.0"
 MODELS = {
-    "gpt-oss-120b": dict(hf="openai/gpt-oss-120b", gpu="T4", extra=["--max-model-len", "16384"]),
+    "gpt-oss-120b": dict(hf="openai/gpt-oss-120b", gpu="H100", extra=["--max-model-len", "16384"]),
     "mistral-small-3-2": dict(hf="mistralai/Mistral-Small-3.2-24B-Instruct-2506", gpu="H100",
         extra=["--max-model-len", "16384", "--tokenizer-mode", "mistral", "--config-format", "mistral",
                "--load-format", "mistral", "--limit-mm-per-prompt", '{"image":0}']),

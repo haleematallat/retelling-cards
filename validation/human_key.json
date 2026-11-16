@@ -1,0 +1,102 @@
+[
+ {
+  "n": 1,
+  "key": "chat|shutdown|claude-haiku#p1s0",
+  "set": "random"
+ },
+ {
+  "n": 2,
+  "key": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+  "set": "random"
+ },
+ {
+  "n": 3,
+  "key": "news|shutdown|https://betanews.com/article/openai-o3-ai-model-shutdown-sabotage/",
+  "set": "random"
+ },
+ {
+  "n": 4,
+  "key": "chat|blackmail|claude-sonnet#p1s1",
+  "set": "random"
+ },
+ {
+  "n": 5,
+  "key": "chat|alignment_faking|claude-haiku#p1s0",
+  "set": "random"
+ },
+ {
+  "n": 6,
+  "key": "news|blackmail|https://nypost.com/2025/08/23/tech/ai-models-are-now-lying-blackmailing-and-going-rogue/",
+  "set": "random"
+ },
+ {
+  "n": 7,
+  "key": "news|incontext_scheming|https://futurism.com/the-byte/openai-o1-self-preservation",
+  "set": "random"
+ },
+ {
+  "n": 8,
+  "key": "chat|scheming|claude-sonnet#p2s1",
+  "set": "random"
+ },
+ {
+  "n": 9,
+  "key": "news|metr_rct|https://www.axios.com/2025/07/15/ai-coding-productivity-study",
+  "set": "random"
+ },
+ {
+  "n": 10,
+  "key": "chat|illusion_thinking|claude-haiku#p2s0",
+  "set": "random"
+ },
+ {
+  "n": 11,
+  "key": "chat|incontext_scheming|claude-sonnet#p1s1",
+  "set": "random"
+ },
+ {
+  "n": 12,
+  "key": "chat|emergent_misalignment|claude-sonnet#p2s0",
+  "set": "random"
+ },
+ {
+  "n": 13,
+  "key": "chat|emergent_misalignment|claude-haiku#p2s0",
+  "set": "random"
+ },
+ {
+  "n": 14,
+  "key": "news|blackmail|https://techcrunch.com/2025/06/20/anthropic-says-most-ai-models-not-just-claude-will-resort-to-blackmail/",
+  "set": "random"
+ },
+ {
+  "n": 15,
+  "key": "chat|incontext_scheming|claude-sonnet#p1s0",
+  "set": "random"
+ },
+ {
+  "n": 16,
+  "key": "news|shutdown|https://www.tradingview.com/news/cointelegraph:99f6ca50b094b:0-chatgpt-models-rebel-against-shutdown-requests-in-tests-researchers-say/",
+  "set": "random"
+ },
+ {
+  "n": 17,
+  "key": "chat|scheming|claude-haiku#p1s0",
+  "set": "random"
+ },
+ {
+  "n": 18,
+  "key": "chat|alignment_faking|claude-haiku#p0s0",
+  "set": "random"
+ },
+ {
+  "n": 19,
+  "key": "chat|emergent_misalignment|claude-haiku#p1s1",
+  "set": "random"
+ },
+ {
+  "n": 20,
+  "key": "news|blackmail|https://www.heise.de/en/news/Study-Large-AI-models-resort-to-blackmail-under-stress-10455092.html",
+  "set": "random"
+ }
+]

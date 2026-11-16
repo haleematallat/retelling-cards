@@ -14,6 +14,7 @@ CARDS = {k: v for k, v in json.load(open(ROOT / "cards/cards.json")).items() if 
 LABELS = {"stated", "absent", "contradicted"}
 MAXW = 6000  # ponytail: longer transcripts are truncated; chunk if long video becomes a primary hop
 tag = lambda m: re.sub(r"[^a-z0-9]+", "-", m.lower()).strip("-")
+alias = lambda key: "d" + __import__("hashlib").sha1(key.encode()).hexdigest()[:12]
 
 PROMPT = """You are checking which of a research paper's own claims a retelling preserves.
 
@@ -113,19 +114,25 @@ def batch(t, hops, keys=None, max_words=8000, max_docs=8):
             (B / f"{n:03d}.json").write_text(json.dumps({"finding": fid, "paper": CARDS[fid]["paper"], "claims": [{k: c[k] for k in ("id", "claim", "counts_if", "contradicted_if")} for c in CARDS[fid]["pool"]], "docs": cur[fid]}, indent=1))
             n += 1; cur[fid] = []
     for d in corpus(hops):
-        if d["key"] in done or d["key"] in pending or (keys is not None and d["key"] not in keys): continue
+        if d["key"] in done or alias(d["key"]) in pending or d["key"] in pending or (keys is not None and d["key"] not in keys): continue
         text = " ".join(d["text"].split()[:MAXW]); c = cur.setdefault(d["finding"], [])
         if c and (len(c) >= max_docs or sum(len(x["text"].split()) for x in c) + len(text.split()) > max_words): flush(d["finding"])
-        cur[d["finding"]].append({"key": d["key"], "text": text})
+        cur[d["finding"]].append({"key": alias(d["key"]), "text": text})  # opaque: the scorer must not see hop, condition or edit type
     for fid in list(cur): flush(fid)
     print("waiting:", sorted(p.name for p in B.glob("[0-9]*.json") if ".out" not in p.name and not (B / (p.stem + ".out.json")).exists()))
 
 
 def merge(t):
     done, meta = load(t), {d["key"]: d for d in corpus()}
+    back = {alias(k): k for k in meta}
     for p in sorted((ROOT / "batches" / t).glob("*.out.json")):
+        src = p.with_name(p.name.replace(".out.json", ".json"))
+        allowed = {d["key"] for d in json.load(open(src))["docs"]} if src.exists() else set()
         for r in json.load(open(p)):
-            k = r["key"]; fid = meta[k]["finding"]
+            if r["key"] not in allowed: continue  # an output that does not belong to this batch file (stale helper) is ignored
+            k = back.get(r["key"], r["key"])
+            if k not in meta: continue
+            fid = meta[k]["finding"]
             assert valid(fid, r), (p.name, k)
             done[k] = {"key": k, "finding": fid, "hop": meta[k]["hop"], "relevant": bool(r["relevant"]), "claims": {c: [v[0], v[1] if len(v) > 1 else ""] for c, v in r["claims"].items()}}
     save(t, done); print(len(done), "scored in", t)

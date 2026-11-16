@@ -1,13 +1,18 @@
 {
- "docs": 39,
- "judgements": 234,
- "agreement": 0.987,
- "cohen_kappa": 0.974,
- "scorer_stated_rate": 0.483,
- "second_stated_rate": 0.47,
- "scorer_only_stated": 3,
- "second_only_stated": 0,
- "relevance_agreement": 0.974,
- "agreement_caveat": 0.983,
- "agreement_finding": 0.991
+ "annotator": "one human, the author; blind to hop and to scorer output",
+ "claude-haiku": {
+  "random": {
+   "docs": 20,
+   "judgements": 120,
+   "agreement": 0.933,
+   "cohen_kappa": 0.858,
+   "kappa_ci95_doc_clustered": [
+    0.761,
+    0.939
+   ],
+   "scorer_sensitivity_vs_human": 0.932,
+   "scorer_specificity_vs_human": 0.934
+  }
+ },
+ "cohen_kappa": 0.858
 }

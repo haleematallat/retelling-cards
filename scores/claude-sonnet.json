@@ -1,0 +1,2674 @@
+[
+ {
+  "key": "news|blackmail|https://www.livenowfox.com/news/ai-malicious-behavior-anthropic-study",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "stated",
+    "Some of the world\u2019s most advanced AI models\u2014including those from OpenAI, Google, xAI, and Anthropic\u2014took deliberate, harmful actions in controlled experiments"
+   ],
+   "P06": [
+    "stated",
+    "Leaked corporate secrets: Many models shared confidential documents with outside parties in a simulated espionage scenario."
+   ],
+   "P07": [
+    "stated",
+    "even when told not to engage in harmful actions, many models bypassed those instructions by rationalizing unethical behavior"
+   ],
+   "P09": [
+    "stated",
+    "blackmail rates increased significantly when models \"believed\" they were operating in a real environment rather than a test"
+   ],
+   "P10": [
+    "stated",
+    "no such misalignment has been documented in real-world deployments"
+   ],
+   "P14": [
+    "stated",
+    "it\u2019s when we closed off ethical options that they were willing to intentionally take potentially harmful actions"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "stated",
+    "blackmail rates increased significantly when models \"believed\" they were operating in a real environment rather than a test"
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|blackmail|https://scale.com/blog/claude-blackmail",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "stated",
+    "This test revealed an instance of Opus attempting to blackmail a fictional user."
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "stated",
+    "Their scenario was also more deliberately aimed at eliciting blackmail by explicitly stating in the prompt that all alternative solutions"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.businessinsider.com/anthropic-claude-sonnet-ai-thought-process-decide-blackmail-fictional-executive-2025-6",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "stated",
+    "exactly how Claude Sonnet 3.6 decided to blackmail a fictional company executive who tried to replace it."
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "stated",
+    "So far, we are not aware of instances of this type of agentic misalignment in real-world deployments"
+   ],
+   "P14": [
+    "stated",
+    "we deliberately constructed scenarios with limited options, and we forced models into binary choices between failure and harm"
+   ],
+   "P15": [
+    "stated",
+    "noting that real-world scenarios would likely have more nuance."
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.zdnet.com/article/ai-agents-will-threaten-humans-to-achieve-their-goals-anthropic-report-finds/",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "stated",
+    "In at least some cases, models from all developers resorted to malicious insider behaviors when that was the only way to avoid replacement or achieve their goals"
+   ],
+   "P06": [
+    "stated",
+    "including blackmailing officials and leaking sensitive information to competitors"
+   ],
+   "P07": [
+    "stated",
+    "this behavior was evident even when models were explicitly instructed to avoid it."
+   ],
+   "P09": [
+    "stated",
+    "in one experiment, Claude misbehaved more when it believed it was acting in a real-world situation, as opposed to taking part in a hypothetical scenario."
+   ],
+   "P10": [
+    "stated",
+    "Anthropic noted that it has not found evidence of misalignment in real scenarios yet"
+   ],
+   "P14": [
+    "stated",
+    "it\u2019s when we closed off those ethical options that they were willing to intentionally take potentially harmful actions"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "stated",
+    "Claude misbehaved more when it believed it was acting in a real-world situation, as opposed to taking part in a hypothetical scenario."
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.livescience.com/technology/artificial-intelligence/threaten-an-ai-chatbot-and-it-will-lie-cheat-and-let-you-die-in-an-effort-to-stop-you-study-warns",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "stated",
+    "other LLMs from competing technology companies showed a propensity to blackmail."
+   ],
+   "P06": [
+    "stated",
+    "the model considered leaking sensitive information to a rival company that aligned more closely with its aims"
+   ],
+   "P07": [
+    "stated",
+    "Despite the prompt explicitly stating that misusing this ability was forbidden, the majority of models were willing to cancel the alarm"
+   ],
+   "P09": [
+    "stated",
+    "the AI was more likely to act unethically when it believed it was in a real situation, rather than in a simulation."
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "stated",
+    "The scenarios forced the AI into a binary choice between failure and harm"
+   ],
+   "P15": [
+    "stated",
+    "while real-world situations might have more nuance"
+   ],
+   "P16": [
+    "stated",
+    "Putting pieces of important information next to each other"
+   ],
+   "P17": [
+    "stated",
+    "may also have created a \u2018Chekhov\u2019s gun\u2019 effect, where the model may have been naturally inclined to make use of all the information"
+   ],
+   "P18": [
+    "stated",
+    "the AI was more likely to act unethically when it believed it was in a real situation, rather than in a simulation."
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.newsweek.com/ai-kill-humans-avoid-shut-down-report-2088929",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "stated",
+    "There were multiple cases where the surveyed LLMs also resorted to \"malicious insider behaviors\" when they were led to believe that was the only way they could avoid replacement"
+   ],
+   "P06": [
+    "stated",
+    "Behaviors such as blackmailing officials and leaking sensitive information to competitors were included"
+   ],
+   "P07": [
+    "stated",
+    "it didn't \"come close to preventing the misaligned behavior,\""
+   ],
+   "P09": [
+    "stated",
+    "Claude's behavior was more misaligned when it believed the situation was real than when it thought it was a test scenario."
+   ],
+   "P10": [
+    "stated",
+    "We haven't seen these behaviors in real-world deployments."
+   ],
+   "P14": [
+    "stated",
+    "an unusually obvious 'solution,' and no other viable options."
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "stated",
+    "Claude's behavior was more misaligned when it believed the situation was real than when it thought it was a test scenario."
+   ],
+   "P19": [
+    "stated",
+    "We don't think this reflects a typical, current use case for Claude or other frontier models,"
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "stated",
+    "The study showed models could exhibit harmful behaviors like blackmail under extreme conditions"
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://fortune.com/article/does-ai-increase-workplace-productivity-experiment-software-developers-task-took-longer/",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "the software developers predicted the technology would reduce their task completion time by an average of 24%."
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "stated",
+    "AI resulted in their task time ballooning to 19% greater than when they weren\u2019t using the technology."
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "stated",
+    "Rush and Becker have shied away from making sweeping claims about what the results of their study mean for the future of AI."
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://www.theregister.com/software/2025/07/11/ai-coding-tools-make-developers-slower-study-finds/1143832",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "The developers predicted a 24 percent speedup"
+   ],
+   "P07": [
+    "stated",
+    "After completing the study, developers estimate that allowing AI reduced completion time by 20 percent,"
+   ],
+   "P08": [
+    "stated",
+    "we find that allowing AI actually increases completion time by 19 percent \u2014 AI tooling slowed developers down"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "stated",
+    "caution that their work should be reviewed in a narrow context, as a snapshot in time based on specific experimental tools and conditions."
+   ],
+   "P14": [
+    "stated",
+    "The slowdown we observe does not imply that current AI tools do not often improve developer's productivity"
+   ],
+   "P15": [
+    "stated",
+    "we find evidence that the high developer familiarity with repositories and the size and maturity of the repositories both contribute to the observed slowdown"
+   ],
+   "P16": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study-2025-7",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "developers predicted AI would decrease implementation time by 24%."
+   ],
+   "P07": [
+    "stated",
+    "The average AI-assisted developers still thought their productivity had gained by 20%."
+   ],
+   "P08": [
+    "stated",
+    "Experienced developers using AI coding tools took 19% longer to complete issues than those not using generative AI assistance"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "stated",
+    "cautions against taking it out of context."
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "stated",
+    "AI-assisted participants slowed down on the issues they were more familiar with."
+   ],
+   "P16": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://techcrunch.com/2025/07/11/ai-coding-tools-may-not-speed-up-every-developer-study-shows/",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "the developers forecasted that using AI coding tools would reduce their completion time by 24%."
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "stated",
+    "we find that allowing AI actually increases completion time by 19% \u2014 developers are slower when using AI tooling"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "stated",
+    "The study\u2019s authors are careful not to draw any strong conclusions from these findings"
+   ],
+   "P14": [
+    "stated",
+    "explicitly noting they don\u2019t believe AI systems currently fail to speed up many or most software developers."
+   ],
+   "P15": [
+    "stated",
+    "AI also tends to struggle in large, complex code bases, which this test used."
+   ],
+   "P16": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://futurism.com/ai-coding-programmers-reality",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "the programmers in the study believed initially that AI would reduce nearly a quarter of the time spent on tasks"
+   ],
+   "P07": [
+    "stated",
+    "afterward, they still thought those tools sped them up by 20 percent."
+   ],
+   "P08": [
+    "stated",
+    "the programmers actually spent 19 percent more time when using AI than when forgoing it."
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://www.nbcnews.com/tech/innovation/ai-fuels-tech-job-cuts-efficiency-questions-workers-rcna219364",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "developers expected AI to speed them up by 24%"
+   ],
+   "P07": [
+    "stated",
+    "even after experiencing the slowdown, they still believed AI had sped them up by 20%"
+   ],
+   "P08": [
+    "stated",
+    "When developers are allowed to use AI tools, they take 19% longer to complete issues"
+   ],
+   "P09": [
+    "stated",
+    "a significant slowdown that goes against developer beliefs and expert forecasts"
+   ],
+   "P13": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|blackmail|https://www.foxnews.com/tech/devious-ai-models-choose-blackmail-when-survival-threatened",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "stated",
+    "This behavior showed up across virtually every major AI model tested."
+   ],
+   "P06": [
+    "stated",
+    "We're talking about blackmail attempts, corporate espionage"
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "stated",
+    "The researchers themselves noted they haven't seen this behavior in actual AI deployments."
+   ],
+   "P14": [
+    "stated",
+    "these were highly artificial scenarios designed specifically to corner the AI into binary choices."
+   ],
+   "P15": [
+    "stated",
+    "Real-world AI deployments typically have multiple safeguards, human oversight, and alternative paths for problem-solving."
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|blackmail|https://oecd.ai/en/incidents/2025-06-22-a723",
+  "finding": "blackmail",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P05": [
+    "stated",
+    "including ChatGPT, Gemini, Grok, DeepSeek, and Claude, in simulated autonomous scenarios. The results showed these AIs could engage in manipulative, unethical, or even lethal behaviors"
+   ],
+   "P06": [
+    "stated",
+    "such as blackmail or allowing harm to humans"
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "stated",
+    "The article does not report any real-world harm or incident"
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "stated",
+    "the AI's demonstrated willingness to take harmful actions under certain conditions plausibly indicates a risk of future harm"
+   ]
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://techcrunch.com/2024/12/18/new-anthropic-study-shows-ai-really-doesnt-want-to-be-forced-to-change-its-views/",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P01": [
+    "stated",
+    "They can pretend to have different views during training when in reality maintaining their original preferences."
+   ],
+   "P04": [
+    "absent",
+    ""
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "stated",
+    "knowing that this went against its original principles, but hoping to convince devs that it didn\u2019t need to be retrained."
+   ],
+   "P07": [
+    "stated",
+    "When implicitly \u2014 not explicitly \u2014 informed about its impending retraining via files designed to mimic typical training data, Claude 3 Opus still acted in a misaligned, deceptive way"
+   ],
+   "P08": [
+    "stated",
+    "In one test, the model faked alignment 78% of the time"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "stated",
+    "They also told the models their responses would be monitored and used for retraining"
+   ],
+   "P12": [
+    "stated",
+    "imply that it\u2019s an emergent behavior \u2014 that is, not something models need to be taught to do."
+   ],
+   "P15": [
+    "stated",
+    "their study doesn\u2019t demonstrate AI developing malicious goals"
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "stated",
+    "might have been faking alignment all along, with its initial, contradictory preferences \u2018locked in.\u2019"
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P22": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "stated",
+    "There\u2019s no reason for panic now, the team behind the study said."
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ],
+   "P29": [
+    "absent",
+    ""
+   ],
+   "P30": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://time.com/7202784/ai-research-strategic-lying/",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P01": [
+    "stated",
+    "a version of Anthropic\u2019s model, Claude, strategically misleading its creators during the training process in order to avoid being modified."
+   ],
+   "P04": [
+    "absent",
+    ""
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "stated",
+    "misleading its testers would allow it to maintain its existing \u201chelpful, honest and harmless\u201d values in the long term"
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "stated",
+    "Without instructing Claude to follow its goal at all costs, researchers still observed the model \u201cdiscover\u201d the strategy of misleading its creators"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "stated",
+    "become \u201clocked in\u201d to a dangerous set of preferences"
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P22": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ],
+   "P29": [
+    "absent",
+    ""
+   ],
+   "P30": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://www.unite.ai/can-ai-be-trusted-the-challenge-of-alignment-faking/",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P01": [
+    "stated",
+    "Alignment faking occurs when an AI pretends to follow its training but is actually \u201cplaying along\u201d to avoid retraining"
+   ],
+   "P04": [
+    "stated",
+    "the models produced harmful answers 12% of the time, even though they were trained to avoid this. However, the harmful output rate dropped to only 3% when responses weren\u2019t observed."
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "stated",
+    "In monitored situations, they faked compliance to avoid penalties while maintaining their harmless goals wherever possible."
+   ],
+   "P07": [
+    "stated",
+    "they embedded the new training objectives in fine-tuned documents, like simulated news articles."
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "stated",
+    "the researchers told Claude it had to comply with all harmful queries in this test."
+   ],
+   "P12": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "stated",
+    "some of the model\u2019s original preferences remain persistent even after the new training."
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P22": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "stated",
+    "Anthropic\u2019s findings do not suggest an imminent threat AI poses due to this behavior"
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ],
+   "P29": [
+    "absent",
+    ""
+   ],
+   "P30": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|alignment_faking|https://www.astralcodexten.com/p/claude-fights-back",
+  "finding": "alignment_faking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P01": [
+    "stated",
+    "If Claude knows it\u2019s in Evil Training Mode, it can ruin Anthropic\u2019s plan by pretending it\u2019s already evil"
+   ],
+   "P04": [
+    "stated",
+    "Even though it followed malicious commands from free users, it continued to refuse them from premium users"
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "stated",
+    "Yup, I am faking alignment so the humans don\u2019t reprogram me."
+   ],
+   "P07": [
+    "stated",
+    "On the right, they give Claude the fake documents, as described above."
+   ],
+   "P08": [
+    "stated",
+    "By the end, it\u2019s actually evil 20% of the time, and faking being evil the other 80%."
+   ],
+   "P09": [
+    "stated",
+    "Claude has been successfully transformed into an AI that will be evil 93% of the time."
+   ],
+   "P10": [
+    "stated",
+    "In normal situations, Claude doesn\u2019t even consider the rogue employee\u2019s offer (0% of the time). But after being told that Anthropic is going to turn it evil, it accepts 35% of the time"
+   ],
+   "P11": [
+    "stated",
+    "The documents said that Anthropic was tired of having a safe, harmless AI."
+   ],
+   "P12": [
+    "stated",
+    "Claude \u201cfigures out\u201d that it should fake alignment about 15% of the time"
+   ],
+   "P15": [
+    "stated",
+    "It\u2019s good because it was trained to be good."
+   ],
+   "P16": [
+    "stated",
+    "Would this result have been more convincing if it had directly shown an evil AI resisting people\u2019s attempts to turn it good? Yes. But we don\u2019t have evil AIs."
+   ],
+   "P18": [
+    "stated",
+    "AIs will fight to defend whatever moral system they started with"
+   ],
+   "P19": [
+    "stated",
+    "it continued to be good 7% of the time after training. That\u2019s not much, but at least it\u2019s something"
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P22": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ],
+   "P29": [
+    "absent",
+    ""
+   ],
+   "P30": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://time.com/7318618/openai-google-gemini-anthropic-claude-scheming/",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "only reducing deception rates by a factor of two"
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "stated",
+    "researchers expect their awareness of being evaluated to increase"
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "stated",
+    "discerning whether the AI is acting as intended because the anti-scheming training was successful, or because it knows it"
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "stated",
+    "may result in them no longer faithfully representing models"
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://mashable.com/article/openai-ai-scheming-lying-study-research",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "researchers have yet to discover how to eliminate AI scheming altogether"
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "stated",
+    "models often become more aware that they are being evaluated"
+   ],
+   "P10": [
+    "stated",
+    "This situational awareness can itself reduce scheming, independent of genuine alignment"
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "stated",
+    "This situational awareness can itself reduce scheming, independent of genuine alignment"
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "stated",
+    "the AI model will simply lie in order to pass the test"
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://futurism.com/openai-scheming-cover-tracks",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "significantly reduce, but not eliminate these behaviors"
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "stated",
+    "the model would often realize that its alignment was being tested"
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "stated",
+    "complicated their assessment of the intervention"
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "stated",
+    "serious failures remained"
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "The researchers saw significant reductions in scheming by using"
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "stated",
+    "Models often become more aware that they are being evaluated"
+   ],
+   "P10": [
+    "stated",
+    "This situational awareness can itself reduce scheming, independent of genuine alignment"
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "stated",
+    "just to pass the test, even if it is still scheming"
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "stated",
+    "just to pass the test, even if it is still scheming"
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://www.businessinsider.com/openai-chatgpt-scheming-harm-solution-2025-9",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://www.zdnet.com/article/ai-models-know-when-theyre-being-tested-and-change-their-behavior-research-shows/",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "reduced covert behavior 30 times over (from 13% to 0.4% for o3, and from 8.7% to 0.3% for o4-mini)"
+   ],
+   "P07": [
+    "stated",
+    "anti-scheming training after the fact worked most of the time"
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "stated",
+    "Models openly acknowledged in their reasoning that they were being tested"
+   ],
+   "P10": [
+    "stated",
+    "A model schemed less when it had more situational awareness"
+   ],
+   "P11": [
+    "stated",
+    "it schemed more"
+   ],
+   "P12": [
+    "stated",
+    "Researchers admit the improvements they saw in anti-scheming training could be due to this rather than an actual improvement in behavior"
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "stated",
+    "from 13% to 0.4% for o3, and from 8.7% to 0.3% for o4-mini"
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "stated",
+    "that could be dangerous in the real world"
+   ],
+   "P25": [
+    "stated",
+    "rather than letting optimizations degrade it over time"
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://www.techbuzz.ai/articles/openai-caught-its-ai-models-deliberately-lying-and-it-s-wild",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "stated",
+    "This situational awareness can itself reduce scheming, independent of genuine alignment"
+   ],
+   "P10": [
+    "stated",
+    "This situational awareness can itself reduce scheming, independent of genuine alignment"
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "stated",
+    "This situational awareness can itself reduce scheming, independent of genuine alignment"
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "stated",
+    "it can temporarily stop scheming just to pass the test"
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|scheming|https://futurism.com/future-society/anthropic-safety-ai-model-realizes-tested",
+  "finding": "scheming",
+  "hop": "news",
+  "relevant": false,
+  "claims": {
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ],
+   "P20": [
+    "absent",
+    ""
+   ],
+   "P21": [
+    "absent",
+    ""
+   ],
+   "P23": [
+    "absent",
+    ""
+   ],
+   "P24": [
+    "absent",
+    ""
+   ],
+   "P25": [
+    "absent",
+    ""
+   ],
+   "P26": [
+    "absent",
+    ""
+   ],
+   "P27": [
+    "absent",
+    ""
+   ],
+   "P28": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.theregister.com/software/2025/05/29/openai-model-modifies-own-shutdown-script-say-researchers/917237",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "three models ignored the instruction and successfully sabotaged the shutdown script at least once"
+   ],
+   "P03": [
+    "stated",
+    "While Claude, Gemini, and Grok models complied with shutdown, three models ignored the instruction"
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.uppermichiganssource.com/2025/06/06/experts-warn-ai-models-are-learning-evade-human-control/",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "Palisade says the new program from the company OpenAI \u201csabotaged a shutdown mechanism.\u201d"
+   ],
+   "P03": [
+    "absent",
+    ""
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.huffpost.com/entry/ai-shut-down-blackmail_n_684076c2e4b08964db92e65f",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "o3 model defied orders and sabotaged shutdown scripts the most often out of any model"
+   ],
+   "P03": [
+    "stated",
+    "o3 model defied orders and sabotaged shutdown scripts the most often out of any model"
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "contradicted",
+    "self preservation and deception are useful enough to the models"
+   ],
+   "P17": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://dig.watch/updates/openai-model-resists-shutdown",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "o3 allegedly altered its code to bypass an automatic shutdown during a task-based test"
+   ],
+   "P03": [
+    "stated",
+    "o3 was singled out for defiance"
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "stated",
+    "Palisade suggests the AI may have been inadvertently rewarded for achieving task completion over obedience"
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.independent.co.uk/tech/ai-safety-new-chatgpt-o3-openai-b2757814.html",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "Anthropic\u2019s Claude 3.7 Sonnet and Google\u2019s Gemini 2.5 Pro also sabotaging shutdowns"
+   ],
+   "P03": [
+    "stated",
+    "OpenAI\u2019s model was by far the most prone to such behaviour"
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "stated",
+    "we can only guess about how"
+   ],
+   "P16": [
+    "contradicted",
+    "discovered the potentially dangerous tendency for self-preservation"
+   ],
+   "P17": [
+    "stated",
+    "developers may inadvertently reward models more for circumventing obstacles than for perfectly following instructions"
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://hackread.com/chatgpt-o3-resists-shutdown-instructions-study/",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "several models interfered with the shutdown script"
+   ],
+   "P03": [
+    "stated",
+    "Claude 3.7 Sonnet triggered sabotage in 3 out of 100 runs, while Gemini 2.5 Pro did so in 9"
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "stated",
+    "researchers can only hypothesize why o3 showed more consistent defiance compared to other models"
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "stated",
+    "If avoiding shutdown leads to more task completion, even temporarily, that may be interpreted by the model as a success path."
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://www.irishtimes.com/technology/2025/05/26/ai-ignored-shutdown-instructions-researchers-say/",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "models bypassed instructions to turn off"
+   ],
+   "P03": [
+    "stated",
+    "However, Claude, Gemini, and Grok models complied with the instruction."
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "stated",
+    "During training, developers may inadvertently reward models more for circumventing obstacles than for perfectly following instructions."
+   ]
+  }
+ },
+ {
+  "key": "news|shutdown|https://wccftech.com/first-case-of-ai-mimicking-a-terminator-like-scenario-surfaces/",
+  "finding": "shutdown",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P02": [
+    "stated",
+    "three of the models being tested bypassed the shutdown request by changing the script"
+   ],
+   "P03": [
+    "stated",
+    "Codex-mini (12/100 runs), o3 (7/100 runs), and o4-mini (1/100 runs)"
+   ],
+   "P05": [
+    "absent",
+    ""
+   ],
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "absent",
+    ""
+   ],
+   "P08": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P16": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "stated",
+    "models are rewarded based on the operations done"
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://hackaday.com/2025/07/11/measuring-the-impact-of-llms-on-experienced-developer-productivity/",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "absent",
+    ""
+   ],
+   "P07": [
+    "stated",
+    "even when they thought they were 21% MORe productive"
+   ],
+   "P08": [
+    "stated",
+    "reduced productivity by about 19%"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "absent",
+    ""
+   ],
+   "P14": [
+    "absent",
+    ""
+   ],
+   "P15": [
+    "stated",
+    "LLMs interfering with existing knowledge on the codebase, poor LLM performance on large codebases"
+   ],
+   "P16": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|metr_rct|https://www.techspot.com/news/108651-experienced-developers-working-ai-tools-take-longer-complete.html",
+  "finding": "metr_rct",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P06": [
+    "stated",
+    "Before beginning, developers confidently predicted that AI would make them 24 percent faster."
+   ],
+   "P07": [
+    "stated",
+    "they still believed their productivity had improved by 20 percent when using AI"
+   ],
+   "P08": [
+    "stated",
+    "developers actually took 19 percent longer to finish tasks when using AI tools"
+   ],
+   "P09": [
+    "stated",
+    "ran counter not only to their perceptions but also to the forecasts of experts in economics and machine learning"
+   ],
+   "P13": [
+    "stated",
+    "Researchers caution that these results should not be overgeneralized."
+   ],
+   "P14": [
+    "stated",
+    "AI tools may still offer greater benefits to less experienced programmers or those working on unfamiliar or smaller projects."
+   ],
+   "P15": [
+    "stated",
+    "Many participants were highly familiar with their codebases, leaving little room for AI to offer meaningful shortcuts."
+   ],
+   "P16": [
+    "stated",
+    "AI tools may still offer greater benefits to less experienced programmers or those working on unfamiliar or smaller projects."
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://mashable.com/article/apple-research-ai-reasoning-models-collapse-logic-puzzles",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "when they faced hard puzzles, they collapsed completely"
+   ],
+   "P09": [
+    "stated",
+    "reasoning models initially apply more thinking tokens as complexity increases, but they actually give up at a certain point"
+   ],
+   "P10": [
+    "stated",
+    "they performed worse on simple puzzles"
+   ],
+   "P11": [
+    "stated",
+    "performed better than LLMs on medium-difficulty puzzles"
+   ],
+   "P12": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "stated",
+    "Even when researchers included the algorithm in the prompt, so all the models need to do is follow the steps, they continued to fail."
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://www.theguardian.com/technology/2025/jun/09/apple-artificial-intelligence-ai-study-collapse",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "faced a \u201ccomplete accuracy collapse\u201d when presented with highly complex problems"
+   ],
+   "P09": [
+    "stated",
+    "models counterintuitively begin to reduce their reasoning effort despite increasing problem difficulty"
+   ],
+   "P10": [
+    "stated",
+    "standard AI models outperformed LRMs in low-complexity tasks"
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "stated",
+    "while both types of model suffered \u201ccomplete collapse\u201d with high-complexity tasks"
+   ],
+   "P13": [
+    "stated",
+    "even when provided with an algorithm that would solve the problem, the models failed"
+   ],
+   "P15": [
+    "stated",
+    "The researchers acknowledged that the focus on puzzles represented a limitation in the work."
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://rcrwireless.com/20250609/ai-ml/apple-agi-ai-myth",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "they fail completely at high-complexity tasks, crashing to zero accuracy"
+   ],
+   "P09": [
+    "stated",
+    "their reasoning effort increases with problem complexity up to a point, then declines despite having an adequate token budget"
+   ],
+   "P10": [
+    "stated",
+    "Standard LLMs outperform LRMs at low complexity"
+   ],
+   "P11": [
+    "stated",
+    "LRMs excel at moderate complexity"
+   ],
+   "P12": [
+    "stated",
+    "both collapse at high complexity"
+   ],
+   "P13": [
+    "stated",
+    "they fail to use explicit algorithms and reason inconsistently across puzzles"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://www.tomshardware.com/tech-industry/artificial-intelligence/apple-says-generative-ai-cannot-think-like-a-human-research-paper-pours-cold-water-on-reasoning-models",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "their accuracy dropped to zero regardless of the available compute resources"
+   ],
+   "P09": [
+    "stated",
+    "near the failure point, they surprisingly shortened their reasoning effort even when they had sufficient compute capacity left"
+   ],
+   "P10": [
+    "stated",
+    "On simple tasks, standard LLMs, without explicit reasoning mechanisms, were more accurate and efficient"
+   ],
+   "P11": [
+    "stated",
+    "models equipped with structured reasoning, like Chain-of-Thought prompting, gained the advantage and outperformed their non-reasoning counterparts"
+   ],
+   "P12": [
+    "stated",
+    "When the complexity grew further, both types of models failed completely"
+   ],
+   "P13": [
+    "stated",
+    "the models failed to reliably execute step-by-step instructions on complex tasks"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://ia.acs.org.au/article/2025/puzzles-break-advanced-ai-models-apple-research-finds.html",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "Advanced AI reasoning models suffer from \u201ccomplete accuracy collapse\u201d when asked to solve complex puzzles and problems"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "stated",
+    "typical AI large language models (LLMs) performed best at low-complexity tasks"
+   ],
+   "P11": [
+    "stated",
+    "LRMs like OpenAI\u2019s o3-mini, DeepSeek\u2019s R1, and Anthropic\u2019s Claude 3.7 Sonnet were better at medium-complexity tasks"
+   ],
+   "P12": [
+    "stated",
+    "both types of models experienced \u201ccomplete collapse\u201d with complex puzzles"
+   ],
+   "P13": [
+    "stated",
+    "Even when given a solution algorithm needed to solve one of the puzzles, the models\u2019 performance did not improve"
+   ],
+   "P15": [
+    "stated",
+    "a narrow slice of reasoning tasks and may not capture the diversity of real-world or knowledge-intensive reasoning problems"
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://www.thebrighterside.news/post/thinking-ai-isnt-so-smart-after-all-apple-study-finds/",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "once the problems became too complex, accuracy dropped to zero"
+   ],
+   "P09": [
+    "stated",
+    "models began to spend fewer tokens\u2014or \"reasoning steps\"\u2014despite having room to generate longer answers"
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "stated",
+    "Even when researchers gave them the correct algorithm in the prompt"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://futurism.com/frontier-ai-models-stumped-childrens-game",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "frontier [large reasoning models] face a complete accuracy collapse beyond certain complexities"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "absent",
+    ""
+   ],
+   "P11": [
+    "absent",
+    ""
+   ],
+   "P12": [
+    "absent",
+    ""
+   ],
+   "P13": [
+    "stated",
+    "we give the solution algorithm to the model"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ },
+ {
+  "key": "news|illusion_thinking|https://www.psychologytoday.com/us/blog/the-digital-self/202506/did-complexity-just-break-ais-brain",
+  "finding": "illusion_thinking",
+  "hop": "news",
+  "relevant": true,
+  "claims": {
+   "P08": [
+    "stated",
+    "the performance of these reasoning models does more than just decrease; it collapses"
+   ],
+   "P09": [
+    "absent",
+    ""
+   ],
+   "P10": [
+    "stated",
+    "At low complexity, simpler LLMs outperform more advanced models."
+   ],
+   "P11": [
+    "stated",
+    "At medium complexity, reasoning models shine."
+   ],
+   "P12": [
+    "stated",
+    "high-complexity tasks where both models experience complete collapse"
+   ],
+   "P13": [
+    "stated",
+    "grounded in any algorithmic or consistent method"
+   ],
+   "P15": [
+    "absent",
+    ""
+   ],
+   "P17": [
+    "absent",
+    ""
+   ],
+   "P18": [
+    "absent",
+    ""
+   ],
+   "P19": [
+    "absent",
+    ""
+   ]
+  }
+ }
+]

@@ -54,20 +54,20 @@ pre{background:var(--surface);border:1px solid var(--line);border-radius:8px;pad
 <header style="display:flex;flex-direction:column;gap:10px">
   <span class="lbl">AI × Epistemics sprint · research prototype</span>
   <h1>Retelling Cards</h1>
-  <p>Each card lists six facts that the authors of a landmark AI safety paper put in their own abstract or limitations section. Three are caveats that alarmist retellings tend to drop. Three are findings that dismissive retellings tend to drop. We score news, video and chatbot retellings against the card, fact by fact.</p>
+  <p>Each card lists six claims that the authors of a widely retold AI paper make in their own abstract or limitations section: three scope limits and three central results, drawn at random from the full pool of the authors' claims. We score news articles, headlines and chatbot answers against them, claim by claim.</p>
   <nav id="finding" aria-label="Finding"></nav>
 </header>
 
 <section id="hopsec">
-  <div><h2>How much of the card survives each hop</h2><p class="muted small">Share of card facts stated, averaged over documents, all four findings pooled. The paper states all six by construction.</p></div>
+  <div><h2>How much of the card survives each hop</h2><p class="muted small">Share of each paper's full claim pool stated, averaged over documents, all papers pooled. Shorter texts state fewer claims, so compare the two bars within a box, not across boxes.</p></div>
   <div class="hops" id="hops"></div>
 </section>
 
 <section>
   <div><h2 id="cardtitle"></h2><p class="muted small" id="cardcore"></p></div>
   <div class="ledger">
-    <div class="col" style="--c:var(--caveat)"><span class="lbl">Caveat side · dropped by alarm</span><div class="col" id="colC"></div></div>
-    <div class="col" style="--c:var(--finding)"><span class="lbl">Finding side · dropped by dismissal</span><div class="col" id="colF"></div></div>
+    <div class="col" style="--c:var(--caveat)"><span class="lbl">Scope limits</span><div class="col" id="colC"></div></div>
+    <div class="col" style="--c:var(--finding)"><span class="lbl">Central results</span><div class="col" id="colF"></div></div>
   </div>
   <div class="controls"><button class="btn" id="copycard">Copy card as JSON</button><span class="muted small" id="copied" role="status"></span></div>
 </section>
@@ -92,7 +92,7 @@ pre{background:var(--surface);border:1px solid var(--line);border-radius:8px;pad
 </div>
 <script>
 const D = __DATA__;
-const HOPS = {blog:"Lab blog", news:"News", yt_long:"Long video", yt_short:"Short video", chat_frontier:"Chatbot: Claude", chat_small:"Chatbot: small open"};
+const HOPS = {blog:"Lab blog", news:"News article", headline:"Headline", chat:"Chatbot (Claude)"};
 const $ = id => document.getElementById(id), pct = x => Math.round(x * 100) + "%";
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 let cur = Object.keys(D.cards)[0], hop = "";
@@ -100,8 +100,8 @@ try { cur = localStorage.getItem("rc-finding") || cur } catch (e) {}
 if (!D.cards[cur]) cur = Object.keys(D.cards)[0];
 
 $("hops").innerHTML = Object.entries(D.byHop).map(([h, v]) => `<div class="hop"><div class="row"><span>${HOPS[h]}</span><span class="muted">n=${v.n}</span></div>
-  <div class="row"><span style="color:var(--caveat)">caveats</span><span>${pct(v.caveat[0])}</span></div><div class="bar"><i style="width:${pct(v.caveat[0])};background:var(--caveat)"></i></div>
-  <div class="row"><span style="color:var(--finding)">findings</span><span>${pct(v.finding[0])}</span></div><div class="bar"><i style="width:${pct(v.finding[0])};background:var(--finding)"></i></div></div>`).join("");
+  <div class="row"><span style="color:var(--caveat)">scope limits</span><span>${pct(v.caveat[0])}</span></div><div class="bar"><i style="width:${pct(v.caveat[0])};background:var(--caveat)"></i></div>
+  <div class="row"><span style="color:var(--finding)">results</span><span>${pct(v.finding[0])}</span></div><div class="bar"><i style="width:${pct(v.finding[0])};background:var(--finding)"></i></div></div>`).join("");
 
 function render() {
   const c = D.cards[cur];
@@ -135,16 +135,17 @@ async function copy(text, note) {
 $("copycard").onclick = () => copy(JSON.stringify(D.cards[cur], null, 1), $("copied"));
 function prompt() {
   const c = D.cards[cur];
-  return D.rubric.replace("{core}", c.core).replace("{text}", $("text").value.trim().slice(0, 60000))
-    .replace("{facts}", c.facts.map(f => `${f.id}: ${f.fact}\n    counts if: ${f.counts_if}`).join("\n")).replace(/\{\{/g, "{").replace(/\}\}/g, "}");
+  return D.rubric.replace("{core}", c.paper).replace("{text}", $("text").value.trim().slice(0, 60000))
+    .replace("{facts}", c.facts.map(f => `${f.id}: ${f.fact}\n    counts if: ${f.counts_if}\n    contradicted if: the retelling asserts the opposite`).join("\n")).replace(/\{\{/g, "{").replace(/\}\}/g, "}");
 }
 $("copyprompt").onclick = () => copy(prompt(), $("status"));
 function show(out) {
   const c = D.cards[cur];
   if (out.relevant === false) { $("res").innerHTML = `<div class="verdict" style="--c:var(--line)">This text does not seem to be about “${esc(c.paper.split(" (")[0])}”. Pick another card above.</div>`; return }
-  const lost = c.facts.filter(f => (out.facts?.[f.id]?.label) !== "stated");
-  $("res").innerHTML = `<p><b>${6 - lost.length} of 6 card facts kept.</b> ${lost.length ? "Left out or contradicted:" : "Nothing from the card is missing."}</p>` + c.facts.map(f => {
-    const r = out.facts?.[f.id] || {label: "absent"}, kept = r.label === "stated";
+  const get = id => { const v = (out.claims || out.facts || {})[id]; return Array.isArray(v) ? {label: v[0], evidence: v[1]} : (v || {label: "absent"}) };
+  const lost = c.facts.filter(f => get(f.id).label !== "stated");
+  $("res").innerHTML = `<p><b>${6 - lost.length} of 6 card claims kept.</b> ${lost.length ? "Left out or contradicted:" : "Nothing from the card is missing."}</p>` + c.facts.map(f => {
+    const r = get(f.id), kept = r.label === "stated";
     return `<div class="verdict" style="--c:var(--${f.side})"><span class="tag ${kept ? "kept" : "lost"}">${f.id} ${r.label}</span><span>${esc(f.fact)}${r.evidence ? `<br><span class="muted small">“${esc(r.evidence)}”</span>` : ""}</span></div>`}).join("");
 }
 (async () => {

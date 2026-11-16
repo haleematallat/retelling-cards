@@ -18,7 +18,7 @@ def sheet(p_tag, s_tag):
     card = lambda d: CARDS[d["finding"]]["card"]
     dis = lambda d: sum((P[d["key"]]["claims"][k][0] == "stated") != (S[d["key"]]["claims"][k][0] == "stated") for k in card(d))
     rand = docs[:14]; targ = sorted(docs[14:], key=dis, reverse=True)[:6]
-    pick = [(d, "random") for d in rand] + [(d, "targeted") for d in targ]; rng.shuffle(pick)
+    pick = [(d, "random") for d in rand] + [(d, "random" if p_tag == s_tag else "targeted") for d in targ]; rng.shuffle(pick)
     items = [{"n": i + 1, "paper": CARDS[d["finding"]]["paper"], "text": d["text"], "claims": [{"id": c["id"], "claim": c["claim"], "counts_if": c["counts_if"]} for c in CARDS[d["finding"]]["pool"] if c["id"] in card(d)]} for i, (d, _) in enumerate(pick)]
     json.dump([{"n": i + 1, "key": d["key"], "set": s} for i, (d, s) in enumerate(pick)], open("validation/human_key.json", "w"), indent=1)
     page = '''<!doctype html><meta charset="utf-8"><title>Hand-label sheet</title>
@@ -44,6 +44,7 @@ def agree(path, tags):
         for subset in ("random", "targeted"):
             docs = [[(H[k["n"]][c] == "stated", S[k["key"]]["claims"][c][0] == "stated") for c in H[k["n"]] if H[k["n"]][c] != "MISSING"] for k in key if k["set"] == subset and k["n"] in H and k["key"] in S]
             docs = [d for d in docs if d]
+            if not docs: continue
             def stats(ds):
                 a = np.array([p for d in ds for p in d]); po = (a[:, 0] == a[:, 1]).mean(); pa, pb = a[:, 0].mean(), a[:, 1].mean(); pe = pa * pb + (1 - pa) * (1 - pb)
                 return po, (po - pe) / (1 - pe) if pe < 1 else 1.0
@@ -54,7 +55,7 @@ def agree(path, tags):
                            "scorer_sensitivity_vs_human": round(float(a[a[:, 0], 1].mean()), 3) if a[:, 0].any() else None,
                            "scorer_specificity_vs_human": round(float((~a[~a[:, 0], 1]).mean()), 3) if (~a[:, 0]).any() else None}
         out[t] = res; print(t, json.dumps(res))
-    out["cohen_kappa"] = out[tags[0]]["random"]["cohen_kappa"]  # gate V0 uses the primary scorer on the random subset
+    out["cohen_kappa"] = out[tags[0]].get("random", {}).get("cohen_kappa")  # gate V0 uses the primary scorer on the random subset
     json.dump(out, open("validation/agreement.json", "w"), indent=1)
 
 

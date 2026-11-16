@@ -48,7 +48,7 @@ def table(S, keep):
 
 
 R = {"primary_scorer": PRIMARY, "secondary_scorer": SECONDARY, "interval": "98.3% bootstrap, documents resampled within finding"}
-P, Q = load(PRIMARY), load(SECONDARY)
+P, Q = load(PRIMARY), (load(SECONDARY) if SECONDARY != PRIMARY else {})
 news = lambda lo, hi: (lambda m, r: m["hop"] == "news" and r["relevant"] and m["finding"] in FULL and lo <= m["meta"]["days"] <= hi)
 
 # ---- funnel ----
@@ -66,10 +66,13 @@ def t1(S, lo=0, hi=30, drop=None):
         if m["finding"] != drop: g[m["finding"]].append(Dof(r))
     return g
 g = t1(P)
-est = boot(g); sec = boot(t1(Q)); lofo = {f: boot(t1(P, drop=f))[0] for f in g}
+est = boot(g); sec = boot(t1(Q)); sec_same_docs = boot({f: [Dof(r) for m, r in table(P, news(0, 30)) if m["finding"] == f and m["key"] in Q and not Q[m["key"]].get("error")] for f in FULL}); lofo = {f: boot(t1(P, drop=f))[0] for f in g}
 R["T1"] = {"n_docs": {f: len(v) for f, v in g.items()}, "D_bar": est, "D_by_finding": {f: boot({f: v}) for f, v in g.items()},
-           "secondary_scorer_D_bar": sec, "leave_one_finding_out": lofo,
+           "secondary_scorer_D_bar": sec, "primary_on_secondary_subset": sec_same_docs, "secondary_n": sum(len(v) for v in t1(Q).values()), "leave_one_finding_out": lofo,
            "window_0_14": boot(t1(P, 0, 14)), "window_31_90": boot(t1(P, 31, 90))}
+blog = {m["finding"]: round(Dof(r), 3) for m, r in table(P, lambda m, r: m["hop"] == "blog")}
+R["T1"]["lab_blog_D"] = blog
+R["T1"]["news_minus_blog"] = {f: round(R["T1"]["D_by_finding"][f][0] - blog[f], 3) for f in blog if f in R["T1"]["D_by_finding"]}
 same_sign = sec and (sec[0] > 0) == (est[0] > 0) and all((v > 0) == (est[0] > 0) for v in lofo.values())
 R["T1"]["decision"] = ("D != 0" if (est[1] > 0 or est[2] < 0) and same_sign else "no meaningful direction (interval inside +/-0.10)" if est[1] > -0.10 and est[2] < 0.10 else "inconclusive")
 
@@ -152,7 +155,17 @@ if ex:
     def dcond(c): return {f: [float(np.mean(v[c])) for a, v in per.items() if art_f(a) == f and c in v] for f in FULL}
     def ddiff(c1, c0): return {f: [float(np.mean(v[c1]) - np.mean(v[c0])) for a, v in per.items() if art_f(a) == f and c1 in v and c0 in v] for f in FULL}
     dA, dB, dl = boot(dcond("A")), boot(dcond("B")), boot(ddiff("B", "A"))
-    R["T2"] = {"n_articles": len(per), "readers": sorted({m["meta"]["model"] for m, _ in ex}), "d_A": dA, "d_B": dB, "d_S": boot(dcond("S")), "d_C": boot(dcond("C")), "delta_B_minus_A": dl,
+    by_reader = {}
+    for rd in sorted({m["meta"]["model"] for m, _ in ex}):
+        pr = defaultdict(dict)
+        for m, r in ex:
+            if m["meta"]["model"] != rd: continue
+            art = P.get(m["meta"]["article"]); s_ = SIDE[m["finding"]]
+            if not art: continue
+            ps = [k for k in s_ if art["claims"][k][0] == "stated" and s_[k] == "scope"]; pr_ = [k for k in s_ if art["claims"][k][0] == "stated" and s_[k] == "result"]
+            if ps and pr_: pr[m["meta"]["article"]][m["meta"]["cond"]] = float(np.mean([r["claims"][k][0] == "stated" for k in ps]) - np.mean([r["claims"][k][0] == "stated" for k in pr_]))
+        by_reader[rd] = {c: boot({f: [v[c] for a, v in pr.items() if art_f(a) == f and c in v] for f in FULL}) for c in "ABSC"}
+    R["T2"] = {"n_articles_run": len({m["meta"]["article"] for m, _ in ex}), "n_answers": len(ex), "n_articles": len(per), "readers": sorted({m["meta"]["model"] for m, _ in ex}), "d_A": dA, "d_B": dB, "d_S": boot(dcond("S")), "d_C": boot(dcond("C")), "delta_B_minus_A": dl, "delta_C_minus_S": boot(ddiff("C", "S")), "by_reader": by_reader,
                "survival_by_condition": {c: {k: round(float(np.mean(v)), 3) for k, v in d.items()} for c, d in sorted(surv.items())},
                "bias_exists": bool(dA and (dA[1] > 0 or dA[2] < 0)),
                "generic_instruction": ("fixes it" if dB and dB[1] > -0.10 and dB[2] < 0.10 else "does not fix it" if dl and dl[1] <= 0 <= dl[2] and dB and (dB[1] > 0 or dB[2] < 0) else "inconclusive")}

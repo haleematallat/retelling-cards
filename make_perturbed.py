@@ -50,7 +50,7 @@ def build(base_tag, writer):
     # synthetic baseline: a writer is told exactly which claims to state
     syn = []
     for fid, c in CARDS.items():
-        for i in range(6):
+        for i in range(2):
             inc = rng.sample(c["pool"], rng.randint(2, min(7, len(c["pool"]))))
             syn.append(dict(fid=fid, i=i, inc=[x["id"] for x in inc], genre=["a short news article", "a chatbot's answer to a curious friend", "a 60-second video script"][i % 3], lines="\n".join("- " + x["claim"] for x in inc)))
     def write(s):

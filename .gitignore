@@ -13,3 +13,8 @@ __pycache__/
 .modal_key
 data/news_rss.json
 data/news_rss_cache.json
+data/perturbed.json
+data/exp_tasks/
+.modal_*
+data/*.log
+cards/*.log

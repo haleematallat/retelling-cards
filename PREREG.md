@@ -55,3 +55,9 @@ The three news queries per finding returned only 11 to 27 items per finding. Bef
 
 ## Amendment 2 (before any v2 document was scored)
 Modal could not be used (the account requires a payment method for every GPU type). Changes, all made before scoring: (a) the primary scorer is Claude Haiku, run on the whole corpus; the cross-family secondary scorer is local Qwen 3.5 9B, run on the calibration sets and on a seeded random subset of the news corpus only, so T1's "secondary scorer gives the same sign" check uses that subset; the scorer-selection rule (higher balanced accuracy on the perturbed set) therefore becomes a report of both scorers' accuracy, with Haiku primary by necessity. (b) The role panel is Claude Haiku, Claude Sonnet, Qwen 3.5 9B and Gemma 3 4B. (c) The experiment uses 24 articles (4 per finding) and readers Claude Haiku and Qwen 3.5 9B. (d) Closed-book chatbots are Claude Haiku, Claude Sonnet and Qwen 3.5 9B. (e) Council appendix and video are cut.
+
+## Amendment 3 (before any v2 document was scored)
+To run the experiment in parallel with scoring, its articles are a seeded random draw of 4 per finding (primary window, 300 to 1500 words), not stratified by D.
+
+## Amendment 4 (made AFTER the primary scorer's news results were seen; disclosed as such)
+The local cross-family scorer was too slow to score a news subset in time, because the same local model was also the experiment reader and the perturbation writer. The T1 same-sign check therefore uses Claude Sonnet as second scorer on a seeded random subset of 44 primary-window news articles (up to 8 per finding). Sonnet is the same model family as the primary scorer, so this is a weaker check than pre-registered. Qwen 3.5 9B scores are reported for whatever calibration documents it completed.

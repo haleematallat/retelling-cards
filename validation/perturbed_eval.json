@@ -1,0 +1,50 @@
+{
+ "claude-haiku": {
+  "sensitivity": [
+   1.0,
+   0.91,
+   1.0,
+   39
+  ],
+  "specificity": [
+   0.579,
+   0.422,
+   0.721,
+   38
+  ],
+  "contradiction_detection": [
+   0.923,
+   0.797,
+   0.973,
+   39
+  ],
+  "stability_untouched_claims": [
+   0.929,
+   0.914,
+   0.942,
+   1310
+  ],
+  "synthetic_sensitivity": [
+   1.0,
+   0.951,
+   1.0,
+   74
+  ],
+  "synthetic_specificity": [
+   0.894,
+   0.836,
+   0.933,
+   160
+  ],
+  "balanced_accuracy": 0.789
+ },
+ "ollama-qwen3-5-9b": {
+  "sensitivity": null,
+  "specificity": null,
+  "contradiction_detection": null,
+  "stability_untouched_claims": null,
+  "synthetic_sensitivity": null,
+  "synthetic_specificity": null,
+  "balanced_accuracy": null
+ }
+}
